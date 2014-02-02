@@ -1,0 +1,3054 @@
+BLASTP 2.2.26+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: DP0P0JK101S
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           16,392,747 sequences; 5,641,810,382 total letters
+Results of PSI-Blast iteration 1
+Query= 
+Length=66
+
+
+E-value BETTER than threshold                                                                   Score     E
+Sequences producing significant alignments:                       (Bits)  Value
+
+gb|AAA46498.1|  pol polyprotein [Moloney murine leukemia virus]     136    8e-42
+ref|NP_955590.1|  p14 PR [Moloney murine leukemia virus]            135    1e-40
+ref|YP_001994913.1|  hypothetical mature PR protein [Friend mu...   135    1e-40
+prf||1104339A  protease,virus                                       133    6e-40
+pdb|3NR6|A  Chain A, Crystal Structure Of Xenotropic Murine Le...   134    6e-40
+gb|AAA66622.1|  reverse transcriptase [Moloney murine leukemia...   139    2e-38
+gb|AEI84616.1|  putative gag-pro-pol polyprotein [Xenotropic M...   140    5e-38
+emb|CBL51472.1|  gag-pro-pol polyprotein [Xenotropic MuLV-rela...   140    5e-38
+sp|A1Z651.1|POL_XMRV6  RecName: Full=Gag-Pol polyprotein; Shor...   140    5e-38
+gb|ADW08945.1|  putative gag-pro-pol polyprotein [XMRV]             140    5e-38
+sp|Q2F7J3.1|POL_XMRV3  RecName: Full=Gag-Pol polyprotein; Shor...   140    5e-38
+gb|ADW08942.1|  putative gag-pro-pol polyprotein [XMRV]             140    5e-38
+gb|ACY30458.1|  putative gag-pro-pol polyprotein [XMRV]             140    5e-38
+gb|AEA72809.1|  putative gag-pol polyprotein [XMRV-like mouse ...   140    5e-38
+emb|CCB84243.1|  putative gag-pro-pol polyprotein [PreXMRV-2] ...   140    5e-38
+gb|AEI59728.1|  putative gag-pro-pol polyprotein [Xenotropic m...   140    5e-38
+gb|AAG29093.1|AF221065_1  putative gag-pro-pol polyprotein [DG...   140    5e-38
+sp|Q2F7J0.1|POL_XMRV4  RecName: Full=Gag-Pol polyprotein; Shor...   139    6e-38
+gb|AAY27069.1|  truncated polyprotein [Mus musculus castaneus]      139    6e-38
+dbj|BAD52413.1|  POL polyprotein precursor [Murine leukemia vi...   139    8e-38
+gb|ABS85542.1|  putative gag-pro-pol polyprotein [Xenotropic m...   139    8e-38
+dbj|BAD52416.1|  POL polyprotein precursor [Murine leukemia vi...   139    8e-38
+ref|NP_044738.1|  Pol [Rauscher murine leukemia virus] >gb|AAB...   139    9e-38
+gb|ABD49687.1|  putative gag-pro-pol polyprotein [Xenotropic M...   139    1e-37
+emb|CCA30551.1|  gag-pro-pol polyprotein [Xenotropic MuLV-rela...   139    1e-37
+emb|CCB84810.1|  putative gag-pro-pol polyprotein [XMRV]            139    1e-37
+dbj|BAA22064.1|  gag-pol polyprotein (precursor protein) [Frie...   138    2e-37
+gb|AAL69910.1|AF462057_3  Pr180 gag-pro-pol polyprotein [Molon...   138    2e-37
+sp|P26808.1|POL_MLVFP  RecName: Full=Pol polyprotein; Contains...   138    2e-37
+gb|AAB64160.1|  Pol [synthetic construct]                           138    2e-37
+sp|P03355.4|POL_MLVMS  RecName: Full=Gag-Pol polyprotein; Shor...   138    2e-37
+ref|NP_057933.2|  Pr180 [Moloney murine leukemia virus]             138    2e-37
+gb|AAC82568.1|  Pr180 [Moloney murine leukemia virus]               138    2e-37
+ref|NP_040333.1|  Pol polyprotein [Friend murine leukemia viru...   138    2e-37
+prf||0711245A  protein gag/pol/env                                  138    2e-37
+gb|AAC98548.1|  pol polypeptide [Murine leukemia virus]             138    2e-37
+gb|AAB06450.1|  Gag-Pol polyprotein [Mus musculus]                  137    4e-37
+gb|AAB03091.1|  gag-pol polyprotein (tag amber codon at 2250-2...   137    5e-37
+gb|AAD55051.1|  putative gag-pol polyprotein [Murine leukemia ...   137    5e-37
+gb|ABD14436.1|  gag-pro-pol polyprotein [Mus musculus]              137    5e-37
+gb|ABD14439.1|  gag-pro-pol polyprotein [Murine leukemia virus]     137    5e-37
+gb|ABD14433.1|  gag-pro-pol polyprotein [Mus musculus]              137    5e-37
+gb|AAA92679.1|  gag-pol polyprotein [Murine leukemia virus]         137    5e-37
+sp|P11227.1|POL_MLVRD  RecName: Full=Pol polyprotein; Contains...   137    5e-37
+gb|AAP37287.1|  gag-pol polyprotein [Murine leukemia virus]         137    6e-37
+gb|AAD34536.1|  polymerase [Murine leukemia virus]                  136    7e-37
+sp|P03356.2|POL_MLVAV  RecName: Full=Pol polyprotein; Contains...   136    7e-37
+gb|ABU54793.1|  gag-pro-pol polyprotein [Murine leukemia virus]     135    2e-36
+gb|AAO61197.1|AF411814_3  Gag-Pro-Pol polyprotein [amphotropic...   135    2e-36
+sp|P26810.1|POL_MLVF5  RecName: Full=Pol polyprotein; Contains...   135    3e-36
+gb|AAK50381.1|U43202_2  pol precursor protein [Murine leukemia...   135    3e-36
+gb|AEI59725.1|  putative gag-pro-pol polyprotein [Xenotropic m...   134    5e-36
+gb|ADR80026.1|  putative gag-pro-pol polyprotein [Murine leuke...   134    5e-36
+gb|AAV68488.1|  gag-pol polyprotein [Murine leukemia virus]         133    9e-36
+gb|ABU54795.1|  gag-pro-pol polyprotein [Murine leukemia virus...   132    2e-35
+gb|ABU54794.1|  gag-pro-pol polyprotein [Murine leukemia virus]     132    2e-35
+sp|P10273.1|POL_FLV  RecName: Full=Pol polyprotein; Contains: ...   118    5e-34
+ref|NP_955578.1|  protease [Feline leukemia virus]                  115    1e-32
+gb|AAR11853.1|  reverse transcriptase [Mus musculus]                114    6e-32
+gb|AAO46152.1|  pol protein [Recombinant M-MuLV/RaLV retrovirus]    120    5e-31
+gb|AAO46143.1|  pol protein [Recombinant M-MuLV/RaLV retrovirus]    119    5e-31
+gb|AAO46145.1|  pol protein [Recombinant M-MuLV/RaLV retrovirus]    119    5e-31
+gb|AAA93092.1|  gag-pol precursor polyprotein gPr80 [Feline le...   119    9e-31
+ref|NP_047255.1|  Gag-Pro-Pol precursor polyprotein gPr80 [Fel...   119    9e-31
+dbj|BAL04139.1|  gag-pol precursor polyprotein [Feline leukemi...   119    1e-30
+ref|NP_955577.1|  pol gene polyprotein [Feline leukemia virus]      119    1e-30
+gb|AAO46150.1|  pol protein [Recombinant M-MuLV/RaLV retrovirus]    117    7e-30
+gb|AAQ96246.1|  LRRGT00033 [Rattus norvegicus]                      107    2e-26
+gb|AAO46154.1|  pol protein [Recombinant M-MuLV/RaLV retrovirus]    106    3e-26
+dbj|BAJ16549.1|  Gag-Pol precursor polyprotein [RD114 retrovirus]  92.8    2e-21
+ref|YP_001497148.1|  gag-pol precursor polyprotein [RD114 retr...  92.4    2e-21
+gb|ABS12072.1|  Gag-Pol polyprotein [RD114 retrovirus]             92.4    2e-21
+sp|P10272.1|POL_BAEVM  RecName: Full=Pol polyprotein; Contains...  92.0    3e-21
+dbj|BAA89659.1|  gag-pol precursor polyprotein [Baboon endogen...  92.0    4e-21
+gb|AAQ76545.1|  polyprotein [Porcine endogenous retrovirus]        77.8    2e-18
+emb|CAA06524.1|  protease [Sus scrofa] >emb|CAA77278.1| protea...  78.2    2e-18
+gb|AAR12227.1|  pol protein [Porcine endogenous retrovirus]        77.4    2e-18
+emb|CAA06516.1|  protease [Sus scrofa]                             77.4    4e-18
+gb|AAK65957.1|AF163268_1  pol protein [porcine endogenous retr...  77.4    4e-18
+emb|CAA06517.1|  protease [Sus scrofa] >emb|CAA06523.1| protea...  77.4    4e-18
+emb|CAA06518.1|  protease [Sus scrofa] >emb|CAA77279.1| protea...  77.4    5e-18
+emb|CAA06514.1|  protease [Sus scrofa]                             77.0    5e-18
+emb|CAA77277.1|  protease [Sus scrofa]                             77.0    5e-18
+emb|CAA06522.1|  protease [Sus scrofa] >emb|CAA77282.1| protea...  77.0    6e-18
+emb|CAA06520.1|  protease [Sus scrofa]                             77.0    6e-18
+emb|CAA06525.1|  protease [Sus scrofa]                             77.0    7e-18
+gb|AAQ94398.1|  polyprotein [Sus scrofa] >gb|AAR12226.1| pol p...  76.3    8e-18
+gb|AAB72155.1|  polymerase [porcine endogenous retrovirus]         77.4    1e-17
+emb|CAA06515.1|  protease [Sus scrofa]                             76.3    1e-17
+emb|CAA77281.1|  protease [Sus scrofa]                             76.3    1e-17
+emb|CAA77280.1|  protease [Sus scrofa]                             75.1    4e-17
+emb|CAA06519.1|  protease [Sus scrofa]                             74.7    5e-17
+gb|AEF12604.1|  pol protein [Porcine endogenous retrovirus A]      76.3    5e-17
+emb|CAA06521.1|  protease [Sus scrofa]                             74.7    5e-17
+gb|AAK65954.1|AF163265_1  pol protein [porcine endogenous retr...  72.8    3e-16
+emb|CAB65341.1|  unnamed protein product [Porcine endogenous r...  77.8    4e-16
+emb|CAB65339.1|  unnamed protein product [Porcine endogenous r...  77.8    4e-16
+gb|AEI83453.1|  pol protein [Sus scrofa]                           77.8    4e-16
+gb|AEF12610.1|  pol protein [Porcine endogenous retrovirus B]      77.8    4e-16
+gb|AEI83447.1|  pol protein [Sus scrofa]                           77.8    4e-16
+gb|AEI83444.1|  pol protein [Sus scrofa] >gb|AEI83450.1| pol p...  77.8    4e-16
+gb|ACD35951.1|  pol polyprotein [Porcine endogenous retrovirus]    77.8    4e-16
+emb|CAC39626.1|  polymerase [Porcine endogenous retrovirus C]      77.8    4e-16
+gb|AAT77167.1|  pol protein [Porcine endogenous retrovirus C/A]    77.8    4e-16
+gb|ADG27337.1|  truncated pol protein [Porcine endogenous retr...  77.4    5e-16
+gb|AAC48702.1|  polyprotein [Sus scrofa domesticus]                76.3    6e-16
+emb|CAJ76250.1|  polyprotein [Sus scrofa]                          77.0    6e-16
+gb|ACF20333.1|  putative gag-pol polyprotein [Sus scrofa]          77.0    7e-16
+ref|XP_003482346.1|  PREDICTED: hypothetical protein LOC100737...  77.0    7e-16
+gb|ABM65596.1|  pol protein [Sus scrofa] >gb|AEI83456.1| pol p...  77.0    7e-16
+emb|CAJ76246.1|  polyprotein [Sus scrofa] >emb|CAJ76248.1| pol...  77.0    8e-16
+gb|AEI83434.1|  pol protein [Sus scrofa]                           77.0    8e-16
+gb|AAY28928.1|  pol protein [Porcine endogenous retrovirus C/A]    77.0    8e-16
+gb|AEI83431.1|  pol protein [Sus scrofa]                           77.0    8e-16
+gb|AAC16764.1|  pol protein [Sus scrofa]                           77.0    8e-16
+gb|AEF12607.1|  pol protein [Porcine endogenous retrovirus A]      77.0    8e-16
+emb|CAC39617.1|  polymerase [Porcine endogenous retrovirus C]      77.0    8e-16
+gb|AAC48701.1|  polyprotein [Sus scrofa]                           75.5    1e-15
+gb|AAF65926.1|  gag-pol precursor [Sus scrofa domesticus]          76.3    1e-15
+emb|CAB65340.1|  unnamed protein product [Porcine endogenous r...  76.3    1e-15
+gb|AEF12615.1|  pol protein [Porcine endogenous retrovirus B]      75.9    2e-15
+gb|AAM29194.1|  gag-pol polyprotein [porcine endogenous retrov...  75.9    2e-15
+gb|AAL38193.1|  pol [porcine endogenous retrovirus]                75.9    2e-15
+gb|AEI83435.1|  pol protein [Sus scrofa]                           75.9    2e-15
+gb|AAM29192.1|  gag-pol polyprotein [porcine endogenous retrov...  75.9    2e-15
+ref|YP_002000605.1|  Hypothetical mature Pro protein [Gibbon a...  71.6    2e-15
+gb|AEI83437.1|  pol protein [Sus scrofa]                           75.9    2e-15
+gb|AAC16767.1|  pol protein [Sus scrofa]                           75.9    2e-15
+emb|CAC82505.2|  Pol protein [Porcine endogenous retrovirus]       75.5    2e-15
+gb|ABL74442.1|  pol protein [Porcine endogenous retrovirus C]      75.1    3e-15
+emb|CCD14034.1|  unnamed protein product [Trypanosoma congolen...  73.6    3e-15
+gb|ADK35878.1|  pol protein [Porcine endogenous retrovirus C]      74.3    6e-15
+emb|CAA06526.1|  protease [Sus scrofa]                             69.3    7e-15
+gb|AAR11973.1|  truncated pol protein [Porcine endogenous retr...  68.2    1e-14
+ref|NP_056790.1|  Pol polyprotein [Gibbon ape leukemia virus] ...  71.6    6e-14
+gb|AAC80264.1|  pol polyprotein [Gibbon ape leukemia virus]        71.6    6e-14
+gb|AAC31805.1|  pol polyprotein [Mus dunni endogenous virus]       71.2    7e-14
+sp|Q9TTC1.1|POL_KORV  RecName: Full=Pro-Pol polyprotein; AltNa...  71.2    8e-14
+emb|CAC82502.1|  Pol protein [Porcine endogenous retrovirus]       70.1    2e-13
+gb|AAL87856.1|AF435967_2  pol protein [porcine endogenous retr...  70.1    2e-13
+emb|CCD15559.1|  unnamed protein product [Trypanosoma congolen...  68.9    2e-13
+emb|CCD12124.1|  unnamed protein product [Trypanosoma congolen...  69.3    3e-13
+gb|AAR11972.1|  truncated pol protein [Porcine endogenous retr...  63.2    8e-13
+gb|AAA63525.1|  gag protein [Spleen necrosis virus]                59.7    2e-10
+gb|AAC59312.1|  polyprotein [Porcine endogenous retrovirus C]      60.5    3e-10
+gb|AAC58240.1|  protease/polymerase [Fowlpox virus]                59.3    1e-09
+gb|ACJ65656.1|  pol protein [Reticuloendotheliosis virus]          58.9    2e-09
+gb|ABC26818.1|  polymerase [Reticuloendotheliosis virus]           58.5    2e-09
+gb|ACJ65653.1|  pol protein [Reticuloendotheliosis virus]          58.5    2e-09
+gb|ACT75574.1|  pol protein [Reticuloendotheliosis virus]          58.5    2e-09
+gb|AAZ57418.1|  polymerase [Reticuloendotheliosis virus]           58.5    2e-09
+gb|AEB80488.1|  pol protein [Reticuloendotheliosis virus]          58.5    2e-09
+gb|ABD46829.1|  pol protein [Reticuloendotheliosis virus]          58.5    2e-09
+gb|ABC26820.1|  polymerase [Reticuloendotheliosis virus]           58.5    2e-09
+gb|AAF81697.2|AF246698_1  protease/polymerase [Fowlpox virus]      58.5    2e-09
+ref|YP_223871.1|  protease/polymerase [Reticuloendotheliosis v...  58.5    2e-09
+gb|AAP06677.1|  pol protein [Human endogenous retrovirus HCML-...  52.8    2e-07
+gb|AAA73090.1|  unknown [Homo sapiens]                             52.8    3e-07
+gb|ADU55779.1|  pol protein [XMRV]                                 50.1    2e-06
+gb|ADU55776.1|  pol protein [XMRV]                                 50.1    2e-06
+gb|ADU55775.1|  pol protein [XMRV]                                 50.1    2e-06
+gb|ADU55774.1|  pol protein [XMRV]                                 50.1    2e-06
+gb|ADU55773.1|  pol protein [XMRV]                                 50.1    2e-06
+gb|ADU55771.1|  pol protein [XMRV]                                 50.1    2e-06
+gb|ADU55778.1|  pol protein [XMRV]                                 50.1    2e-06
+gb|ADU55777.1|  pol protein [XMRV]                                 50.1    2e-06
+gb|ADU55769.1|  pol protein [XMRV]                                 50.1    2e-06
+gb|ADU55770.1|  pol protein [XMRV]                                 50.1    3e-06
+gb|ADU55772.1|  pol protein [XMRV]                                 48.1    1e-05
+gb|AAA65999.1|  neutral protease large subunit [Homo sapiens]      42.7    6e-04
+ref|XP_002195379.1|  PREDICTED: similar to polyprotein [Taenio...  41.6    0.002
+Sequences with E-value WORSE than threshold
+ref|YP_443922.1|  polyprotein [Atlantic salmon swim bladder sa...  40.4    0.006
+gb|AAB66528.1|  polyprotein [multiple sclerosis associated ret...  40.0    0.007
+ref|XP_001788163.1|  PREDICTED: hCG2040432-like, partial [Bos ...  39.3    0.014
+ref|XP_002188773.1|  PREDICTED: similar to Pol polyprotein [Ta...  39.3    0.016
+ref|XP_002197569.1|  PREDICTED: similar to polyprotein [Taenio...  39.3    0.017
+ref|XP_002196183.1|  PREDICTED: similar to Gag-Pol polyprotein...  38.9    0.018
+ref|XP_002199375.1|  PREDICTED: similar to polyprotein [Taenio...  38.9    0.019
+gb|AAB66527.1|  protease [multiple sclerosis associated retrov...  37.7    0.022
+gb|AAF74214.1|AF156962_1  protease [Homo sapiens]                  38.1    0.027
+ref|XP_002199481.1|  PREDICTED: similar to Gag-Pol polyprotein...  38.5    0.032
+ref|XP_002195934.1|  PREDICTED: similar to pol protein, partia...  37.7    0.045
+ref|XP_002186561.1|  PREDICTED: similar to polyprotein [Taenio...  37.7    0.049
+ref|ZP_01622650.1|  ATP-dependent Clp protease adaptor protein...  35.0    0.19 
+gb|AAM34208.1|AF503912_1  polyprotein [Danio rerio]                36.2    0.19 
+gb|ADK78271.1|  pol protein [Simian immunodeficiency virus]        35.4    0.37 
+gb|ADK78262.1|  pol protein [Simian immunodeficiency virus]        34.3    0.77 
+ref|ZP_05026535.1|  ATP-dependent Clp protease adaptor protein...  33.1    1.1  
+gb|AAK69674.1|AF349680_2  pol protein [Simian immunodeficiency...  33.9    1.4  
+ref|XP_003102066.1|  hypothetical protein CRE_07607 [Caenorhab...  33.5    1.6  
+gb|AAA72767.1|  pol polyprotein [synthetic construct]              31.2    1.6  
+ref|YP_004532632.1|  asparagine synthase [Novosphingobium sp. ...  33.5    1.9  
+ref|XP_003459729.1|  PREDICTED: hypothetical protein LOC100698...  32.3    4.5  
+ref|XP_002701657.1|  PREDICTED: hCG2040432-like [Bos taurus]       32.3    4.8  
+ref|XP_002199976.1|  PREDICTED: similar to Pro-Pol polyprotein...  31.6    7.0  
+
+ALIGNMENTS
+>gb|AAA46498.1| pol polyprotein [Moloney murine leukemia virus]
+Length=66
+
+ Score =  136 bits (342),  Expect = 8e-42, Method: Compositional matrix adjust.
+ Identities = 65/66 (98%), Positives = 66/66 (100%), Gaps = 0/66 (0%)
+
+Query  1   RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+           RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQV+GPMGQP
+Sbjct  1   RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVMGPMGQP  60
+
+Query  61  LQVLTL  66
+           LQVLTL
+Sbjct  61  LQVLTL  66
+
+
+>ref|NP_955590.1| p14 PR [Moloney murine leukemia virus]
+Length=125
+
+ Score =  135 bits (340),  Expect = 1e-40, Method: Compositional matrix adjust.
+ Identities = 64/65 (98%), Positives = 65/65 (100%), Gaps = 0/65 (0%)
+
+Query  1    RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+            RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQV+GPMGQP
+Sbjct  61   RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVMGPMGQP  120
+
+Query  61   LQVLT  65
+            LQVLT
+Sbjct  121  LQVLT  125
+
+
+>ref|YP_001994913.1| hypothetical mature PR protein [Friend murine leukemia virus]
+Length=126
+
+ Score =  135 bits (340),  Expect = 1e-40, Method: Compositional matrix adjust.
+ Identities = 64/65 (98%), Positives = 65/65 (100%), Gaps = 0/65 (0%)
+
+Query  1    RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+            RYRWTTDR+VHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP
+Sbjct  62   RYRWTTDRRVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  121
+
+Query  61   LQVLT  65
+            LQVLT
+Sbjct  122  LQVLT  126
+
+
+>prf||1104339A protease,virus
+Length=125
+
+ Score =  133 bits (335),  Expect = 6e-40, Method: Compositional matrix adjust.
+ Identities = 63/64 (98%), Positives = 64/64 (100%), Gaps = 0/64 (0%)
+
+Query  1    RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+            RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQV+GPMGQP
+Sbjct  62   RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVMGPMGQP  121
+
+Query  61   LQVL  64
+            LQVL
+Sbjct  122  LQVL  125
+
+
+>pdb|3NR6|A Chain A, Crystal Structure Of Xenotropic Murine Leukemia Virus-Related 
+Virus (Xmrv) Protease
+ pdb|3NR6|B Chain B, Crystal Structure Of Xenotropic Murine Leukemia Virus-Related 
+Virus (Xmrv) Protease
+ pdb|3SLZ|A Chain A, The Crystal Structure Of Xmrv Protease Complexed With 
+Tl-3
+ pdb|3SLZ|B Chain B, The Crystal Structure Of Xmrv Protease Complexed With 
+Tl-3
+ pdb|3SM1|A Chain A, The Crystal Structure Of Xmrv Protease Complexed With 
+Pepstatin A
+ pdb|3SM1|B Chain B, The Crystal Structure Of Xmrv Protease Complexed With 
+Pepstatin A
+ pdb|3SM2|A Chain A, The Crystal Structure Of Xmrv Protease Complexed With 
+Amprenavir
+ pdb|3SM2|B Chain B, The Crystal Structure Of Xmrv Protease Complexed With 
+Amprenavir
+Length=132
+
+ Score =  134 bits (336),  Expect = 6e-40, Method: Compositional matrix adjust.
+ Identities = 64/64 (100%), Positives = 64/64 (100%), Gaps = 0/64 (0%)
+
+Query  1    RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+            RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP
+Sbjct  69   RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  128
+
+Query  61   LQVL  64
+            LQVL
+Sbjct  129  LQVL  132
+
+
+>gb|AAA66622.1| reverse transcriptase [Moloney murine leukemia virus]
+Length=560
+
+ Score =  139 bits (351),  Expect = 2e-38, Method: Compositional matrix adjust.
+ Identities = 66/66 (100%), Positives = 66/66 (100%), Gaps = 0/66 (0%)
+
+Query  1    RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+            RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP
+Sbjct  286  RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  345
+
+Query  61   LQVLTL  66
+            LQVLTL
+Sbjct  346  LQVLTL  351
+
+
+>gb|AEI84616.1| putative gag-pro-pol polyprotein [Xenotropic MuLV-related virus 
+RKO]
+Length=1733
+
+ Score =  140 bits (352),  Expect = 5e-38, Method: Compositional matrix adjust.
+ Identities = 66/66 (100%), Positives = 66/66 (100%), Gaps = 0/66 (0%)
+
+Query  1    RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+            RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP
+Sbjct  594  RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  653
+
+Query  61   LQVLTL  66
+            LQVLTL
+Sbjct  654  LQVLTL  659
+
+
+>emb|CBL51472.1| gag-pro-pol polyprotein [Xenotropic MuLV-related virus 22Rv1/CWR-R1]
+Length=1733
+
+ Score =  140 bits (352),  Expect = 5e-38, Method: Compositional matrix adjust.
+ Identities = 66/66 (100%), Positives = 66/66 (100%), Gaps = 0/66 (0%)
+
+Query  1    RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+            RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP
+Sbjct  594  RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  653
+
+Query  61   LQVLTL  66
+            LQVLTL
+Sbjct  654  LQVLTL  659
+
+
+>sp|A1Z651.1|POL_XMRV6 RecName: Full=Gag-Pol polyprotein; Short=Pr180gag-pol; Contains: 
+RecName: Full=Matrix protein p15; Short=MA; Contains: RecName: 
+Full=RNA-binding phosphoprotein p12; AltName: Full=pp12; 
+Contains: RecName: Full=Capsid protein p30; Short=CA; Contains: 
+RecName: Full=Nucleocapsid protein p10; Short=NC-pol; 
+Contains: RecName: Full=Protease p14; Short=PR; Contains: 
+RecName: Full=Reverse transcriptase/ribonuclease H p80; Short=RT; 
+Contains: RecName: Full=Integrase p46; Short=IN
+ gb|ABM47428.1| putative gag-pro-pol polyprotein [Xenotropic MuLV-related virus 
+VP62]
+ gb|ACY30455.1| putative gag-pro-pol polyprotein [XMRV]
+Length=1733
+
+ Score =  140 bits (352),  Expect = 5e-38, Method: Compositional matrix adjust.
+ Identities = 66/66 (100%), Positives = 66/66 (100%), Gaps = 0/66 (0%)
+
+Query  1    RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+            RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP
+Sbjct  594  RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  653
+
+Query  61   LQVLTL  66
+            LQVLTL
+Sbjct  654  LQVLTL  659
+
+
+>gb|ADW08945.1| putative gag-pro-pol polyprotein [XMRV]
+Length=1733
+
+ Score =  140 bits (352),  Expect = 5e-38, Method: Compositional matrix adjust.
+ Identities = 66/66 (100%), Positives = 66/66 (100%), Gaps = 0/66 (0%)
+
+Query  1    RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+            RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP
+Sbjct  594  RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  653
+
+Query  61   LQVLTL  66
+            LQVLTL
+Sbjct  654  LQVLTL  659
+
+
+>sp|Q2F7J3.1|POL_XMRV3 RecName: Full=Gag-Pol polyprotein; Short=Pr180gag-pol; Contains: 
+RecName: Full=Matrix protein p15; Short=MA; Contains: RecName: 
+Full=RNA-binding phosphoprotein p12; AltName: Full=pp12; 
+Contains: RecName: Full=Capsid protein p30; Short=CA; Contains: 
+RecName: Full=Nucleocapsid protein p10; Short=NC-pol; 
+Contains: RecName: Full=Protease p14; Short=PR; Contains: 
+RecName: Full=Reverse transcriptase/ribonuclease H p80; Short=RT; 
+Contains: RecName: Full=Integrase p46; Short=IN
+ gb|ABB83225.1| putative gag-pro-pol polyprotein [Xenotropic MuLV-related virus 
+VP35]
+Length=1733
+
+ Score =  140 bits (352),  Expect = 5e-38, Method: Compositional matrix adjust.
+ Identities = 66/66 (100%), Positives = 66/66 (100%), Gaps = 0/66 (0%)
+
+Query  1    RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+            RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP
+Sbjct  594  RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  653
+
+Query  61   LQVLTL  66
+            LQVLTL
+Sbjct  654  LQVLTL  659
+
+
+>gb|ADW08942.1| putative gag-pro-pol polyprotein [XMRV]
+Length=1733
+
+ Score =  140 bits (352),  Expect = 5e-38, Method: Compositional matrix adjust.
+ Identities = 66/66 (100%), Positives = 66/66 (100%), Gaps = 0/66 (0%)
+
+Query  1    RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+            RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP
+Sbjct  594  RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  653
+
+Query  61   LQVLTL  66
+            LQVLTL
+Sbjct  654  LQVLTL  659
+
+
+>gb|ACY30458.1| putative gag-pro-pol polyprotein [XMRV]
+Length=1733
+
+ Score =  140 bits (352),  Expect = 5e-38, Method: Compositional matrix adjust.
+ Identities = 66/66 (100%), Positives = 66/66 (100%), Gaps = 0/66 (0%)
+
+Query  1    RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+            RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP
+Sbjct  594  RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  653
+
+Query  61   LQVLTL  66
+            LQVLTL
+Sbjct  654  LQVLTL  659
+
+
+>gb|AEA72809.1| putative gag-pol polyprotein [XMRV-like mouse endogenous retrovirus 
+mERV-XL]
+Length=1737
+
+ Score =  140 bits (352),  Expect = 5e-38, Method: Compositional matrix adjust.
+ Identities = 66/66 (100%), Positives = 66/66 (100%), Gaps = 0/66 (0%)
+
+Query  1    RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+            RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP
+Sbjct  594  RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  653
+
+Query  61   LQVLTL  66
+            LQVLTL
+Sbjct  654  LQVLTL  659
+
+
+>emb|CCB84243.1| putative gag-pro-pol polyprotein [PreXMRV-2]
+ emb|CCD57104.1| gag-pro-pol polyprotein [PreXMRV-2]
+Length=1737
+
+ Score =  140 bits (352),  Expect = 5e-38, Method: Compositional matrix adjust.
+ Identities = 66/66 (100%), Positives = 66/66 (100%), Gaps = 0/66 (0%)
+
+Query  1    RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+            RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP
+Sbjct  594  RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  653
+
+Query  61   LQVLTL  66
+            LQVLTL
+Sbjct  654  LQVLTL  659
+
+
+>gb|AEI59728.1| putative gag-pro-pol polyprotein [Xenotropic murine leukemia 
+virus]
+Length=1733
+
+ Score =  140 bits (352),  Expect = 5e-38, Method: Compositional matrix adjust.
+ Identities = 66/66 (100%), Positives = 66/66 (100%), Gaps = 0/66 (0%)
+
+Query  1    RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+            RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP
+Sbjct  594  RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  653
+
+Query  61   LQVLTL  66
+            LQVLTL
+Sbjct  654  LQVLTL  659
+
+
+>gb|AAG29093.1|AF221065_1 putative gag-pro-pol polyprotein [DG-75 Murine leukemia virus]
+Length=1733
+
+ Score =  140 bits (352),  Expect = 5e-38, Method: Compositional matrix adjust.
+ Identities = 66/66 (100%), Positives = 66/66 (100%), Gaps = 0/66 (0%)
+
+Query  1    RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+            RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP
+Sbjct  594  RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  653
+
+Query  61   LQVLTL  66
+            LQVLTL
+Sbjct  654  LQVLTL  659
+
+
+>sp|Q2F7J0.1|POL_XMRV4 RecName: Full=Gag-Pol polyprotein; Short=Pr180gag-pol; Contains: 
+RecName: Full=Matrix protein p15; Short=MA; Contains: RecName: 
+Full=RNA-binding phosphoprotein p12; AltName: Full=pp12; 
+Contains: RecName: Full=Capsid protein p30; Short=CA; Contains: 
+RecName: Full=Nucleocapsid protein p10; Short=NC-pol; 
+Contains: RecName: Full=Protease p14; Short=PR; Contains: 
+RecName: Full=Reverse transcriptase/ribonuclease H p80; Short=RT; 
+Contains: RecName: Full=Integrase p46; Short=IN
+ gb|ABB83228.1| putative gag-pro-pol polyprotein [Xenotropic MuLV-related virus 
+VP42]
+Length=1733
+
+ Score =  139 bits (351),  Expect = 6e-38, Method: Compositional matrix adjust.
+ Identities = 66/66 (100%), Positives = 66/66 (100%), Gaps = 0/66 (0%)
+
+Query  1    RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+            RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP
+Sbjct  594  RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  653
+
+Query  61   LQVLTL  66
+            LQVLTL
+Sbjct  654  LQVLTL  659
+
+
+>gb|AAY27069.1| truncated polyprotein [Mus musculus castaneus]
+Length=1674
+
+ Score =  139 bits (351),  Expect = 6e-38, Method: Compositional matrix adjust.
+ Identities = 66/66 (100%), Positives = 66/66 (100%), Gaps = 0/66 (0%)
+
+Query  1    RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+            RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP
+Sbjct  594  RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  653
+
+Query  61   LQVLTL  66
+            LQVLTL
+Sbjct  654  LQVLTL  659
+
+
+>dbj|BAD52413.1| POL polyprotein precursor [Murine leukemia virus]
+Length=1199
+
+ Score =  139 bits (351),  Expect = 8e-38, Method: Compositional matrix adjust.
+ Identities = 66/66 (100%), Positives = 66/66 (100%), Gaps = 0/66 (0%)
+
+Query  1    RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+            RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP
+Sbjct  57   RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  116
+
+Query  61   LQVLTL  66
+            LQVLTL
+Sbjct  117  LQVLTL  122
+
+
+>gb|ABS85542.1| putative gag-pro-pol polyprotein [Xenotropic murine leukemia 
+virus]
+Length=1618
+
+ Score =  139 bits (351),  Expect = 8e-38, Method: Compositional matrix adjust.
+ Identities = 65/66 (98%), Positives = 66/66 (100%), Gaps = 0/66 (0%)
+
+Query  1    RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+            RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQ+VGPMGQP
+Sbjct  595  RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQIVGPMGQP  654
+
+Query  61   LQVLTL  66
+            LQVLTL
+Sbjct  655  LQVLTL  660
+
+
+>dbj|BAD52416.1| POL polyprotein precursor [Murine leukemia virus]
+Length=1199
+
+ Score =  139 bits (350),  Expect = 8e-38, Method: Compositional matrix adjust.
+ Identities = 66/66 (100%), Positives = 66/66 (100%), Gaps = 0/66 (0%)
+
+Query  1    RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+            RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP
+Sbjct  57   RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  116
+
+Query  61   LQVLTL  66
+            LQVLTL
+Sbjct  117  LQVLTL  122
+
+
+>ref|NP_044738.1| Pol [Rauscher murine leukemia virus]
+ gb|AAB86912.1| Pol [Rauscher murine leukemia virus]
+Length=1204
+
+ Score =  139 bits (350),  Expect = 9e-38, Method: Compositional matrix adjust.
+ Identities = 66/66 (100%), Positives = 66/66 (100%), Gaps = 0/66 (0%)
+
+Query  1    RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+            RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP
+Sbjct  62   RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  121
+
+Query  61   LQVLTL  66
+            LQVLTL
+Sbjct  122  LQVLTL  127
+
+
+>gb|ABD49687.1| putative gag-pro-pol polyprotein [Xenotropic MuLV-related virus 
+VP62]
+Length=1733
+
+ Score =  139 bits (349),  Expect = 1e-37, Method: Compositional matrix adjust.
+ Identities = 65/66 (98%), Positives = 66/66 (100%), Gaps = 0/66 (0%)
+
+Query  1    RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+            RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP
+Sbjct  594  RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  653
+
+Query  61   LQVLTL  66
+            LQVLT+
+Sbjct  654  LQVLTV  659
+
+
+>emb|CCA30551.1| gag-pro-pol polyprotein [Xenotropic MuLV-related virus]
+Length=1724
+
+ Score =  139 bits (349),  Expect = 1e-37, Method: Compositional matrix adjust.
+ Identities = 65/66 (98%), Positives = 66/66 (100%), Gaps = 0/66 (0%)
+
+Query  1    RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+            RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQV+GPMGQP
+Sbjct  585  RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVMGPMGQP  644
+
+Query  61   LQVLTL  66
+            LQVLTL
+Sbjct  645  LQVLTL  650
+
+
+>emb|CCB84810.1| putative gag-pro-pol polyprotein [XMRV]
+Length=1733
+
+ Score =  139 bits (349),  Expect = 1e-37, Method: Compositional matrix adjust.
+ Identities = 65/66 (98%), Positives = 66/66 (100%), Gaps = 0/66 (0%)
+
+Query  1    RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+            RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQV+GPMGQP
+Sbjct  594  RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVMGPMGQP  653
+
+Query  61   LQVLTL  66
+            LQVLTL
+Sbjct  654  LQVLTL  659
+
+
+>dbj|BAA22064.1| gag-pol polyprotein (precursor protein) [Friend murine leukemia 
+virus]
+Length=1738
+
+ Score =  138 bits (348),  Expect = 2e-37, Method: Compositional matrix adjust.
+ Identities = 65/66 (98%), Positives = 66/66 (100%), Gaps = 0/66 (0%)
+
+Query  1    RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+            RYRWTTDR+VHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP
+Sbjct  596  RYRWTTDRRVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  655
+
+Query  61   LQVLTL  66
+            LQVLTL
+Sbjct  656  LQVLTL  661
+
+
+>gb|AAL69910.1|AF462057_3 Pr180 gag-pro-pol polyprotein [Moloney murine leukemia virus]
+Length=1738
+
+ Score =  138 bits (348),  Expect = 2e-37, Method: Compositional matrix adjust.
+ Identities = 65/66 (98%), Positives = 66/66 (100%), Gaps = 0/66 (0%)
+
+Query  1    RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+            RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQV+GPMGQP
+Sbjct  596  RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVMGPMGQP  655
+
+Query  61   LQVLTL  66
+            LQVLTL
+Sbjct  656  LQVLTL  661
+
+
+>sp|P26808.1|POL_MLVFP RecName: Full=Pol polyprotein; Contains: RecName: Full=Protease; 
+Contains: RecName: Full=Reverse transcriptase/ribonuclease 
+H; Short=RT; Contains: RecName: Full=Integrase; Short=IN
+ gb|AAA46477.1| pol protein [Friend murine leukemia virus]
+Length=1204
+
+ Score =  138 bits (348),  Expect = 2e-37, Method: Compositional matrix adjust.
+ Identities = 65/66 (98%), Positives = 66/66 (100%), Gaps = 0/66 (0%)
+
+Query  1    RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+            RYRWTTDR+VHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP
+Sbjct  62   RYRWTTDRRVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  121
+
+Query  61   LQVLTL  66
+            LQVLTL
+Sbjct  122  LQVLTL  127
+
+
+>gb|AAB64160.1| Pol [synthetic construct]
+Length=1199
+
+ Score =  138 bits (348),  Expect = 2e-37, Method: Compositional matrix adjust.
+ Identities = 65/66 (98%), Positives = 66/66 (100%), Gaps = 0/66 (0%)
+
+Query  1    RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+            RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQV+GPMGQP
+Sbjct  57   RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVMGPMGQP  116
+
+Query  61   LQVLTL  66
+            LQVLTL
+Sbjct  117  LQVLTL  122
+
+
+>sp|P03355.4|POL_MLVMS RecName: Full=Gag-Pol polyprotein; Short=Pr180gag-pol; Contains: 
+RecName: Full=Matrix protein p15; Short=MA; Contains: RecName: 
+Full=RNA-binding phosphoprotein p12; AltName: Full=pp12; 
+Contains: RecName: Full=Capsid protein p30; Short=CA; Contains: 
+RecName: Full=Nucleocapsid protein p10; Short=NC-pol; 
+Contains: RecName: Full=Protease p14; Short=PR; Contains: 
+RecName: Full=Reverse transcriptase/ribonuclease H p80; Short=RT; 
+Contains: RecName: Full=Integrase p46; Short=IN
+Length=1738
+
+ Score =  138 bits (347),  Expect = 2e-37, Method: Compositional matrix adjust.
+ Identities = 65/66 (98%), Positives = 66/66 (100%), Gaps = 0/66 (0%)
+
+Query  1    RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+            RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQV+GPMGQP
+Sbjct  596  RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVMGPMGQP  655
+
+Query  61   LQVLTL  66
+            LQVLTL
+Sbjct  656  LQVLTL  661
+
+
+>ref|NP_057933.2| Pr180 [Moloney murine leukemia virus]
+Length=1737
+
+ Score =  138 bits (347),  Expect = 2e-37, Method: Compositional matrix adjust.
+ Identities = 65/66 (98%), Positives = 66/66 (100%), Gaps = 0/66 (0%)
+
+Query  1    RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+            RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQV+GPMGQP
+Sbjct  595  RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVMGPMGQP  654
+
+Query  61   LQVLTL  66
+            LQVLTL
+Sbjct  655  LQVLTL  660
+
+
+>gb|AAC82568.1| Pr180 [Moloney murine leukemia virus]
+Length=1737
+
+ Score =  138 bits (347),  Expect = 2e-37, Method: Compositional matrix adjust.
+ Identities = 65/66 (98%), Positives = 66/66 (100%), Gaps = 0/66 (0%)
+
+Query  1    RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+            RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQV+GPMGQP
+Sbjct  595  RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVMGPMGQP  654
+
+Query  61   LQVLTL  66
+            LQVLTL
+Sbjct  655  LQVLTL  660
+
+
+>ref|NP_040333.1| Pol polyprotein [Friend murine leukemia virus]
+ sp|P26809.1|POL_MLVFF RecName: Full=Pol polyprotein; Contains: RecName: Full=Protease; 
+Contains: RecName: Full=Reverse transcriptase/ribonuclease 
+H; Short=RT; Contains: RecName: Full=Integrase; Short=IN
+ emb|CAA77477.1| RNA-dependent DNA polymerase [Friend murine leukemia virus]
+Length=1204
+
+ Score =  138 bits (347),  Expect = 2e-37, Method: Compositional matrix adjust.
+ Identities = 65/66 (98%), Positives = 66/66 (100%), Gaps = 0/66 (0%)
+
+Query  1    RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+            RYRWTTDR+VHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP
+Sbjct  62   RYRWTTDRRVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  121
+
+Query  61   LQVLTL  66
+            LQVLTL
+Sbjct  122  LQVLTL  127
+
+
+>prf||0711245A protein gag/pol/env
+Length=2514
+
+ Score =  138 bits (347),  Expect = 2e-37, Method: Compositional matrix adjust.
+ Identities = 65/66 (98%), Positives = 66/66 (100%), Gaps = 0/66 (0%)
+
+Query  1    RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+            RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQV+GPMGQP
+Sbjct  706  RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVMGPMGQP  765
+
+Query  61   LQVLTL  66
+            LQVLTL
+Sbjct  766  LQVLTL  771
+
+
+>gb|AAC98548.1| pol polypeptide [Murine leukemia virus]
+Length=1204
+
+ Score =  138 bits (347),  Expect = 2e-37, Method: Compositional matrix adjust.
+ Identities = 65/66 (98%), Positives = 66/66 (100%), Gaps = 0/66 (0%)
+
+Query  1    RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+            RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQV+GPMGQP
+Sbjct  62   RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVMGPMGQP  121
+
+Query  61   LQVLTL  66
+            LQVLTL
+Sbjct  122  LQVLTL  127
+
+
+>gb|AAB06450.1| Gag-Pol polyprotein [Mus musculus]
+Length=1734
+
+ Score =  137 bits (345),  Expect = 4e-37, Method: Compositional matrix adjust.
+ Identities = 65/66 (98%), Positives = 65/66 (98%), Gaps = 0/66 (0%)
+
+Query  1    RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+            RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGP GQP
+Sbjct  595  RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPKGQP  654
+
+Query  61   LQVLTL  66
+            LQVLTL
+Sbjct  655  LQVLTL  660
+
+
+>gb|AAB03091.1| gag-pol polyprotein (tag amber codon at 2250-2252 inserts Gln 
+in Mo-MuLV) [AKR (endogenous) murine leukemia virus]
+Length=1734
+
+ Score =  137 bits (345),  Expect = 5e-37, Method: Compositional matrix adjust.
+ Identities = 65/66 (98%), Positives = 65/66 (98%), Gaps = 0/66 (0%)
+
+Query  1    RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+            RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGP GQP
+Sbjct  595  RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPKGQP  654
+
+Query  61   LQVLTL  66
+            LQVLTL
+Sbjct  655  LQVLTL  660
+
+
+>gb|AAD55051.1| putative gag-pol polyprotein [Murine leukemia virus]
+Length=1734
+
+ Score =  137 bits (345),  Expect = 5e-37, Method: Compositional matrix adjust.
+ Identities = 65/66 (98%), Positives = 65/66 (98%), Gaps = 0/66 (0%)
+
+Query  1    RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+            RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGP GQP
+Sbjct  595  RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPKGQP  654
+
+Query  61   LQVLTL  66
+            LQVLTL
+Sbjct  655  LQVLTL  660
+
+
+>gb|ABD14436.1| gag-pro-pol polyprotein [Mus musculus]
+Length=1734
+
+ Score =  137 bits (344),  Expect = 5e-37, Method: Compositional matrix adjust.
+ Identities = 65/66 (98%), Positives = 65/66 (98%), Gaps = 0/66 (0%)
+
+Query  1    RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+            RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGP GQP
+Sbjct  595  RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPKGQP  654
+
+Query  61   LQVLTL  66
+            LQVLTL
+Sbjct  655  LQVLTL  660
+
+
+>gb|ABD14439.1| gag-pro-pol polyprotein [Murine leukemia virus]
+Length=1734
+
+ Score =  137 bits (344),  Expect = 5e-37, Method: Compositional matrix adjust.
+ Identities = 65/66 (98%), Positives = 65/66 (98%), Gaps = 0/66 (0%)
+
+Query  1    RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+            RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGP GQP
+Sbjct  595  RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPKGQP  654
+
+Query  61   LQVLTL  66
+            LQVLTL
+Sbjct  655  LQVLTL  660
+
+
+>gb|ABD14433.1| gag-pro-pol polyprotein [Mus musculus]
+Length=1734
+
+ Score =  137 bits (344),  Expect = 5e-37, Method: Compositional matrix adjust.
+ Identities = 65/66 (98%), Positives = 65/66 (98%), Gaps = 0/66 (0%)
+
+Query  1    RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+            RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGP GQP
+Sbjct  595  RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPKGQP  654
+
+Query  61   LQVLTL  66
+            LQVLTL
+Sbjct  655  LQVLTL  660
+
+
+>gb|AAA92679.1| gag-pol polyprotein [Murine leukemia virus]
+Length=1736
+
+ Score =  137 bits (344),  Expect = 5e-37, Method: Compositional matrix adjust.
+ Identities = 65/66 (98%), Positives = 65/66 (98%), Gaps = 0/66 (0%)
+
+Query  1    RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+            RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGP GQP
+Sbjct  595  RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPKGQP  654
+
+Query  61   LQVLTL  66
+            LQVLTL
+Sbjct  655  LQVLTL  660
+
+
+>sp|P11227.1|POL_MLVRD RecName: Full=Pol polyprotein; Contains: RecName: Full=Protease; 
+Contains: RecName: Full=Reverse transcriptase/ribonuclease 
+H; Short=RT; Contains: RecName: Full=Integrase; Short=IN
+Length=1196
+
+ Score =  137 bits (344),  Expect = 5e-37, Method: Compositional matrix adjust.
+ Identities = 64/66 (97%), Positives = 66/66 (100%), Gaps = 0/66 (0%)
+
+Query  1    RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+            RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHF+GSGAQ+VGPMGQP
+Sbjct  57   RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFKGSGAQIVGPMGQP  116
+
+Query  61   LQVLTL  66
+            LQVLTL
+Sbjct  117  LQVLTL  122
+
+
+>gb|AAP37287.1| gag-pol polyprotein [Murine leukemia virus]
+Length=1734
+
+ Score =  137 bits (344),  Expect = 6e-37, Method: Compositional matrix adjust.
+ Identities = 65/66 (98%), Positives = 65/66 (98%), Gaps = 0/66 (0%)
+
+Query  1    RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+            RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGP GQP
+Sbjct  595  RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPKGQP  654
+
+Query  61   LQVLTL  66
+            LQVLTL
+Sbjct  655  LQVLTL  660
+
+
+>gb|AAD34536.1| polymerase [Murine leukemia virus]
+Length=1180
+
+ Score =  136 bits (343),  Expect = 7e-37, Method: Compositional matrix adjust.
+ Identities = 65/66 (98%), Positives = 65/66 (98%), Gaps = 0/66 (0%)
+
+Query  1    RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+            RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGP GQP
+Sbjct  57   RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPKGQP  116
+
+Query  61   LQVLTL  66
+            LQVLTL
+Sbjct  117  LQVLTL  122
+
+
+>sp|P03356.2|POL_MLVAV RecName: Full=Pol polyprotein; Contains: RecName: Full=Protease; 
+Contains: RecName: Full=Reverse transcriptase/ribonuclease 
+H; Short=RT; Contains: RecName: Full=Integrase; Short=IN
+Length=1196
+
+ Score =  136 bits (343),  Expect = 7e-37, Method: Compositional matrix adjust.
+ Identities = 65/66 (98%), Positives = 65/66 (98%), Gaps = 0/66 (0%)
+
+Query  1    RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+            RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGP GQP
+Sbjct  57   RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPKGQP  116
+
+Query  61   LQVLTL  66
+            LQVLTL
+Sbjct  117  LQVLTL  122
+
+
+>gb|ABU54793.1| gag-pro-pol polyprotein [Murine leukemia virus]
+Length=1736
+
+ Score =  135 bits (340),  Expect = 2e-36, Method: Compositional matrix adjust.
+ Identities = 64/66 (97%), Positives = 64/66 (97%), Gaps = 0/66 (0%)
+
+Query  1    RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+            RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKL AQIHFEGSGAQVVGP GQP
+Sbjct  594  RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLNAQIHFEGSGAQVVGPRGQP  653
+
+Query  61   LQVLTL  66
+            LQVLTL
+Sbjct  654  LQVLTL  659
+
+
+>gb|AAO61197.1|AF411814_3 Gag-Pro-Pol polyprotein [amphotropic murine leukemia virus]
+Length=1736
+
+ Score =  135 bits (340),  Expect = 2e-36, Method: Compositional matrix adjust.
+ Identities = 64/66 (97%), Positives = 64/66 (97%), Gaps = 0/66 (0%)
+
+Query  1    RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+            RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKL AQIHFEGSGAQVVGP GQP
+Sbjct  594  RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLNAQIHFEGSGAQVVGPRGQP  653
+
+Query  61   LQVLTL  66
+            LQVLTL
+Sbjct  654  LQVLTL  659
+
+
+>sp|P26810.1|POL_MLVF5 RecName: Full=Pol polyprotein; Contains: RecName: Full=Protease; 
+Contains: RecName: Full=Reverse transcriptase/ribonuclease 
+H; Short=RT; Contains: RecName: Full=Integrase; Short=IN
+Length=1204
+
+ Score =  135 bits (339),  Expect = 3e-36, Method: Compositional matrix adjust.
+ Identities = 64/66 (97%), Positives = 65/66 (98%), Gaps = 0/66 (0%)
+
+Query  1    RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+            RYRWTTDR+VHLATGKVTHSFLHVPDCPYPLLGR LLTKLKAQIHFEGSGAQVVGPMGQP
+Sbjct  62   RYRWTTDRRVHLATGKVTHSFLHVPDCPYPLLGRHLLTKLKAQIHFEGSGAQVVGPMGQP  121
+
+Query  61   LQVLTL  66
+            LQVLTL
+Sbjct  122  LQVLTL  127
+
+
+>gb|AAK50381.1|U43202_2 pol precursor protein [Murine leukemia virus]
+Length=1196
+
+ Score =  135 bits (339),  Expect = 3e-36, Method: Compositional matrix adjust.
+ Identities = 64/66 (97%), Positives = 64/66 (97%), Gaps = 0/66 (0%)
+
+Query  1    RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+            RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLK QIHFEGSGAQVVGP GQP
+Sbjct  57   RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKVQIHFEGSGAQVVGPKGQP  116
+
+Query  61   LQVLTL  66
+            LQVLTL
+Sbjct  117  LQVLTL  122
+
+
+>gb|AEI59725.1| putative gag-pro-pol polyprotein [Xenotropic murine leukemia 
+virus]
+Length=1734
+
+ Score =  134 bits (337),  Expect = 5e-36, Method: Compositional matrix adjust.
+ Identities = 64/66 (97%), Positives = 64/66 (97%), Gaps = 0/66 (0%)
+
+Query  1    RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+            RY WTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGP GQP
+Sbjct  595  RYHWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPKGQP  654
+
+Query  61   LQVLTL  66
+            LQVLTL
+Sbjct  655  LQVLTL  660
+
+
+>gb|ADR80026.1| putative gag-pro-pol polyprotein [Murine leukemia virus N417]
+ gb|AEI59722.1| putative gag-pro-pol polyprotein [Xenotropic murine leukemia 
+virus]
+Length=1734
+
+ Score =  134 bits (337),  Expect = 5e-36, Method: Compositional matrix adjust.
+ Identities = 64/66 (97%), Positives = 64/66 (97%), Gaps = 0/66 (0%)
+
+Query  1    RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+            RY WTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGP GQP
+Sbjct  595  RYHWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPKGQP  654
+
+Query  61   LQVLTL  66
+            LQVLTL
+Sbjct  655  LQVLTL  660
+
+
+>gb|AAV68488.1| gag-pol polyprotein [Murine leukemia virus]
+Length=1736
+
+ Score =  133 bits (335),  Expect = 9e-36, Method: Compositional matrix adjust.
+ Identities = 61/66 (92%), Positives = 64/66 (97%), Gaps = 0/66 (0%)
+
+Query  1    RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+            RYRWTTDRKVHLATG+V+HSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQ+ GP GQP
+Sbjct  590  RYRWTTDRKVHLATGRVSHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQITGPAGQP  649
+
+Query  61   LQVLTL  66
+            LQVLTL
+Sbjct  650  LQVLTL  655
+
+
+>gb|ABU54795.1| gag-pro-pol polyprotein [Murine leukemia virus]
+ gb|ABU54796.1| gag-pro-pol polyprotein [Murine leukemia virus]
+ gb|ABU54797.1| gag-pro-pol polyprotein [Murine leukemia virus]
+Length=1736
+
+ Score =  132 bits (333),  Expect = 2e-35, Method: Compositional matrix adjust.
+ Identities = 63/66 (95%), Positives = 63/66 (95%), Gaps = 0/66 (0%)
+
+Query  1    RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+            RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKL AQIHFEGSGAQVVGP  QP
+Sbjct  594  RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLNAQIHFEGSGAQVVGPREQP  653
+
+Query  61   LQVLTL  66
+            LQVLTL
+Sbjct  654  LQVLTL  659
+
+
+>gb|ABU54794.1| gag-pro-pol polyprotein [Murine leukemia virus]
+Length=1736
+
+ Score =  132 bits (333),  Expect = 2e-35, Method: Compositional matrix adjust.
+ Identities = 63/66 (95%), Positives = 63/66 (95%), Gaps = 0/66 (0%)
+
+Query  1    RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+            RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKL AQIHFEGSGAQVVGP  QP
+Sbjct  594  RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLNAQIHFEGSGAQVVGPREQP  653
+
+Query  61   LQVLTL  66
+            LQVLTL
+Sbjct  654  LQVLTL  659
+
+
+>sp|P10273.1|POL_FLV RecName: Full=Pol polyprotein; Contains: RecName: Full=Protease; 
+Contains: RecName: Full=Reverse transcriptase/ribonuclease 
+H; Short=RT
+ gb|AAA43056.2| gag/pol polyprotein [Feline leukemia virus]
+Length=128
+
+ Score =  118 bits (296),  Expect = 5e-34, Method: Compositional matrix adjust.
+ Identities = 56/65 (86%), Positives = 59/65 (91%), Gaps = 0/65 (0%)
+
+Query  2    YRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQPL  61
+            YRWTTDR+V LATGKVTHSFL+VP+CPYPLLGRDLLTKLKAQIHF G GA VVGP G PL
+Sbjct  61   YRWTTDRRVQLATGKVTHSFLYVPECPYPLLGRDLLTKLKAQIHFTGEGANVVGPRGLPL  120
+
+Query  62   QVLTL  66
+            QVLTL
+Sbjct  121  QVLTL  125
+
+
+>ref|NP_955578.1| protease [Feline leukemia virus]
+Length=125
+
+ Score =  115 bits (287),  Expect = 1e-32, Method: Compositional matrix adjust.
+ Identities = 54/64 (84%), Positives = 57/64 (89%), Gaps = 0/64 (0%)
+
+Query  1    RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+             YRWTTDR+V LATGKVTHSFL+VP+CPYPLLGRDLLTKLKAQIHF G GA VVGP G P
+Sbjct  62   NYRWTTDRRVQLATGKVTHSFLYVPECPYPLLGRDLLTKLKAQIHFTGEGANVVGPKGLP  121
+
+Query  61   LQVL  64
+            LQVL
+Sbjct  122  LQVL  125
+
+
+>gb|AAR11853.1| reverse transcriptase [Mus musculus]
+Length=142
+
+ Score =  114 bits (284),  Expect = 6e-32, Method: Compositional matrix adjust.
+ Identities = 55/56 (98%), Positives = 55/56 (98%), Gaps = 0/56 (0%)
+
+Query  11  HLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQPLQVLTL  66
+           HLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGP GQPLQVLTL
+Sbjct  1   HLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPKGQPLQVLTL  56
+
+
+>gb|AAO46152.1| pol protein [Recombinant M-MuLV/RaLV retrovirus]
+Length=1204
+
+ Score =  120 bits (300),  Expect = 5e-31, Method: Compositional matrix adjust.
+ Identities = 56/66 (85%), Positives = 59/66 (89%), Gaps = 0/66 (0%)
+
+Query  1    RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+            RYRWTTDR+V LATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFE  G +V GP G P
+Sbjct  57   RYRWTTDRRVQLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEEGGTRVTGPRGIP  116
+
+Query  61   LQVLTL  66
+            LQ+LTL
+Sbjct  117  LQILTL  122
+
+
+>gb|AAO46143.1| pol protein [Recombinant M-MuLV/RaLV retrovirus]
+Length=626
+
+ Score =  119 bits (299),  Expect = 5e-31, Method: Compositional matrix adjust.
+ Identities = 56/66 (85%), Positives = 59/66 (89%), Gaps = 0/66 (0%)
+
+Query  1    RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+            RYRWTTDR+V LATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFE  G +V GP G P
+Sbjct  57   RYRWTTDRRVQLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEEGGTRVTGPRGIP  116
+
+Query  61   LQVLTL  66
+            LQ+LTL
+Sbjct  117  LQILTL  122
+
+
+>gb|AAO46145.1| pol protein [Recombinant M-MuLV/RaLV retrovirus]
+Length=626
+
+ Score =  119 bits (299),  Expect = 5e-31, Method: Compositional matrix adjust.
+ Identities = 56/66 (85%), Positives = 59/66 (89%), Gaps = 0/66 (0%)
+
+Query  1    RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+            RYRWTTDR+V LATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFE  G +V GP G P
+Sbjct  57   RYRWTTDRRVQLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEEGGTRVTGPRGIP  116
+
+Query  61   LQVLTL  66
+            LQ+LTL
+Sbjct  117  LQILTL  122
+
+
+>gb|AAA93092.1| gag-pol precursor polyprotein gPr80 [Feline leukemia virus]
+Length=1784
+
+ Score =  119 bits (298),  Expect = 9e-31, Method: Compositional matrix adjust.
+ Identities = 56/65 (86%), Positives = 59/65 (91%), Gaps = 0/65 (0%)
+
+Query  2    YRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQPL  61
+            YRWTTDR+V LATGKVTHSFL+VP+CPYPLLGRDLLTKLKAQIHF G GA VVGP G PL
+Sbjct  639  YRWTTDRRVQLATGKVTHSFLYVPECPYPLLGRDLLTKLKAQIHFTGEGANVVGPRGLPL  698
+
+Query  62   QVLTL  66
+            QVLTL
+Sbjct  699  QVLTL  703
+
+
+>ref|NP_047255.1| Gag-Pro-Pol precursor polyprotein gPr80 [Feline leukemia virus]
+ gb|AAC31801.1| gag-pol precursor polyprotein gPr80 [Feline leukemia virus]
+Length=1786
+
+ Score =  119 bits (298),  Expect = 9e-31, Method: Compositional matrix adjust.
+ Identities = 56/65 (86%), Positives = 59/65 (91%), Gaps = 0/65 (0%)
+
+Query  2    YRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQPL  61
+            YRWTTDR+V LATGKVTHSFL+VP+CPYPLLGRDLLTKLKAQIHF G GA VVGP G PL
+Sbjct  639  YRWTTDRRVQLATGKVTHSFLYVPECPYPLLGRDLLTKLKAQIHFTGEGANVVGPKGLPL  698
+
+Query  62   QVLTL  66
+            QVLTL
+Sbjct  699  QVLTL  703
+
+
+>dbj|BAL04139.1| gag-pol precursor polyprotein [Feline leukemia virus]
+Length=1790
+
+ Score =  119 bits (298),  Expect = 1e-30, Method: Compositional matrix adjust.
+ Identities = 56/65 (86%), Positives = 59/65 (91%), Gaps = 0/65 (0%)
+
+Query  2    YRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQPL  61
+            YRWTTDR+V LATGKVTHSFL+VP+CPYPLLGRDLLTKLKAQIHF G GA VVGP G PL
+Sbjct  643  YRWTTDRRVQLATGKVTHSFLYVPECPYPLLGRDLLTKLKAQIHFTGEGANVVGPKGLPL  702
+
+Query  62   QVLTL  66
+            QVLTL
+Sbjct  703  QVLTL  707
+
+
+>ref|NP_955577.1| pol gene polyprotein [Feline leukemia virus]
+Length=1210
+
+ Score =  119 bits (297),  Expect = 1e-30, Method: Compositional matrix adjust.
+ Identities = 56/66 (85%), Positives = 59/66 (89%), Gaps = 0/66 (0%)
+
+Query  1    RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+             YRWTTDR+V LATGKVTHSFL+VP+CPYPLLGRDLLTKLKAQIHF G GA VVGP G P
+Sbjct  62   NYRWTTDRRVQLATGKVTHSFLYVPECPYPLLGRDLLTKLKAQIHFTGEGANVVGPKGLP  121
+
+Query  61   LQVLTL  66
+            LQVLTL
+Sbjct  122  LQVLTL  127
+
+
+>gb|AAO46150.1| pol protein [Recombinant M-MuLV/RaLV retrovirus]
+Length=1204
+
+ Score =  117 bits (292),  Expect = 7e-30, Method: Compositional matrix adjust.
+ Identities = 55/66 (83%), Positives = 58/66 (88%), Gaps = 0/66 (0%)
+
+Query  1    RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+            RYRWTTDR+V LATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFE  G +V G  G P
+Sbjct  57   RYRWTTDRRVQLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEEGGTRVTGLRGTP  116
+
+Query  61   LQVLTL  66
+            LQ+LTL
+Sbjct  117  LQILTL  122
+
+
+>gb|AAQ96246.1| LRRGT00033 [Rattus norvegicus]
+Length=2042
+
+ Score =  107 bits (266),  Expect = 2e-26, Method: Compositional matrix adjust.
+ Identities = 48/58 (83%), Positives = 52/58 (90%), Gaps = 0/58 (0%)
+
+Query  1    RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMG  58
+            +YRWT DR+V LATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFE  GA++ GP G
+Sbjct  297  QYRWTMDRRVQLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEEGGARITGPHG  354
+
+
+>gb|AAO46154.1| pol protein [Recombinant M-MuLV/RaLV retrovirus]
+Length=1204
+
+ Score =  106 bits (265),  Expect = 3e-26, Method: Compositional matrix adjust.
+ Identities = 51/66 (77%), Positives = 54/66 (82%), Gaps = 0/66 (0%)
+
+Query  1    RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+            RYRWTTD +V LATGKVTHSFLHV DCPYPLL RDLLTKLKAQIHFE  G +V GP   P
+Sbjct  57   RYRWTTDCRVQLATGKVTHSFLHVLDCPYPLLDRDLLTKLKAQIHFEEGGTRVTGPRSTP  116
+
+Query  61   LQVLTL  66
+            LQ+L L
+Sbjct  117  LQILPL  122
+
+
+>dbj|BAJ16549.1| Gag-Pol precursor polyprotein [RD114 retrovirus]
+Length=1740
+
+ Score = 92.8 bits (229),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 44/65 (68%), Positives = 51/65 (78%), Gaps = 0/65 (0%)
+
+Query  2    YRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQPL  61
+            ++WT  R V L  G VTHSFL VP+CPYPLLGRDLLTKL AQIHF  +GAQV+   GQP+
+Sbjct  609  HKWTNRRTVDLGQGTVTHSFLVVPECPYPLLGRDLLTKLGAQIHFSETGAQVLNRDGQPI  668
+
+Query  62   QVLTL  66
+            QVLT+
+Sbjct  669  QVLTV  673
+
+
+>ref|YP_001497148.1| gag-pol precursor polyprotein [RD114 retrovirus]
+ gb|ABS71856.1| gag-pol precursor polyprotein [RD114 retrovirus]
+Length=1739
+
+ Score = 92.4 bits (228),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 44/65 (68%), Positives = 51/65 (78%), Gaps = 0/65 (0%)
+
+Query  2    YRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQPL  61
+            ++WT  R V L  G VTHSFL VP+CPYPLLGRDLLTKL AQIHF  +GAQV+   GQP+
+Sbjct  609  HKWTNRRTVDLGQGTVTHSFLVVPECPYPLLGRDLLTKLGAQIHFSETGAQVLNRDGQPI  668
+
+Query  62   QVLTL  66
+            QVLT+
+Sbjct  669  QVLTV  673
+
+
+>gb|ABS12072.1| Gag-Pol polyprotein [RD114 retrovirus]
+Length=1740
+
+ Score = 92.4 bits (228),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 44/65 (68%), Positives = 51/65 (78%), Gaps = 0/65 (0%)
+
+Query  2    YRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQPL  61
+            ++WT  R V L  G VTHSFL VP+CPYPLLGRDLLTKL AQIHF  +GAQV+   GQP+
+Sbjct  609  HKWTNRRTVDLGQGTVTHSFLVVPECPYPLLGRDLLTKLGAQIHFSETGAQVLNRDGQPI  668
+
+Query  62   QVLTL  66
+            QVLT+
+Sbjct  669  QVLTV  673
+
+
+>sp|P10272.1|POL_BAEVM RecName: Full=Pol polyprotein; Contains: RecName: Full=Protease; 
+Contains: RecName: Full=Reverse transcriptase/ribonuclease 
+H; Short=RT; Contains: RecName: Full=Integrase; Short=IN
+Length=1189
+
+ Score = 92.0 bits (227),  Expect = 3e-21, Method: Compositional matrix adjust.
+ Identities = 43/65 (66%), Positives = 52/65 (80%), Gaps = 0/65 (0%)
+
+Query  2    YRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQPL  61
+            ++WT  R V+L  G VTHSFL VP+CPYPLLGRDLLTKL AQIHF  +GAQV+   GQP+
+Sbjct  58   HKWTNRRTVNLGQGMVTHSFLVVPECPYPLLGRDLLTKLGAQIHFSEAGAQVLDRDGQPI  117
+
+Query  62   QVLTL  66
+            Q+LT+
+Sbjct  118  QILTV  122
+
+
+>dbj|BAA89659.1| gag-pol precursor polyprotein [Baboon endogenous virus strain 
+M7]
+Length=1727
+
+ Score = 92.0 bits (227),  Expect = 4e-21, Method: Compositional matrix adjust.
+ Identities = 43/65 (66%), Positives = 52/65 (80%), Gaps = 0/65 (0%)
+
+Query  2    YRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQPL  61
+            ++WT  R V+L  G VTHSFL VP+CPYPLLGRDLLTKL AQIHF  +GAQV+   GQP+
+Sbjct  596  HKWTNRRTVNLGQGMVTHSFLVVPECPYPLLGRDLLTKLGAQIHFSEAGAQVLDRDGQPI  655
+
+Query  62   QVLTL  66
+            Q+LT+
+Sbjct  656  QILTV  660
+
+
+>gb|AAQ76545.1| polyprotein [Porcine endogenous retrovirus]
+Length=70
+
+ Score = 77.8 bits (190),  Expect = 2e-18, Method: Compositional matrix adjust.
+ Identities = 39/66 (59%), Positives = 46/66 (70%), Gaps = 1/66 (2%)
+
+Query  1   RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+           +Y WTT R V L  G+VTHSFL +P+CP PLLGRDLLTK+ AQI FE  G   V    +P
+Sbjct  5   QYPWTTRRTVDLGVGRVTHSFLIIPECPAPLLGRDLLTKMGAQISFE-QGKPEVSANNEP  63
+
+Query  61  LQVLTL  66
+           + VLTL
+Sbjct  64  ITVLTL  69
+
+
+>emb|CAA06524.1| protease [Sus scrofa]
+ emb|CAA77278.1| protease [Sus scrofa]
+Length=91
+
+ Score = 78.2 bits (191),  Expect = 2e-18, Method: Compositional matrix adjust.
+ Identities = 40/66 (61%), Positives = 47/66 (71%), Gaps = 1/66 (2%)
+
+Query  1   RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+           +Y WTT R V LA G+VTHSFL +P+CP PLLGRDLLTK+ AQI FE  G   V    +P
+Sbjct  13  QYPWTTRRTVDLAVGRVTHSFLVIPECPVPLLGRDLLTKMGAQISFE-QGRPEVSVNNKP  71
+
+Query  61  LQVLTL  66
+           + VLTL
+Sbjct  72  ITVLTL  77
+
+
+>gb|AAR12227.1| pol protein [Porcine endogenous retrovirus]
+Length=70
+
+ Score = 77.4 bits (189),  Expect = 2e-18, Method: Compositional matrix adjust.
+ Identities = 39/66 (59%), Positives = 46/66 (70%), Gaps = 1/66 (2%)
+
+Query  1   RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+           +Y WTT R V L  G+VTHSFL +P+CP PLLGRDLLTK+ AQI FE  G   V    +P
+Sbjct  5   QYPWTTRRTVDLGVGRVTHSFLVIPECPAPLLGRDLLTKMGAQISFE-QGKPEVSANNKP  63
+
+Query  61  LQVLTL  66
+           + VLTL
+Sbjct  64  ITVLTL  69
+
+
+>emb|CAA06516.1| protease [Sus scrofa]
+Length=91
+
+ Score = 77.4 bits (189),  Expect = 4e-18, Method: Compositional matrix adjust.
+ Identities = 39/66 (59%), Positives = 46/66 (70%), Gaps = 1/66 (2%)
+
+Query  1   RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+           +Y WTT R V L  G+VTHSFL +P+CP PLLGRDLLTK+ AQI FE  G   V    +P
+Sbjct  13  QYPWTTRRTVDLGVGRVTHSFLVIPECPAPLLGRDLLTKMGAQISFE-QGKPEVSANNKP  71
+
+Query  61  LQVLTL  66
+           + VLTL
+Sbjct  72  ITVLTL  77
+
+
+>gb|AAK65957.1|AF163268_1 pol protein [porcine endogenous retrovirus M16]
+Length=97
+
+ Score = 77.4 bits (189),  Expect = 4e-18, Method: Compositional matrix adjust.
+ Identities = 39/66 (59%), Positives = 46/66 (70%), Gaps = 1/66 (2%)
+
+Query  1   RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+           +Y WTT R V L  G+VTHSFL +P+CP PLLGRDLLTK+ AQI FE  G   V    +P
+Sbjct  11  QYPWTTQRTVDLGVGRVTHSFLVIPECPAPLLGRDLLTKMGAQISFE-QGKPEVSANNKP  69
+
+Query  61  LQVLTL  66
+           + VLTL
+Sbjct  70  ITVLTL  75
+
+
+>emb|CAA06517.1| protease [Sus scrofa]
+ emb|CAA06523.1| protease [Sus scrofa]
+Length=91
+
+ Score = 77.4 bits (189),  Expect = 4e-18, Method: Compositional matrix adjust.
+ Identities = 39/66 (59%), Positives = 46/66 (70%), Gaps = 1/66 (2%)
+
+Query  1   RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+           +Y WTT R V L  G+VTHSFL +P+CP PLLGRDLLTK+ AQI FE  G   V    +P
+Sbjct  13  QYPWTTRRTVDLGVGRVTHSFLVIPECPAPLLGRDLLTKMGAQISFE-QGKPEVSANNKP  71
+
+Query  61  LQVLTL  66
+           + VLTL
+Sbjct  72  ITVLTL  77
+
+
+>emb|CAA06518.1| protease [Sus scrofa]
+ emb|CAA77279.1| protease [Sus scrofa]
+Length=91
+
+ Score = 77.4 bits (189),  Expect = 5e-18, Method: Compositional matrix adjust.
+ Identities = 39/66 (59%), Positives = 46/66 (70%), Gaps = 1/66 (2%)
+
+Query  1   RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+           +Y WTT R V L  G+VTHSFL +P+CP PLLGRDLLTK+ AQI FE  G   V    +P
+Sbjct  13  QYPWTTRRTVDLGVGRVTHSFLVIPECPAPLLGRDLLTKMGAQISFE-QGKPEVSANNKP  71
+
+Query  61  LQVLTL  66
+           + VLTL
+Sbjct  72  ITVLTL  77
+
+
+>emb|CAA06514.1| protease [Sus scrofa]
+Length=91
+
+ Score = 77.0 bits (188),  Expect = 5e-18, Method: Compositional matrix adjust.
+ Identities = 39/66 (59%), Positives = 46/66 (70%), Gaps = 1/66 (2%)
+
+Query  1   RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+           +Y WTT R V L  G+VTHSFL +P+CP PLLGRDLLTK+ AQI FE  G   V    +P
+Sbjct  13  QYPWTTRRTVDLGVGRVTHSFLVIPECPIPLLGRDLLTKIGAQISFE-QGKPEVSANNKP  71
+
+Query  61  LQVLTL  66
+           + VLTL
+Sbjct  72  ITVLTL  77
+
+
+>emb|CAA77277.1| protease [Sus scrofa]
+Length=91
+
+ Score = 77.0 bits (188),  Expect = 5e-18, Method: Compositional matrix adjust.
+ Identities = 39/66 (59%), Positives = 46/66 (70%), Gaps = 1/66 (2%)
+
+Query  1   RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+           +Y WTT R V L  G+VTHSFL +P+CP PLLGRDLLTK+ AQI FE  G   V    +P
+Sbjct  13  QYPWTTRRTVDLGVGRVTHSFLVIPECPIPLLGRDLLTKIGAQISFE-QGKPEVSANNKP  71
+
+Query  61  LQVLTL  66
+           + VLTL
+Sbjct  72  ITVLTL  77
+
+
+>emb|CAA06522.1| protease [Sus scrofa]
+ emb|CAA77282.1| protease [Sus scrofa]
+Length=91
+
+ Score = 77.0 bits (188),  Expect = 6e-18, Method: Compositional matrix adjust.
+ Identities = 39/66 (59%), Positives = 46/66 (70%), Gaps = 1/66 (2%)
+
+Query  1   RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+           +Y WTT R V L  G+VTHSFL +P+CP PLLGRDLLTK+ AQI FE  G   V    +P
+Sbjct  13  QYPWTTRRTVDLGVGRVTHSFLVIPECPVPLLGRDLLTKMGAQISFE-QGRPEVSANNKP  71
+
+Query  61  LQVLTL  66
+           + VLTL
+Sbjct  72  ITVLTL  77
+
+
+>emb|CAA06520.1| protease [Sus scrofa]
+Length=91
+
+ Score = 77.0 bits (188),  Expect = 6e-18, Method: Compositional matrix adjust.
+ Identities = 38/66 (58%), Positives = 46/66 (70%), Gaps = 1/66 (2%)
+
+Query  1   RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+           +Y WTT R + L  G+VTHSFL +P+CP PLLGRDLLTK+ AQI FE  G   V    +P
+Sbjct  13  QYPWTTRRTIELGVGRVTHSFLVIPECPIPLLGRDLLTKMGAQISFE-QGKPEVSVNNKP  71
+
+Query  61  LQVLTL  66
+           + VLTL
+Sbjct  72  ITVLTL  77
+
+
+>emb|CAA06525.1| protease [Sus scrofa]
+Length=91
+
+ Score = 77.0 bits (188),  Expect = 7e-18, Method: Compositional matrix adjust.
+ Identities = 39/66 (59%), Positives = 46/66 (70%), Gaps = 1/66 (2%)
+
+Query  1   RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+           +Y WTT R V L  G+VTHSFL +P+CP PLLGRDLLTK+ AQI FE  G   V    +P
+Sbjct  13  QYPWTTRRTVDLGVGRVTHSFLVIPECPVPLLGRDLLTKMGAQISFE-QGRPEVSANNKP  71
+
+Query  61  LQVLTL  66
+           + VLTL
+Sbjct  72  ITVLTL  77
+
+
+>gb|AAQ94398.1| polyprotein [Sus scrofa]
+ gb|AAR12226.1| pol protein [Porcine endogenous retrovirus]
+Length=70
+
+ Score = 76.3 bits (186),  Expect = 8e-18, Method: Compositional matrix adjust.
+ Identities = 38/66 (58%), Positives = 46/66 (70%), Gaps = 1/66 (2%)
+
+Query  1   RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+           +Y WTT R + L  G+VTHSFL +P+CP PLLGRDLLTK+ AQI FE  G   V    +P
+Sbjct  5   QYPWTTRRTIDLGVGRVTHSFLVIPECPVPLLGRDLLTKMGAQISFE-QGRPEVSVNNKP  63
+
+Query  61  LQVLTL  66
+           + VLTL
+Sbjct  64  ITVLTL  69
+
+
+>gb|AAB72155.1| polymerase [porcine endogenous retrovirus]
+Length=134
+
+ Score = 77.4 bits (189),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 39/66 (59%), Positives = 46/66 (70%), Gaps = 1/66 (2%)
+
+Query  1   RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+           +Y WTT R V L  G+VTHSFL +P+CP PLLGRDLLTK+ AQI FE  G   V    +P
+Sbjct  17  QYPWTTRRTVDLGVGRVTHSFLVIPECPAPLLGRDLLTKMGAQISFE-QGKPEVSANNKP  75
+
+Query  61  LQVLTL  66
+           + VLTL
+Sbjct  76  ITVLTL  81
+
+
+>emb|CAA06515.1| protease [Sus scrofa]
+Length=91
+
+ Score = 76.3 bits (186),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 39/66 (59%), Positives = 46/66 (70%), Gaps = 1/66 (2%)
+
+Query  1   RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+           +Y WTT R V L  G+VTHSFL +P+CP PLLGRDLLTK+ AQI FE  G   V    +P
+Sbjct  13  QYPWTTRRTVDLGVGRVTHSFLVIPECPVPLLGRDLLTKMGAQISFE-QGRPEVSVNNKP  71
+
+Query  61  LQVLTL  66
+           + VLTL
+Sbjct  72  ITVLTL  77
+
+
+>emb|CAA77281.1| protease [Sus scrofa]
+Length=91
+
+ Score = 76.3 bits (186),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 39/66 (59%), Positives = 46/66 (70%), Gaps = 1/66 (2%)
+
+Query  1   RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+           +Y WTT R V L  G+VTHSFL +P+CP PLLGRDLLTK+ AQI FE  G   V    +P
+Sbjct  13  QYPWTTRRTVDLGVGRVTHSFLVIPECPLPLLGRDLLTKMGAQISFE-QGRPEVSVNNKP  71
+
+Query  61  LQVLTL  66
+           + VLTL
+Sbjct  72  ITVLTL  77
+
+
+>emb|CAA77280.1| protease [Sus scrofa]
+Length=91
+
+ Score = 75.1 bits (183),  Expect = 4e-17, Method: Compositional matrix adjust.
+ Identities = 38/66 (58%), Positives = 46/66 (70%), Gaps = 1/66 (2%)
+
+Query  1   RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+           +Y WTT R V L  G+VTHSFL +P+CP PLLG DLLTK+ AQI+FE  G   V    +P
+Sbjct  13  QYPWTTRRTVDLGVGRVTHSFLVIPECPIPLLGGDLLTKMGAQIYFE-QGKPEVSANNKP  71
+
+Query  61  LQVLTL  66
+           + VLTL
+Sbjct  72  ITVLTL  77
+
+
+>emb|CAA06519.1| protease [Sus scrofa]
+Length=91
+
+ Score = 74.7 bits (182),  Expect = 5e-17, Method: Compositional matrix adjust.
+ Identities = 38/66 (58%), Positives = 45/66 (68%), Gaps = 1/66 (2%)
+
+Query  1   RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+           +Y WTT R V L  G+VTH FL +P+CP PLLGRDLLTK+ AQI FE  G   V    +P
+Sbjct  13  QYPWTTRRTVDLGVGRVTHLFLVIPECPIPLLGRDLLTKMGAQISFE-QGKPEVSANNKP  71
+
+Query  61  LQVLTL  66
+           + VLTL
+Sbjct  72  ITVLTL  77
+
+
+>gb|AEF12604.1| pol protein [Porcine endogenous retrovirus A]
+Length=152
+
+ Score = 76.3 bits (186),  Expect = 5e-17, Method: Compositional matrix adjust.
+ Identities = 39/66 (59%), Positives = 46/66 (70%), Gaps = 1/66 (2%)
+
+Query  1   RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+           +Y WTT R V L  G+VTHSFL +P+CP PLLGRDLLTK+ AQI FE  G   V    +P
+Sbjct  8   QYPWTTRRTVDLGVGRVTHSFLVIPECPVPLLGRDLLTKMGAQISFE-QGRPEVSVNNKP  66
+
+Query  61  LQVLTL  66
+           + VLTL
+Sbjct  67  ITVLTL  72
+
+
+>emb|CAA06521.1| protease [Sus scrofa]
+Length=91
+
+ Score = 74.7 bits (182),  Expect = 5e-17, Method: Compositional matrix adjust.
+ Identities = 38/66 (58%), Positives = 45/66 (68%), Gaps = 1/66 (2%)
+
+Query  1   RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+           +Y WTT R V L  G+VTH FL +P+CP PLLGRDLLTK+ AQI FE  G   V    +P
+Sbjct  13  QYPWTTRRTVDLGVGRVTHLFLVIPECPIPLLGRDLLTKMGAQISFE-QGKPEVSANNKP  71
+
+Query  61  LQVLTL  66
+           + VLTL
+Sbjct  72  ITVLTL  77
+
+
+>gb|AAK65954.1|AF163265_1 pol protein [porcine endogenous retrovirus FPP-1]
+Length=96
+
+ Score = 72.8 bits (177),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 38/66 (58%), Positives = 45/66 (68%), Gaps = 1/66 (2%)
+
+Query  1   RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+           +Y WTT R V L  G+VTHSFL +P+ P PLLGRDLLTK+ AQI FE  G   V    +P
+Sbjct  10  QYPWTTRRTVDLGVGRVTHSFLVIPEGPVPLLGRDLLTKMGAQISFE-QGKPEVSANNKP  68
+
+Query  61  LQVLTL  66
+           + VLTL
+Sbjct  69  ITVLTL  74
+
+
+>emb|CAB65341.1| unnamed protein product [Porcine endogenous retrovirus]
+Length=2376
+
+ Score = 77.8 bits (190),  Expect = 4e-16, Method: Compositional matrix adjust.
+ Identities = 40/66 (61%), Positives = 47/66 (71%), Gaps = 1/66 (2%)
+
+Query  1    RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+            +Y WTT R V LA G+VTHSFL +P+CP PLLGRDLLTK+ AQI FE  G   V    +P
+Sbjct  581  QYPWTTRRTVDLAVGRVTHSFLVIPECPVPLLGRDLLTKMGAQISFE-QGRPEVSVNNKP  639
+
+Query  61   LQVLTL  66
+            + VLTL
+Sbjct  640  ITVLTL  645
+
+
+>emb|CAB65339.1| unnamed protein product [Porcine endogenous retrovirus]
+Length=2376
+
+ Score = 77.8 bits (190),  Expect = 4e-16, Method: Compositional matrix adjust.
+ Identities = 40/66 (61%), Positives = 47/66 (71%), Gaps = 1/66 (2%)
+
+Query  1    RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+            +Y WTT R V LA G+VTHSFL +P+CP PLLGRDLLTK+ AQI FE  G   V    +P
+Sbjct  581  QYPWTTRRTVDLAVGRVTHSFLVIPECPVPLLGRDLLTKMGAQISFE-QGRPEVSVNNKP  639
+
+Query  61   LQVLTL  66
+            + VLTL
+Sbjct  640  ITVLTL  645
+
+
+>gb|AEI83453.1| pol protein [Sus scrofa]
+Length=1145
+
+ Score = 77.8 bits (190),  Expect = 4e-16, Method: Compositional matrix adjust.
+ Identities = 39/66 (59%), Positives = 46/66 (70%), Gaps = 1/66 (2%)
+
+Query  1   RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+           +Y WTT R V L  G+VTHSFL +P+CP PLLGRDLLTK+ AQI FE  G   V    +P
+Sbjct  8   QYSWTTRRTVDLGVGRVTHSFLVIPECPAPLLGRDLLTKMGAQISFE-QGKPEVSANNKP  66
+
+Query  61  LQVLTL  66
+           + VLTL
+Sbjct  67  ITVLTL  72
+
+
+>gb|AEF12610.1| pol protein [Porcine endogenous retrovirus B]
+Length=1017
+
+ Score = 77.8 bits (190),  Expect = 4e-16, Method: Compositional matrix adjust.
+ Identities = 40/66 (61%), Positives = 47/66 (71%), Gaps = 1/66 (2%)
+
+Query  1   RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+           +Y WTT R V LA G+VTHSFL +P+CP PLLGRDLLTK+ AQI FE  G   V    +P
+Sbjct  8   QYPWTTRRTVDLAVGRVTHSFLVIPECPVPLLGRDLLTKMGAQISFE-QGRPEVSVNNKP  66
+
+Query  61  LQVLTL  66
+           + VLTL
+Sbjct  67  ITVLTL  72
+
+
+>gb|AEI83447.1| pol protein [Sus scrofa]
+Length=1145
+
+ Score = 77.8 bits (190),  Expect = 4e-16, Method: Compositional matrix adjust.
+ Identities = 39/66 (59%), Positives = 46/66 (70%), Gaps = 1/66 (2%)
+
+Query  1   RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+           +Y WTT R V L  G+VTHSFL +P+CP PLLGRDLLTK+ AQI FE  G   V    +P
+Sbjct  8   QYSWTTRRTVDLGVGRVTHSFLVIPECPAPLLGRDLLTKMGAQISFE-QGKPEVSANNKP  66
+
+Query  61  LQVLTL  66
+           + VLTL
+Sbjct  67  ITVLTL  72
+
+
+>gb|AEI83444.1| pol protein [Sus scrofa]
+ gb|AEI83450.1| pol protein [Sus scrofa]
+Length=1145
+
+ Score = 77.8 bits (190),  Expect = 4e-16, Method: Compositional matrix adjust.
+ Identities = 39/66 (59%), Positives = 46/66 (70%), Gaps = 1/66 (2%)
+
+Query  1   RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+           +Y WTT R V L  G+VTHSFL +P+CP PLLGRDLLTK+ AQI FE  G   V    +P
+Sbjct  8   QYSWTTRRTVDLGVGRVTHSFLVIPECPAPLLGRDLLTKMGAQISFE-QGKPEVSANNKP  66
+
+Query  61  LQVLTL  66
+           + VLTL
+Sbjct  67  ITVLTL  72
+
+
+>gb|ACD35951.1| pol polyprotein [Porcine endogenous retrovirus]
+Length=1146
+
+ Score = 77.8 bits (190),  Expect = 4e-16, Method: Compositional matrix adjust.
+ Identities = 40/66 (61%), Positives = 47/66 (71%), Gaps = 1/66 (2%)
+
+Query  1   RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+           +Y WTT R V LA G+VTHSFL +P+CP PLLGRDLLTK+ AQI FE  G   V    +P
+Sbjct  8   QYPWTTRRTVDLAVGRVTHSFLVIPECPVPLLGRDLLTKMGAQISFE-QGRPEVSVNNKP  66
+
+Query  61  LQVLTL  66
+           + VLTL
+Sbjct  67  ITVLTL  72
+
+
+>emb|CAC39626.1| polymerase [Porcine endogenous retrovirus C]
+Length=1195
+
+ Score = 77.8 bits (190),  Expect = 4e-16, Method: Compositional matrix adjust.
+ Identities = 40/66 (61%), Positives = 47/66 (71%), Gaps = 1/66 (2%)
+
+Query  1    RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+            +Y WTT R V LA G+VTHSFL +P+CP PLLGRDLLTK+ AQI FE  G   V    +P
+Sbjct  57   QYPWTTRRTVDLAVGRVTHSFLVIPECPVPLLGRDLLTKMGAQISFE-QGRPEVSVNNKP  115
+
+Query  61   LQVLTL  66
+            + VLTL
+Sbjct  116  ITVLTL  121
+
+
+>gb|AAT77167.1| pol protein [Porcine endogenous retrovirus C/A]
+Length=1193
+
+ Score = 77.8 bits (190),  Expect = 4e-16, Method: Compositional matrix adjust.
+ Identities = 39/66 (59%), Positives = 46/66 (70%), Gaps = 1/66 (2%)
+
+Query  1    RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+            +Y WTT R V L  G+VTHSFL +P+CP PLLGRDLLTK+ AQI FE  G   V    +P
+Sbjct  57   QYSWTTRRTVDLGVGRVTHSFLVIPECPAPLLGRDLLTKMGAQISFE-QGKPEVSANNKP  115
+
+Query  61   LQVLTL  66
+            + VLTL
+Sbjct  116  ITVLTL  121
+
+
+>gb|ADG27337.1| truncated pol protein [Porcine endogenous retrovirus]
+Length=976
+
+ Score = 77.4 bits (189),  Expect = 5e-16, Method: Compositional matrix adjust.
+ Identities = 39/66 (59%), Positives = 46/66 (70%), Gaps = 1/66 (2%)
+
+Query  1   RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+           +Y WTT R V L  G+VTHSFL +P+CP PLLGRDLLTK+ AQI FE  G   V    +P
+Sbjct  8   QYPWTTQRTVDLGVGRVTHSFLVIPECPAPLLGRDLLTKMGAQISFE-QGKPEVSANNKP  66
+
+Query  61  LQVLTL  66
+           + VLTL
+Sbjct  67  ITVLTL  72
+
+
+>gb|AAC48702.1| polyprotein [Sus scrofa domesticus]
+Length=309
+
+ Score = 76.3 bits (186),  Expect = 6e-16, Method: Compositional matrix adjust.
+ Identities = 39/66 (59%), Positives = 46/66 (70%), Gaps = 1/66 (2%)
+
+Query  1   RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+           +Y WTT R V L  G+VTHSFL +P+CP PLLGRDLLTK+ AQI FE  G   V    +P
+Sbjct  27  QYPWTTRRTVDLGVGRVTHSFLVIPECPAPLLGRDLLTKMGAQISFE-QGKPEVSANNKP  85
+
+Query  61  LQVLTL  66
+           + VLTL
+Sbjct  86  ITVLTL  91
+
+
+>emb|CAJ76250.1| polyprotein [Sus scrofa]
+Length=1254
+
+ Score = 77.0 bits (188),  Expect = 6e-16, Method: Compositional matrix adjust.
+ Identities = 39/66 (59%), Positives = 46/66 (70%), Gaps = 1/66 (2%)
+
+Query  1    RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+            +Y WTT R V L  G+VTHSFL +P+CP PLLGRDLLTK+ AQI FE  G   V    +P
+Sbjct  349  QYPWTTRRTVDLGVGRVTHSFLVIPECPAPLLGRDLLTKMGAQISFE-QGKPEVSANNKP  407
+
+Query  61   LQVLTL  66
+            + VLTL
+Sbjct  408  ITVLTL  413
+
+
+>gb|ACF20333.1| putative gag-pol polyprotein [Sus scrofa]
+Length=1313
+
+ Score = 77.0 bits (188),  Expect = 7e-16, Method: Compositional matrix adjust.
+ Identities = 39/66 (59%), Positives = 46/66 (70%), Gaps = 1/66 (2%)
+
+Query  1    RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+            +Y WTT R V L  G+VTHSFL +P+CP PLLGRDLLTK+ AQI FE  G   V    +P
+Sbjct  582  QYPWTTRRTVDLGVGRVTHSFLVIPECPAPLLGRDLLTKMGAQISFE-QGKPEVSANNKP  640
+
+Query  61   LQVLTL  66
+            + VLTL
+Sbjct  641  ITVLTL  646
+
+
+>ref|XP_003482346.1| PREDICTED: hypothetical protein LOC100737717 [Sus scrofa]
+Length=1859
+
+ Score = 77.0 bits (188),  Expect = 7e-16, Method: Compositional matrix adjust.
+ Identities = 39/66 (59%), Positives = 46/66 (70%), Gaps = 1/66 (2%)
+
+Query  1    RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+            +Y WTT R V L  G+VTHSFL +P+CP PLLGRDLLTK+ AQI FE  G   V    +P
+Sbjct  393  QYPWTTRRTVDLGVGRVTHSFLVIPECPAPLLGRDLLTKMGAQISFE-QGKPEVSANNKP  451
+
+Query  61   LQVLTL  66
+            + VLTL
+Sbjct  452  ITVLTL  457
+
+
+>gb|ABM65596.1| pol protein [Sus scrofa]
+ gb|AEI83456.1| pol protein [Sus scrofa]
+Length=1145
+
+ Score = 77.0 bits (188),  Expect = 7e-16, Method: Compositional matrix adjust.
+ Identities = 39/66 (59%), Positives = 46/66 (70%), Gaps = 1/66 (2%)
+
+Query  1   RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+           +Y WTT R V L  G+VTHSFL +P+CP PLLGRDLLTK+ AQI FE  G   V    +P
+Sbjct  8   QYPWTTRRTVDLGVGRVTHSFLVIPECPAPLLGRDLLTKMGAQISFE-QGKPEVSANNKP  66
+
+Query  61  LQVLTL  66
+           + VLTL
+Sbjct  67  ITVLTL  72
+
+
+>emb|CAJ76246.1| polyprotein [Sus scrofa]
+ emb|CAJ76248.1| polyprotein [Sus scrofa]
+Length=1719
+
+ Score = 77.0 bits (188),  Expect = 8e-16, Method: Compositional matrix adjust.
+ Identities = 39/66 (59%), Positives = 46/66 (70%), Gaps = 1/66 (2%)
+
+Query  1    RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+            +Y WTT R V L  G+VTHSFL +P+CP PLLGRDLLTK+ AQI FE  G   V    +P
+Sbjct  582  QYPWTTRRTVDLGVGRVTHSFLVIPECPAPLLGRDLLTKMGAQISFE-QGKPEVSANNKP  640
+
+Query  61   LQVLTL  66
+            + VLTL
+Sbjct  641  ITVLTL  646
+
+
+>gb|AEI83434.1| pol protein [Sus scrofa]
+Length=1144
+
+ Score = 77.0 bits (188),  Expect = 8e-16, Method: Compositional matrix adjust.
+ Identities = 39/66 (59%), Positives = 46/66 (70%), Gaps = 1/66 (2%)
+
+Query  1   RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+           +Y WTT R V L  G+VTHSFL +P+CP PLLGRDLLTK+ AQI FE  G   V    +P
+Sbjct  8   QYPWTTRRTVDLGVGRVTHSFLVIPECPAPLLGRDLLTKMGAQISFE-QGKPEVSANNKP  66
+
+Query  61  LQVLTL  66
+           + VLTL
+Sbjct  67  ITVLTL  72
+
+
+>gb|AAY28928.1| pol protein [Porcine endogenous retrovirus C/A]
+Length=1145
+
+ Score = 77.0 bits (188),  Expect = 8e-16, Method: Compositional matrix adjust.
+ Identities = 39/66 (59%), Positives = 46/66 (70%), Gaps = 1/66 (2%)
+
+Query  1   RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+           +Y WTT R V L  G+VTHSFL +P+CP PLLGRDLLTK+ AQI FE  G   V    +P
+Sbjct  8   QYPWTTRRTVDLGVGRVTHSFLVIPECPAPLLGRDLLTKMGAQISFE-QGKPEVSANNKP  66
+
+Query  61  LQVLTL  66
+           + VLTL
+Sbjct  67  ITVLTL  72
+
+
+>gb|AEI83431.1| pol protein [Sus scrofa]
+Length=1144
+
+ Score = 77.0 bits (188),  Expect = 8e-16, Method: Compositional matrix adjust.
+ Identities = 39/66 (59%), Positives = 46/66 (70%), Gaps = 1/66 (2%)
+
+Query  1   RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+           +Y WTT R V L  G+VTHSFL +P+CP PLLGRDLLTK+ AQI FE  G   V    +P
+Sbjct  8   QYPWTTRRTVDLGVGRVTHSFLVIPECPAPLLGRDLLTKMGAQISFE-QGKPEVSANNKP  66
+
+Query  61  LQVLTL  66
+           + VLTL
+Sbjct  67  ITVLTL  72
+
+
+>gb|AAC16764.1| pol protein [Sus scrofa]
+Length=1145
+
+ Score = 77.0 bits (188),  Expect = 8e-16, Method: Compositional matrix adjust.
+ Identities = 39/66 (59%), Positives = 46/66 (70%), Gaps = 1/66 (2%)
+
+Query  1   RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+           +Y WTT R V L  G+VTHSFL +P+CP PLLGRDLLTK+ AQI FE  G   V    +P
+Sbjct  8   QYPWTTRRTVDLGVGRVTHSFLVIPECPAPLLGRDLLTKMGAQISFE-QGKPEVSANNKP  66
+
+Query  61  LQVLTL  66
+           + VLTL
+Sbjct  67  ITVLTL  72
+
+
+>gb|AEF12607.1| pol protein [Porcine endogenous retrovirus A]
+Length=1144
+
+ Score = 77.0 bits (188),  Expect = 8e-16, Method: Compositional matrix adjust.
+ Identities = 39/66 (59%), Positives = 46/66 (70%), Gaps = 1/66 (2%)
+
+Query  1   RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+           +Y WTT R V L  G+VTHSFL +P+CP PLLGRDLLTK+ AQI FE  G   V    +P
+Sbjct  8   QYPWTTRRTVDLGVGRVTHSFLVIPECPAPLLGRDLLTKMGAQISFE-QGKPEVSANNKP  66
+
+Query  61  LQVLTL  66
+           + VLTL
+Sbjct  67  ITVLTL  72
+
+
+>emb|CAC39617.1| polymerase [Porcine endogenous retrovirus C]
+Length=1193
+
+ Score = 77.0 bits (188),  Expect = 8e-16, Method: Compositional matrix adjust.
+ Identities = 39/66 (59%), Positives = 46/66 (70%), Gaps = 1/66 (2%)
+
+Query  1    RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+            +Y WTT R V L  G+VTHSFL +P+CP PLLGRDLLTK+ AQI FE  G   V    +P
+Sbjct  57   QYPWTTRRTVDLGVGRVTHSFLVIPECPAPLLGRDLLTKMGAQISFE-QGKPEVSANNKP  115
+
+Query  61   LQVLTL  66
+            + VLTL
+Sbjct  116  ITVLTL  121
+
+
+>gb|AAC48701.1| polyprotein [Sus scrofa]
+Length=309
+
+ Score = 75.5 bits (184),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 39/66 (59%), Positives = 46/66 (70%), Gaps = 1/66 (2%)
+
+Query  1   RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+           +Y WTT R V L  G+VTHSFL +P+CP PLLGRDLLTK+ AQI FE  G   V    +P
+Sbjct  27  QYPWTTRRTVDLGVGRVTHSFLVIPECPVPLLGRDLLTKMGAQISFE-QGRPEVSVNNKP  85
+
+Query  61  LQVLTL  66
+           + VLTL
+Sbjct  86  ITVLTL  91
+
+
+>gb|AAF65926.1| gag-pol precursor [Sus scrofa domesticus]
+Length=664
+
+ Score = 76.3 bits (186),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 39/66 (59%), Positives = 46/66 (70%), Gaps = 1/66 (2%)
+
+Query  1    RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+            +Y WTT R V L  G+VTHSFL +P+CP PLLGRDLLTK+ AQI FE  G   V    +P
+Sbjct  582  QYPWTTRRTVDLGVGRVTHSFLVIPECPVPLLGRDLLTKMGAQISFE-QGRPEVSVNNKP  640
+
+Query  61   LQVLTL  66
+            + VLTL
+Sbjct  641  ITVLTL  646
+
+
+>emb|CAB65340.1| unnamed protein product [Porcine endogenous retrovirus]
+Length=2378
+
+ Score = 76.3 bits (186),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 39/66 (59%), Positives = 46/66 (70%), Gaps = 1/66 (2%)
+
+Query  1    RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+            +Y WTT R V L  G+VTHSFL +P+CP PLLGRDLLTK+ AQI FE  G   V    +P
+Sbjct  581  QYPWTTRRTVDLGVGRVTHSFLVIPECPVPLLGRDLLTKMGAQISFE-QGRPEVSVNNKP  639
+
+Query  61   LQVLTL  66
+            + VLTL
+Sbjct  640  ITVLTL  645
+
+
+>gb|AEF12615.1| pol protein [Porcine endogenous retrovirus B]
+Length=616
+
+ Score = 75.9 bits (185),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 39/66 (59%), Positives = 46/66 (70%), Gaps = 1/66 (2%)
+
+Query  1   RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+           +Y WTT R V L  G+VTHSFL +P+CP PLLGRDLLTK+ AQI FE  G   V    +P
+Sbjct  8   QYPWTTRRTVDLGVGRVTHSFLVIPECPVPLLGRDLLTKMGAQISFE-QGRPEVSVNNKP  66
+
+Query  61  LQVLTL  66
+           + VLTL
+Sbjct  67  ITVLTL  72
+
+
+>gb|AAM29194.1| gag-pol polyprotein [porcine endogenous retrovirus B]
+Length=1720
+
+ Score = 75.9 bits (185),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 39/66 (59%), Positives = 46/66 (70%), Gaps = 1/66 (2%)
+
+Query  1    RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+            +Y WTT R V L  G+VTHSFL +P+CP PLLGRDLLTK+ AQI FE  G   V    +P
+Sbjct  582  QYPWTTRRTVDLGVGRVTHSFLVIPECPVPLLGRDLLTKMGAQISFE-QGRPEVSVNNKP  640
+
+Query  61   LQVLTL  66
+            + VLTL
+Sbjct  641  ITVLTL  646
+
+
+>gb|AAL38193.1| pol [porcine endogenous retrovirus]
+Length=1146
+
+ Score = 75.9 bits (185),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 39/66 (59%), Positives = 46/66 (70%), Gaps = 1/66 (2%)
+
+Query  1   RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+           +Y WTT R V L  G+VTHSFL +P+CP PLLGRDLLTK+ AQI FE  G   V    +P
+Sbjct  8   QYPWTTRRTVDLGVGRVTHSFLVIPECPVPLLGRDLLTKMGAQISFE-QGRPEVSVNNKP  66
+
+Query  61  LQVLTL  66
+           + VLTL
+Sbjct  67  ITVLTL  72
+
+
+>gb|AEI83435.1| pol protein [Sus scrofa]
+Length=1146
+
+ Score = 75.9 bits (185),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 39/66 (59%), Positives = 46/66 (70%), Gaps = 1/66 (2%)
+
+Query  1   RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+           +Y WTT R V L  G+VTHSFL +P+CP PLLGRDLLTK+ AQI FE  G   V    +P
+Sbjct  8   QYPWTTRRTVDLGVGRVTHSFLVIPECPVPLLGRDLLTKMGAQISFE-QGRPEVSVNNKP  66
+
+Query  61  LQVLTL  66
+           + VLTL
+Sbjct  67  ITVLTL  72
+
+
+>gb|AAM29192.1| gag-pol polyprotein [porcine endogenous retrovirus A]
+Length=1718
+
+ Score = 75.9 bits (185),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 39/66 (59%), Positives = 46/66 (70%), Gaps = 1/66 (2%)
+
+Query  1    RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+            +Y WTT R V L  G+VTHSFL +P+CP PLLGRDLLTK+ AQI FE  G   V    +P
+Sbjct  582  QYPWTTRRTVDLGVGRVTHSFLVIPECPVPLLGRDLLTKMGAQISFE-QGRPEVSVNNKP  640
+
+Query  61   LQVLTL  66
+            + VLTL
+Sbjct  641  ITVLTL  646
+
+
+>ref|YP_002000605.1| Hypothetical mature Pro protein [Gibbon ape leukemia virus]
+Length=120
+
+ Score = 71.6 bits (174),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 33/52 (63%), Positives = 38/52 (73%), Gaps = 0/52 (0%)
+
+Query  2    YRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQV  53
+            Y WTT R + +   +VTHSFL +P+CP PLLGRDLLTKLKAQI F   G QV
+Sbjct  58   YPWTTKRLLKIGHKQVTHSFLVIPECPAPLLGRDLLTKLKAQIQFSAEGPQV  109
+
+
+>gb|AEI83437.1| pol protein [Sus scrofa]
+Length=1146
+
+ Score = 75.9 bits (185),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 39/66 (59%), Positives = 46/66 (70%), Gaps = 1/66 (2%)
+
+Query  1   RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+           +Y WTT R V L  G+VTHSFL +P+CP PLLGRDLLTK+ AQI FE  G   V    +P
+Sbjct  8   QYPWTTRRTVDLGVGRVTHSFLVIPECPVPLLGRDLLTKMGAQISFE-QGRPEVSVNNKP  66
+
+Query  61  LQVLTL  66
+           + VLTL
+Sbjct  67  ITVLTL  72
+
+
+>gb|AAC16767.1| pol protein [Sus scrofa]
+Length=410
+
+ Score = 75.9 bits (185),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 39/66 (59%), Positives = 46/66 (70%), Gaps = 1/66 (2%)
+
+Query  1   RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+           +Y WTT R V L  G+VTHSFL +P+CP PLLGRDLLTK+ AQI FE  G   V    +P
+Sbjct  8   QYPWTTRRTVDLGVGRVTHSFLVIPECPVPLLGRDLLTKMGAQISFE-QGRPEVSVNNKP  66
+
+Query  61  LQVLTL  66
+           + VLTL
+Sbjct  67  ITVLTL  72
+
+
+>emb|CAC82505.2| Pol protein [Porcine endogenous retrovirus]
+Length=1147
+
+ Score = 75.5 bits (184),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 39/66 (59%), Positives = 46/66 (70%), Gaps = 1/66 (2%)
+
+Query  1   RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+           +Y WTT R V L  G+VTHSFL +P+CP PLLGRDLLTK+ AQI FE  G   V    +P
+Sbjct  8   QYPWTTRRTVDLVVGRVTHSFLVIPECPVPLLGRDLLTKMGAQISFE-QGRPEVSVDNKP  66
+
+Query  61  LQVLTL  66
+           + VLTL
+Sbjct  67  ITVLTL  72
+
+
+>gb|ABL74442.1| pol protein [Porcine endogenous retrovirus C]
+Length=1144
+
+ Score = 75.1 bits (183),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 38/65 (58%), Positives = 45/65 (69%), Gaps = 1/65 (2%)
+
+Query  1   RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+           +Y WTT R V L  G+VTHSFL +P+CP PLLGRDLLTK+ AQI FE  G   V    +P
+Sbjct  8   QYPWTTRRTVDLGVGRVTHSFLVIPECPVPLLGRDLLTKMGAQISFE-QGRPEVSANNKP  66
+
+Query  61  LQVLT  65
+           + VLT
+Sbjct  67  ITVLT  71
+
+
+>emb|CCD14034.1| unnamed protein product [Trypanosoma congolense IL3000]
+Length=232
+
+ Score = 73.6 bits (179),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 32/52 (62%), Positives = 38/52 (73%), Gaps = 0/52 (0%)
+
+Query  2   YRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQV  53
+           Y WTT+R + +    VTHSFL +P+CP PLLGRDLLTKLKAQ+ F   G QV
+Sbjct  11  YPWTTERALQINKNIVTHSFLVIPECPAPLLGRDLLTKLKAQVQFTSEGPQV  62
+
+
+>gb|ADK35878.1| pol protein [Porcine endogenous retrovirus C]
+Length=1145
+
+ Score = 74.3 bits (181),  Expect = 6e-15, Method: Compositional matrix adjust.
+ Identities = 38/66 (58%), Positives = 45/66 (68%), Gaps = 1/66 (2%)
+
+Query  1   RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+           +Y WTT R V L  G+VTH FL +P+CP PLLGRDLLTK+ AQI FE  G   V    +P
+Sbjct  8   QYPWTTRRTVDLGVGRVTHLFLVIPECPIPLLGRDLLTKMGAQISFE-QGKPEVSANNKP  66
+
+Query  61  LQVLTL  66
+           + VLTL
+Sbjct  67  ITVLTL  72
+
+
+>emb|CAA06526.1| protease [Sus scrofa]
+Length=91
+
+ Score = 69.3 bits (168),  Expect = 7e-15, Method: Compositional matrix adjust.
+ Identities = 37/66 (56%), Positives = 44/66 (67%), Gaps = 1/66 (2%)
+
+Query  1   RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+           +Y WTT R V L  G+VTHSFL + + P PLLGRDLLTK+ AQI FE  G   V    +P
+Sbjct  13  QYPWTTRRTVDLGVGRVTHSFLVILEGPIPLLGRDLLTKMGAQISFE-QGKPEVSANNKP  71
+
+Query  61  LQVLTL  66
+           + VLTL
+Sbjct  72  ITVLTL  77
+
+
+>gb|AAR11973.1| truncated pol protein [Porcine endogenous retrovirus]
+Length=60
+
+ Score = 68.2 bits (165),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 30/54 (56%), Positives = 38/54 (70%), Gaps = 0/54 (0%)
+
+Query  1   RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVV  54
+           +Y WTT R   L  G+VTHSF+ +P+CP PLLG+DLLTK+ AQI FE    + V
+Sbjct  5   QYPWTTRRTXDLGVGRVTHSFMVIPECPVPLLGKDLLTKMGAQISFEARKTRSV  58
+
+
+>ref|NP_056790.1| Pol polyprotein [Gibbon ape leukemia virus]
+ sp|P21414.1|POL_GALV RecName: Full=Pol polyprotein; Contains: RecName: Full=Protease; 
+Contains: RecName: Full=Reverse transcriptase/ribonuclease 
+H; Short=RT; Contains: RecName: Full=Integrase; Short=IN
+ gb|AAA46810.1| pol polyprotein [Gibbon ape leukemia virus]
+Length=1165
+
+ Score = 71.6 bits (174),  Expect = 6e-14, Method: Compositional matrix adjust.
+ Identities = 33/52 (63%), Positives = 38/52 (73%), Gaps = 0/52 (0%)
+
+Query  2    YRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQV  53
+            Y WTT R + +   +VTHSFL +P+CP PLLGRDLLTKLKAQI F   G QV
+Sbjct  58   YPWTTKRLLKIGHKQVTHSFLVIPECPAPLLGRDLLTKLKAQIQFSAEGPQV  109
+
+
+>gb|AAC80264.1| pol polyprotein [Gibbon ape leukemia virus]
+Length=1127
+
+ Score = 71.6 bits (174),  Expect = 6e-14, Method: Compositional matrix adjust.
+ Identities = 33/52 (63%), Positives = 38/52 (73%), Gaps = 0/52 (0%)
+
+Query  2   YRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQV  53
+           Y WTT R + +   +VTHSFL +P+CP PLLGRDLLTKLKAQI F   G QV
+Sbjct  20  YPWTTKRLLKIGHKQVTHSFLVIPECPAPLLGRDLLTKLKAQIQFSAEGPQV  71
+
+
+>gb|AAC31805.1| pol polyprotein [Mus dunni endogenous virus]
+Length=1203
+
+ Score = 71.2 bits (173),  Expect = 7e-14, Method: Compositional matrix adjust.
+ Identities = 32/52 (62%), Positives = 37/52 (71%), Gaps = 0/52 (0%)
+
+Query  2    YRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQV  53
+            Y WTT R + +    VTHSFL +P+CP PLLGRDLLTKLKAQ+ F   G QV
+Sbjct  58   YPWTTKRALQIDKNMVTHSFLVIPECPAPLLGRDLLTKLKAQVQFTSEGPQV  109
+
+
+>sp|Q9TTC1.1|POL_KORV RecName: Full=Pro-Pol polyprotein; AltName: Full=Pr125Pol; Contains: 
+RecName: Full=Protease/Reverse transcriptase/ribonuclease 
+H; AltName: Full=p87Pro-RT-RNaseH; Contains: RecName: 
+Full=Integrase; Short=IN; AltName: Full=p42In
+ gb|AAF15098.1| pol protein [Phascolarctos cinereus]
+Length=1127
+
+ Score = 71.2 bits (173),  Expect = 8e-14, Method: Compositional matrix adjust.
+ Identities = 33/52 (63%), Positives = 38/52 (73%), Gaps = 0/52 (0%)
+
+Query  2   YRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQV  53
+           Y WTT R + +   +VTHSFL +P+CP PLLGRDLLTKLKAQI F   G QV
+Sbjct  20  YPWTTKRLLKIGQKQVTHSFLVIPECPAPLLGRDLLTKLKAQIQFSTEGPQV  71
+
+
+>emb|CAC82502.1| Pol protein [Porcine endogenous retrovirus]
+Length=1144
+
+ Score = 70.1 bits (170),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 36/66 (55%), Positives = 43/66 (65%), Gaps = 1/66 (2%)
+
+Query  1   RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+           +Y WTT R V L  G+VT SFL +P+CP PLLGRDLLT +  QI FE  G   V    +P
+Sbjct  8   QYPWTTRRTVDLGVGRVTQSFLGIPECPEPLLGRDLLTTMGRQIFFE-QGTPEVSANNKP  66
+
+Query  61  LQVLTL  66
+           + VLTL
+Sbjct  67  ITVLTL  72
+
+
+>gb|AAL87856.1|AF435967_2 pol protein [porcine endogenous retrovirus]
+Length=1142
+
+ Score = 70.1 bits (170),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 36/66 (55%), Positives = 43/66 (65%), Gaps = 1/66 (2%)
+
+Query  1   RYRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+           +Y WTT R V L  G+VT SFL +P+CP PLLGRDLLT +  QI FE  G   V    +P
+Sbjct  8   QYPWTTRRTVDLGVGRVTQSFLGIPECPEPLLGRDLLTTMGRQIFFE-QGTPEVSANNKP  66
+
+Query  61  LQVLTL  66
+           + VLTL
+Sbjct  67  ITVLTL  72
+
+
+>emb|CCD15559.1| unnamed protein product [Trypanosoma congolense IL3000]
+Length=274
+
+ Score = 68.9 bits (167),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 30/52 (58%), Positives = 37/52 (71%), Gaps = 0/52 (0%)
+
+Query  2   YRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQV  53
+           Y WTT R + +    VTHSFL +P+CP PLLGRDLLTKLKAQ+ F   G ++
+Sbjct  11  YPWTTKRALQIDKNIVTHSFLVIPECPAPLLGRDLLTKLKAQVQFTSEGPRI  62
+
+
+>emb|CCD12124.1| unnamed protein product [Trypanosoma congolense IL3000]
+Length=736
+
+ Score = 69.3 bits (168),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 30/52 (58%), Positives = 37/52 (71%), Gaps = 0/52 (0%)
+
+Query  2   YRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQV  53
+           Y WTT R + +    VTHSFL +P+CP PLLGRDLLTKLKAQ+ F   G ++
+Sbjct  11  YPWTTKRALQINKNVVTHSFLVIPECPAPLLGRDLLTKLKAQVQFTSEGPRI  62
+
+
+>gb|AAR11972.1| truncated pol protein [Porcine endogenous retrovirus]
+Length=61
+
+ Score = 63.2 bits (152),  Expect = 8e-13, Method: Compositional matrix adjust.
+ Identities = 31/48 (65%), Positives = 36/48 (75%), Gaps = 1/48 (2%)
+
+Query  1   RYRWTTDRKVHLATGKVTHSFL-HVPDCPYPLLGRDLLTKLKAQIHFE  47
+           +Y WTT R V L  G+VTHSFL  +P+CP PLL RDLLTK+ AQI FE
+Sbjct  5   QYPWTTRRTVDLGVGRVTHSFLVIIPECPAPLLCRDLLTKMGAQISFE  52
+
+
+>gb|AAA63525.1| gag protein [Spleen necrosis virus]
+Length=179
+
+ Score = 59.7 bits (143),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 29/49 (59%), Positives = 33/49 (67%), Gaps = 0/49 (0%)
+
+Query  2    YRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSG  50
+            Y  +  R V L  G VTHSFL +P+CP PLLGRDLL KL+A I F G G
+Sbjct  117  YPKSEGRLVDLGRGLVTHSFLVIPECPDPLLGRDLLQKLRATISFTGEG  165
+
+
+>gb|AAC59312.1| polyprotein [Porcine endogenous retrovirus C]
+Length=270
+
+ Score = 60.5 bits (145),  Expect = 3e-10, Method: Compositional matrix adjust.
+ Identities = 31/51 (61%), Positives = 37/51 (73%), Gaps = 1/51 (2%)
+
+Query  16  KVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQPLQVLTL  66
+           +VTHSFL +P+CP PLLGRDLLTK+ AQI FE  G   V    +P+ VLTL
+Sbjct  1   RVTHSFLVIPECPAPLLGRDLLTKMGAQISFE-QGKPEVSANNKPITVLTL  50
+
+
+>gb|AAC58240.1| protease/polymerase [Fowlpox virus]
+Length=327
+
+ Score = 59.3 bits (142),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 29/49 (59%), Positives = 33/49 (67%), Gaps = 0/49 (0%)
+
+Query  2    YRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSG  50
+            Y  +  R V L  G VTHSFL +P+CP PLLGRDLL KL+A I F G G
+Sbjct  59   YPKSEGRLVDLGRGLVTHSFLVIPECPDPLLGRDLLQKLRATISFTGEG  107
+
+
+>gb|ACJ65656.1| pol protein [Reticuloendotheliosis virus]
+Length=1193
+
+ Score = 58.9 bits (141),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 29/49 (59%), Positives = 33/49 (67%), Gaps = 0/49 (0%)
+
+Query  2    YRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSG  50
+            Y  +  R V L  G VTHSFL +P+CP PLLGRDLL KL+A I F G G
+Sbjct  59   YPKSEGRLVDLGRGLVTHSFLVIPECPDPLLGRDLLQKLRATISFTGEG  107
+
+
+>gb|ABC26818.1| polymerase [Reticuloendotheliosis virus]
+Length=1152
+
+ Score = 58.5 bits (140),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 29/49 (59%), Positives = 33/49 (67%), Gaps = 0/49 (0%)
+
+Query  2   YRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSG  50
+           Y  +  R V L  G VTHSFL +P+CP PLLGRDLL KL+A I F G G
+Sbjct  18  YPKSEGRLVDLGRGLVTHSFLVIPECPDPLLGRDLLQKLRATISFTGEG  66
+
+
+>gb|ACJ65653.1| pol protein [Reticuloendotheliosis virus]
+Length=1193
+
+ Score = 58.5 bits (140),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 29/49 (59%), Positives = 33/49 (67%), Gaps = 0/49 (0%)
+
+Query  2    YRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSG  50
+            Y  +  R V L  G VTHSFL +P+CP PLLGRDLL KL+A I F G G
+Sbjct  59   YPKSEGRLVDLGRGLVTHSFLVIPECPDPLLGRDLLQKLRATISFTGEG  107
+
+
+>gb|ACT75574.1| pol protein [Reticuloendotheliosis virus]
+Length=1193
+
+ Score = 58.5 bits (140),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 29/49 (59%), Positives = 33/49 (67%), Gaps = 0/49 (0%)
+
+Query  2    YRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSG  50
+            Y  +  R V L  G VTHSFL +P+CP PLLGRDLL KL+A I F G G
+Sbjct  59   YPKSEGRLVDLGRGLVTHSFLVIPECPDPLLGRDLLQKLRATISFTGEG  107
+
+
+>gb|AAZ57418.1| polymerase [Reticuloendotheliosis virus]
+Length=1193
+
+ Score = 58.5 bits (140),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 29/49 (59%), Positives = 33/49 (67%), Gaps = 0/49 (0%)
+
+Query  2    YRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSG  50
+            Y  +  R V L  G VTHSFL +P+CP PLLGRDLL KL+A I F G G
+Sbjct  59   YPKSEGRLVDLGRGLVTHSFLVIPECPDPLLGRDLLQKLRATISFTGEG  107
+
+
+>gb|AEB80488.1| pol protein [Reticuloendotheliosis virus]
+Length=1193
+
+ Score = 58.5 bits (140),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 29/49 (59%), Positives = 33/49 (67%), Gaps = 0/49 (0%)
+
+Query  2    YRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSG  50
+            Y  +  R V L  G VTHSFL +P+CP PLLGRDLL KL+A I F G G
+Sbjct  59   YPKSEGRLVDLGRGLVTHSFLVIPECPDPLLGRDLLQKLRATISFTGEG  107
+
+
+>gb|ABD46829.1| pol protein [Reticuloendotheliosis virus]
+Length=1193
+
+ Score = 58.5 bits (140),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 29/49 (59%), Positives = 33/49 (67%), Gaps = 0/49 (0%)
+
+Query  2    YRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSG  50
+            Y  +  R V L  G VTHSFL +P+CP PLLGRDLL KL+A I F G G
+Sbjct  59   YPKSEGRLVDLGRGLVTHSFLVIPECPDPLLGRDLLQKLRATISFTGEG  107
+
+
+>gb|ABC26820.1| polymerase [Reticuloendotheliosis virus]
+Length=1152
+
+ Score = 58.5 bits (140),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 29/49 (59%), Positives = 33/49 (67%), Gaps = 0/49 (0%)
+
+Query  2   YRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSG  50
+           Y  +  R V L  G VTHSFL +P+CP PLLGRDLL KL+A I F G G
+Sbjct  18  YPKSEGRLVDLGRGLVTHSFLVIPECPDPLLGRDLLQKLRATISFTGEG  66
+
+
+>gb|AAF81697.2|AF246698_1 protease/polymerase [Fowlpox virus]
+Length=1193
+
+ Score = 58.5 bits (140),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 29/49 (59%), Positives = 33/49 (67%), Gaps = 0/49 (0%)
+
+Query  2    YRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSG  50
+            Y  +  R V L  G VTHSFL +P+CP PLLGRDLL KL+A I F G G
+Sbjct  59   YPKSEGRLVDLGRGLVTHSFLVIPECPDPLLGRDLLQKLRATISFTGEG  107
+
+
+>ref|YP_223871.1| protease/polymerase [Reticuloendotheliosis virus]
+ gb|AAW57300.1| protease/polymerase [Reticuloendotheliosis virus]
+Length=1193
+
+ Score = 58.5 bits (140),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 29/49 (59%), Positives = 33/49 (67%), Gaps = 0/49 (0%)
+
+Query  2    YRWTTDRKVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSG  50
+            Y  +  R V L  G VTHSFL +P+CP PLLGRDLL KL+A I F G G
+Sbjct  59   YPKSEGRLVDLGRGLVTHSFLVIPECPDPLLGRDLLQKLRATISFTGGG  107
+
+
+>gb|AAP06677.1| pol protein [Human endogenous retrovirus HCML-ARV]
+ gb|AAP29639.1| pol protein [Homo sapiens]
+Length=1183
+
+ Score = 52.8 bits (125),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 23/36 (64%), Positives = 28/36 (78%), Gaps = 0/36 (0%)
+
+Query  16  KVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGA  51
+           KV H FL++PDCP PLLGRDLL+KL+A I F   G+
+Sbjct  62  KVIHQFLYMPDCPLPLLGRDLLSKLRATISFTEHGS  97
+
+
+>gb|AAA73090.1| unknown [Homo sapiens]
+Length=395
+
+ Score = 52.8 bits (125),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 23/36 (64%), Positives = 28/36 (78%), Gaps = 0/36 (0%)
+
+Query  16  KVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGA  51
+           KV H FL++PDCP PLLGRDLL+KL+A I F   G+
+Sbjct  59  KVIHQFLYMPDCPLPLLGRDLLSKLRATISFTEHGS  94
+
+
+>gb|ADU55779.1| pol protein [XMRV]
+Length=588
+
+ Score = 50.1 bits (118),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 23/23 (100%), Positives = 23/23 (100%), Gaps = 0/23 (0%)
+
+Query  44  IHFEGSGAQVVGPMGQPLQVLTL  66
+           IHFEGSGAQVVGPMGQPLQVLTL
+Sbjct  1   IHFEGSGAQVVGPMGQPLQVLTL  23
+
+
+>gb|ADU55776.1| pol protein [XMRV]
+Length=588
+
+ Score = 50.1 bits (118),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 23/23 (100%), Positives = 23/23 (100%), Gaps = 0/23 (0%)
+
+Query  44  IHFEGSGAQVVGPMGQPLQVLTL  66
+           IHFEGSGAQVVGPMGQPLQVLTL
+Sbjct  1   IHFEGSGAQVVGPMGQPLQVLTL  23
+
+
+>gb|ADU55775.1| pol protein [XMRV]
+Length=588
+
+ Score = 50.1 bits (118),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 23/23 (100%), Positives = 23/23 (100%), Gaps = 0/23 (0%)
+
+Query  44  IHFEGSGAQVVGPMGQPLQVLTL  66
+           IHFEGSGAQVVGPMGQPLQVLTL
+Sbjct  1   IHFEGSGAQVVGPMGQPLQVLTL  23
+
+
+>gb|ADU55774.1| pol protein [XMRV]
+Length=588
+
+ Score = 50.1 bits (118),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 23/23 (100%), Positives = 23/23 (100%), Gaps = 0/23 (0%)
+
+Query  44  IHFEGSGAQVVGPMGQPLQVLTL  66
+           IHFEGSGAQVVGPMGQPLQVLTL
+Sbjct  1   IHFEGSGAQVVGPMGQPLQVLTL  23
+
+
+>gb|ADU55773.1| pol protein [XMRV]
+Length=588
+
+ Score = 50.1 bits (118),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 23/23 (100%), Positives = 23/23 (100%), Gaps = 0/23 (0%)
+
+Query  44  IHFEGSGAQVVGPMGQPLQVLTL  66
+           IHFEGSGAQVVGPMGQPLQVLTL
+Sbjct  1   IHFEGSGAQVVGPMGQPLQVLTL  23
+
+
+>gb|ADU55771.1| pol protein [XMRV]
+Length=588
+
+ Score = 50.1 bits (118),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 23/23 (100%), Positives = 23/23 (100%), Gaps = 0/23 (0%)
+
+Query  44  IHFEGSGAQVVGPMGQPLQVLTL  66
+           IHFEGSGAQVVGPMGQPLQVLTL
+Sbjct  1   IHFEGSGAQVVGPMGQPLQVLTL  23
+
+
+>gb|ADU55778.1| pol protein [XMRV]
+Length=588
+
+ Score = 50.1 bits (118),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 23/23 (100%), Positives = 23/23 (100%), Gaps = 0/23 (0%)
+
+Query  44  IHFEGSGAQVVGPMGQPLQVLTL  66
+           IHFEGSGAQVVGPMGQPLQVLTL
+Sbjct  1   IHFEGSGAQVVGPMGQPLQVLTL  23
+
+
+>gb|ADU55777.1| pol protein [XMRV]
+Length=588
+
+ Score = 50.1 bits (118),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 23/23 (100%), Positives = 23/23 (100%), Gaps = 0/23 (0%)
+
+Query  44  IHFEGSGAQVVGPMGQPLQVLTL  66
+           IHFEGSGAQVVGPMGQPLQVLTL
+Sbjct  1   IHFEGSGAQVVGPMGQPLQVLTL  23
+
+
+>gb|ADU55769.1| pol protein [XMRV]
+Length=588
+
+ Score = 50.1 bits (118),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 23/23 (100%), Positives = 23/23 (100%), Gaps = 0/23 (0%)
+
+Query  44  IHFEGSGAQVVGPMGQPLQVLTL  66
+           IHFEGSGAQVVGPMGQPLQVLTL
+Sbjct  1   IHFEGSGAQVVGPMGQPLQVLTL  23
+
+
+>gb|ADU55770.1| pol protein [XMRV]
+Length=579
+
+ Score = 50.1 bits (118),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 23/23 (100%), Positives = 23/23 (100%), Gaps = 0/23 (0%)
+
+Query  44  IHFEGSGAQVVGPMGQPLQVLTL  66
+           IHFEGSGAQVVGPMGQPLQVLTL
+Sbjct  1   IHFEGSGAQVVGPMGQPLQVLTL  23
+
+
+>gb|ADU55772.1| pol protein [XMRV]
+Length=587
+
+ Score = 48.1 bits (113),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 22/22 (100%), Positives = 22/22 (100%), Gaps = 0/22 (0%)
+
+Query  45  HFEGSGAQVVGPMGQPLQVLTL  66
+           HFEGSGAQVVGPMGQPLQVLTL
+Sbjct  1   HFEGSGAQVVGPMGQPLQVLTL  22
+
+
+>gb|AAA65999.1| neutral protease large subunit [Homo sapiens]
+Length=166
+
+ Score = 42.7 bits (99),  Expect = 6e-04, Method: Compositional matrix adjust.
+ Identities = 18/30 (60%), Positives = 22/30 (73%), Gaps = 0/30 (0%)
+
+Query  19   HSFLHVPDCPYPLLGRDLLTKLKAQIHFEG  48
+            HSFL +P CP PLLGR++LTKL A +   G
+Sbjct  102  HSFLVIPTCPLPLLGRNILTKLSASLTIPG  131
+
+
+>ref|XP_002195379.1| PREDICTED: similar to polyprotein [Taeniopygia guttata]
+Length=1542
+
+ Score = 41.6 bits (96),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 17/30 (57%), Positives = 23/30 (77%), Gaps = 0/30 (0%)
+
+Query  19   HSFLHVPDCPYPLLGRDLLTKLKAQIHFEG  48
+            H FL++P+ P PLLGRDLL +L+A I F+ 
+Sbjct  445  HKFLYMPNSPEPLLGRDLLAQLQATITFKN  474
+
+
+>ref|YP_443922.1| polyprotein [Atlantic salmon swim bladder sarcoma virus]
+ gb|ABA54982.1| polyprotein [Atlantic salmon swim bladder sarcoma virus]
+Length=2146
+
+ Score = 40.4 bits (93),  Expect = 0.006, Method: Compositional matrix adjust.
+ Identities = 18/37 (49%), Positives = 23/37 (62%), Gaps = 0/37 (0%)
+
+Query  17   VTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQV  53
+            V H FL+ P+CP  LLGRDLL +L   I+    G +V
+Sbjct  840  VRHQFLYCPNCPINLLGRDLLCRLGCFINLTEDGVEV  876
+
+
+>gb|AAB66528.1| polyprotein [multiple sclerosis associated retrovirus]
+Length=768
+
+ Score = 40.0 bits (92),  Expect = 0.007, Method: Compositional matrix adjust.
+ Identities = 19/41 (46%), Positives = 26/41 (63%), Gaps = 1/41 (2%)
+
+Query  18   THSFLHVPDCPYPLLGRDLLTKLKAQIHFE-GSGAQVVGPM  57
+            +H+FL +P+ P PLLGRD+L K  A IH   G G  +  P+
+Sbjct  85   SHAFLIMPESPTPLLGRDILAKAGAIIHLNIGKGIPICCPL  125
+
+
+>ref|XP_001788163.1| PREDICTED: hCG2040432-like, partial [Bos taurus]
+Length=371
+
+ Score = 39.3 bits (90),  Expect = 0.014, Method: Compositional matrix adjust.
+ Identities = 19/44 (43%), Positives = 25/44 (57%), Gaps = 0/44 (0%)
+
+Query  17   VTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+            + HSFL +P  P PLLGRDLL+KL+  I      + +   M  P
+Sbjct  80   LIHSFLIMPQYPIPLLGRDLLSKLRVSITIPPLDSSLCSEMDYP  123
+
+
+>ref|XP_002188773.1| PREDICTED: similar to Pol polyprotein [Taeniopygia guttata]
+Length=1252
+
+ Score = 39.3 bits (90),  Expect = 0.016, Method: Compositional matrix adjust.
+ Identities = 19/48 (40%), Positives = 30/48 (63%), Gaps = 0/48 (0%)
+
+Query  19   HSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQPLQVLTL  66
+            H FL++P+ P  LLGRDLL +L A+I F+     +     Q +++L+L
+Sbjct  253  HRFLYMPNAPSALLGRDLLEQLDAKIIFKNGDISLEVKDQQYVELLSL  300
+
+
+>ref|XP_002197569.1| PREDICTED: similar to polyprotein [Taeniopygia guttata]
+Length=1248
+
+ Score = 39.3 bits (90),  Expect = 0.017, Method: Compositional matrix adjust.
+ Identities = 19/48 (40%), Positives = 30/48 (63%), Gaps = 0/48 (0%)
+
+Query  19   HSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQPLQVLTL  66
+            H FL++P+ P  LLGRDLL +L A+I F+     +     Q +++L+L
+Sbjct  245  HRFLYMPNAPSALLGRDLLEQLDAKIIFKNGDISLEVKDQQYVELLSL  292
+
+
+>ref|XP_002196183.1| PREDICTED: similar to Gag-Pol polyprotein [Taeniopygia guttata]
+Length=1318
+
+ Score = 38.9 bits (89),  Expect = 0.018, Method: Compositional matrix adjust.
+ Identities = 19/48 (40%), Positives = 30/48 (63%), Gaps = 0/48 (0%)
+
+Query  19   HSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQPLQVLTL  66
+            H FL++P+ P  LLGRDLL +L A+I F+     +     Q +++L+L
+Sbjct  210  HRFLYMPNAPSALLGRDLLEQLDAKIIFKNGDISLEVKDQQYVELLSL  257
+
+
+>ref|XP_002199375.1| PREDICTED: similar to polyprotein [Taeniopygia guttata]
+Length=1397
+
+ Score = 38.9 bits (89),  Expect = 0.019, Method: Compositional matrix adjust.
+ Identities = 19/48 (40%), Positives = 30/48 (63%), Gaps = 0/48 (0%)
+
+Query  19   HSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQPLQVLTL  66
+            H FL++P+ P  LLGRDLL +L A+I F+     +     Q +++L+L
+Sbjct  289  HRFLYMPNAPSALLGRDLLEQLDAKIIFKNGDISLEVKDQQYVELLSL  336
+
+
+>gb|AAB66527.1| protease [multiple sclerosis associated retrovirus]
+Length=114
+
+ Score = 37.7 bits (86),  Expect = 0.022, Method: Compositional matrix adjust.
+ Identities = 16/30 (53%), Positives = 21/30 (70%), Gaps = 0/30 (0%)
+
+Query  18   THSFLHVPDCPYPLLGRDLLTKLKAQIHFE  47
+            +H+FL +P+ P PLLGRD+L K  A IH  
+Sbjct  85   SHAFLIMPESPTPLLGRDILAKAGAIIHLN  114
+
+
+>gb|AAF74214.1|AF156962_1 protease [Homo sapiens]
+Length=147
+
+ Score = 38.1 bits (87),  Expect = 0.027, Method: Compositional matrix adjust.
+ Identities = 17/34 (50%), Positives = 22/34 (65%), Gaps = 0/34 (0%)
+
+Query  14   TGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFE  47
+            T   +H+FL +P+ P PLLGRD+L K  A IH  
+Sbjct  76   TSLFSHAFLIMPESPTPLLGRDILAKAGAIIHLN  109
+
+
+>ref|XP_002199481.1| PREDICTED: similar to Gag-Pol polyprotein, partial [Taeniopygia 
+guttata]
+Length=1174
+
+ Score = 38.5 bits (88),  Expect = 0.032, Method: Compositional matrix adjust.
+ Identities = 19/48 (40%), Positives = 30/48 (63%), Gaps = 0/48 (0%)
+
+Query  19   HSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQPLQVLTL  66
+            H FL++P+ P  LLGRDLL +L A+I F+     +     Q +++L+L
+Sbjct  66   HWFLYMPNAPSALLGRDLLEQLDAKIIFKNGDISLEVKDQQYVELLSL  113
+
+
+>ref|XP_002195934.1| PREDICTED: similar to pol protein, partial [Taeniopygia guttata]
+Length=1187
+
+ Score = 37.7 bits (86),  Expect = 0.045, Method: Compositional matrix adjust.
+ Identities = 16/30 (53%), Positives = 22/30 (73%), Gaps = 0/30 (0%)
+
+Query  19   HSFLHVPDCPYPLLGRDLLTKLKAQIHFEG  48
+            H FL++P+ P  LLGRDLL +L A+I F+ 
+Sbjct  143  HRFLYMPNAPSALLGRDLLEQLDAKIIFKN  172
+
+
+>ref|XP_002186561.1| PREDICTED: similar to polyprotein [Taeniopygia guttata]
+Length=609
+
+ Score = 37.7 bits (86),  Expect = 0.049, Method: Composition-based stats.
+ Identities = 19/48 (40%), Positives = 30/48 (63%), Gaps = 0/48 (0%)
+
+Query  19   HSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQPLQVLTL  66
+            H FL++P+ P  LLGRDLL +L A+I F+     +     Q +++L+L
+Sbjct  256  HRFLYMPNAPSALLGRDLLEQLDAKIIFKNGDISLEVKDQQYVELLSL  303
+
+
+>ref|ZP_01622650.1| ATP-dependent Clp protease adaptor protein ClpS [Lyngbya sp. 
+PCC 8106]
+ gb|EAW35330.1| ATP-dependent Clp protease adaptor protein ClpS [Lyngbya sp. 
+PCC 8106]
+Length=97
+
+ Score = 35.0 bits (79),  Expect = 0.19, Method: Compositional matrix adjust.
+ Identities = 18/44 (41%), Positives = 23/44 (52%), Gaps = 3/44 (7%)
+
+Query  19  HSFLHVPDC---PYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQ  59
+           ++F HV  C     P +  DL  KL  Q+HFEG     VGP+ Q
+Sbjct  33  NTFEHVSSCLMKYIPGMNSDLAWKLTNQVHFEGQATVWVGPLEQ  76
+
+
+>gb|AAM34208.1|AF503912_1 polyprotein [Danio rerio]
+Length=2237
+
+ Score = 36.2 bits (82),  Expect = 0.19, Method: Compositional matrix adjust.
+ Identities = 20/50 (40%), Positives = 27/50 (54%), Gaps = 0/50 (0%)
+
+Query  9    KVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMG  58
+            +V +A   + HSFL   + P  LLGRDLL KL  +I     G  ++ P G
+Sbjct  763  RVQVAGQTLLHSFLCSANVPSALLGRDLLVKLGVKILCHPEGLIIIFPNG  812
+
+
+>gb|ADK78271.1| pol protein [Simian immunodeficiency virus]
+Length=1017
+
+ Score = 35.4 bits (80),  Expect = 0.37, Method: Composition-based stats.
+ Identities = 18/46 (39%), Positives = 31/46 (67%), Gaps = 1/46 (2%)
+
+Query  9    KVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVV  54
+            K+ +A GKVTH+ + V   P  ++GR++L KL A ++F  S A+++
+Sbjct  132  KIEIA-GKVTHAHVLVGPTPVNIIGRNVLHKLGASLNFPISKAEII  176
+
+
+>gb|ADK78262.1| pol protein [Simian immunodeficiency virus]
+Length=1023
+
+ Score = 34.3 bits (77),  Expect = 0.77, Method: Composition-based stats.
+ Identities = 20/54 (37%), Positives = 33/54 (61%), Gaps = 1/54 (2%)
+
+Query  9    KVHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQPLQ  62
+            K+ +A GKVTH+ + V   P  ++GR++L KL A ++F  S A+ +    +P Q
+Sbjct  138  KIEIA-GKVTHAHVLVGPTPVNIIGRNVLHKLGASLNFPISKAETIEVKLKPGQ  190
+
+
+>ref|ZP_05026535.1| ATP-dependent Clp protease adaptor protein ClpS [Microcoleus 
+chthonoplastes PCC 7420]
+ gb|EDX75488.1| ATP-dependent Clp protease adaptor protein ClpS [Microcoleus 
+chthonoplastes PCC 7420]
+Length=108
+
+ Score = 33.1 bits (74),  Expect = 1.1, Method: Compositional matrix adjust.
+ Identities = 18/44 (41%), Positives = 22/44 (50%), Gaps = 3/44 (7%)
+
+Query  19  HSFLHVPDC---PYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQ  59
+           ++F HV DC     P +  D   KL  Q+HFEG     VGP  Q
+Sbjct  44  NTFQHVHDCLVKYIPGMSSDYAWKLTNQVHFEGQAIVWVGPQEQ  87
+
+
+>gb|AAK69674.1|AF349680_2 pol protein [Simian immunodeficiency virus]
+Length=1022
+
+ Score = 33.9 bits (76),  Expect = 1.4, Method: Composition-based stats.
+ Identities = 17/48 (35%), Positives = 29/48 (60%), Gaps = 0/48 (0%)
+
+Query  15   GKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQPLQ  62
+            GK TH+ + V   P  ++GR++L+KL A ++F  S A+ +    +P Q
+Sbjct  142  GKTTHAHVLVGPTPVNIIGRNVLSKLGASLNFPISKAETIKVELKPGQ  189
+
+
+>ref|XP_003102066.1| hypothetical protein CRE_07607 [Caenorhabditis remanei]
+ gb|EFP06399.1| hypothetical protein CRE_07607 [Caenorhabditis remanei]
+Length=286
+
+ Score = 33.5 bits (75),  Expect = 1.6, Method: Composition-based stats.
+ Identities = 17/48 (35%), Positives = 25/48 (52%), Gaps = 3/48 (6%)
+
+Query  1    RYRWTTDRKVHLATGKVTHSFLHVP--DCPYP-LLGRDLLTKLKAQIH  45
+            R+  T DR   + T  + H+FL     DCP P L+G D++ K+    H
+Sbjct  163  RFLGTCDRVAKMGTHSIAHTFLASQDGDCPTPELIGADMMEKINKTRH  210
+
+
+>gb|AAA72767.1| pol polyprotein [synthetic construct]
+Length=24
+
+ Score = 31.2 bits (69),  Expect = 1.6, Method: Compositional matrix adjust.
+ Identities = 14/15 (93%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  52  QVVGPMGQPLQVLTL  66
+           QV+GPMGQPLQVLTL
+Sbjct  2   QVMGPMGQPLQVLTL  16
+
+
+>ref|YP_004532632.1| asparagine synthase [Novosphingobium sp. PP1Y]
+ emb|CCA89844.1| asparagine synthase [Novosphingobium sp. PP1Y]
+Length=584
+
+ Score = 33.5 bits (75),  Expect = 1.9, Method: Composition-based stats.
+ Identities = 22/72 (31%), Positives = 32/72 (44%), Gaps = 12/72 (17%)
+
+Query  2    YRWTTDRK-------VHLATGKVTHSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSG----  50
+            YRW  +R+         L    +TH +L  PD   P     + + L+ Q H +GSG    
+Sbjct  401  YRWRPNRRFLSRDALAQLDATALTHPWLDAPDGALPGKAAHIASLLRIQRHLDGSGQLGD  460
+
+Query  51   AQVVGP-MGQPL  61
+              V+ P M QP+
+Sbjct  461  VAVINPLMSQPV  472
+
+
+>ref|XP_003459729.1| PREDICTED: hypothetical protein LOC100698112 [Oreochromis niloticus]
+Length=1984
+
+ Score = 32.3 bits (72),  Expect = 4.5, Method: Compositional matrix adjust.
+ Identities = 18/46 (39%), Positives = 22/46 (48%), Gaps = 0/46 (0%)
+
+Query  19   HSFLHVPDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQPLQVL  64
+            H ++  P  P  L+GRDLL KL A I     G  V  P G+    L
+Sbjct  67   HRYVVSPQVPVNLMGRDLLVKLGATIMCSTDGLTVTLPGGRQFPCL  112
+
+
+>ref|XP_002701657.1| PREDICTED: hCG2040432-like [Bos taurus]
+Length=561
+
+ Score = 32.3 bits (72),  Expect = 4.8, Method: Compositional matrix adjust.
+ Identities = 18/28 (64%), Positives = 20/28 (71%), Gaps = 2/28 (7%)
+
+Query  15   GKVT--HSFLHVPDCPYPLLGRDLLTKL  40
+            GK T  HSFL +P C   LLGRDLL+KL
+Sbjct  268  GKSTLIHSFLIMPQCLMALLGRDLLSKL  295
+
+
+>ref|XP_002199976.1| PREDICTED: similar to Pro-Pol polyprotein [Taeniopygia guttata]
+Length=1210
+
+ Score = 31.6 bits (70),  Expect = 7.0, Method: Compositional matrix adjust.
+ Identities = 14/26 (54%), Positives = 17/26 (65%), Gaps = 0/26 (0%)
+
+Query  20   SFLHVPDCPYPLLGRDLLTKLKAQIH  45
+             FL VP+  Y LLGRDL+ +L  QI 
+Sbjct  188  DFLLVPEADYNLLGRDLIVELGVQIE  213
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Nov 30, 2011  4:12 AM
+  Number of letters in database: 1,346,843,086
+  Number of sequences in database:  16,392,747
+
+Lambda     K      H
+   0.324    0.141    0.448 
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 16392747
+Number of Hits to DB: 75527450
+Number of extensions: 2475597
+Number of successful extensions: 15048
+Number of sequences better than 100: 8
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 15048
+Number of HSP's successfully gapped: 8
+Length of query: 66
+Length of database: 5641810382
+Length adjustment: 38
+Effective length of query: 28
+Effective length of database: 5018885996
+Effective search space: 140528807888
+Effective search space used: 140528807888
+T: 11
+A: 40
+X1: 15 (7.0 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (20.4 bits)
+S2: 67 (30.4 bits)
+
+
+
+

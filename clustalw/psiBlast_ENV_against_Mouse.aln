@@ -1,0 +1,28 @@
+CLUSTAL 2.1 multiple sequence alignment
+
+
+gi|254939520|ref|NP_666096.3|p      ---DPSYFVFL-----Y-LTKDSR---FLTLNIMNKTTSEVWLI----DG
+gi|254939518|ref|NP_001157094.      ---DPSYFVFL-----Y-LTKDSR---FLTLNIMNKTTSEVWLI----DG
+gi|67763824|ref|NP_033236.2|he      ----KHGFK---------LGPTPK--------TLGSSLENAWGS----GR
+gi|67763822|ref|NP_659208.2|he      ---KKHGFK---------LGPTPK--------TLGSSLENAWGS----GR
+gi|33239256|ref|NP_666833.1|ol      --------------------TLAR---------MYLKPSSSY-------D
+gi|77812697|ref|NP_035782.3|ti      ---PEIKLSW--------YKGTEK-----------LEPSNKY-------E
+gi|147904569|ref|NP_082180.2|c      --------------------GLDE-----------GEPAGSW-------D
+gi|345199290|ref|NP_001230832.      YECKQCGKAF---AVSYTLQIHNR----------THTGEKPYEC----KQ
+gi|254281307|ref|NP_766624.3|p      ----PVLVVIG-------AGSSNS----YGVYTIR-DQENRTS-----LE
+gi|148839318|ref|NP_083163.3|s      ---LSTLSITG--------DGLDS-----SNLKITLEANSQSVS---VQG
+gi|62000680|ref|NP_001013845.1      ---PSCGVPSC-------CRPVCC--------QTTCRPSCGVSS--CCRP
+                                                                                      
+
+gi|254939520|ref|NP_666096.3|p      LSP-----WDPPVLIQKRIHGMLYYV---
+gi|254939518|ref|NP_001157094.      LSP-----WDPPVLIQKRIHGMLYYV---
+gi|67763824|ref|NP_033236.2|he      AGPS----YSRPA----------------
+gi|67763822|ref|NP_659208.2|he      AGPS----YSRPA----------------
+gi|33239256|ref|NP_666833.1|ol      LGQ------DRQVA---------------
+gi|77812697|ref|NP_035782.3|ti      ISID----GDRHTLRVKNCQP--------
+gi|147904569|ref|NP_082180.2|c      LTVE----GRAAHSQCAYSNP--------
+gi|345199290|ref|NP_001230832.      CGKA----FAQSSNLRIHKQTHTGERLYE
+gi|254281307|ref|NP_766624.3|p      LCWF----QKEPALYATVHGYFLV-----
+gi|148839318|ref|NP_083163.3|s      IRF-----TPGPPGPKDLCFTWRE-----
+gi|62000680|ref|NP_001013845.1      VCCQTT--CRPSCGVSSCCRPVCCQTT--
+                                                                 

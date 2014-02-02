@@ -1,0 +1,72 @@
+CLUSTAL 2.1 multiple sequence alignment
+
+
+gi|146262012|ref|NP_082218.1|p      --------------------------------------------------
+gi|63003917|ref|NP_001017966.1      --------------------------------------------------
+gi|130502130|ref|NP_080690.2|r      --------------------------------------------------
+gi|256220954|ref|NP_001035161.      --------------------VRD------YCRSCLFCIPRNLIGGELKVI
+gi|144922604|ref|NP_080526.2|g      VHHGISRTLTLVESGYYWTSVTN------DVKQWVYACQHCQVAKNTVIV
+gi|268836255|ref|NP_573461.2|g      ------------------------------------GTVFDAFPDQVAI-
+gi|226246542|ref|NP_035405.2|r      ------------------------------------YTDGCC--------
+gi|46309585|ref|NP_908998.1|re      --------------------------------LFVICHGREVLVYSMSQE
+                                                                                      
+
+gi|146262012|ref|NP_082218.1|p      ----------------------------------------INCKVNGHPL
+gi|63003917|ref|NP_001017966.1      ----------------------------------------INCRVNGHPV
+gi|130502130|ref|NP_080690.2|r      -------------------------------------------KVGHVPV
+gi|256220954|ref|NP_001035161.      ESPWPLRST-APWSSLQIEVVGPVTVSEEGHKHVLIVADANTRWVEAFPL
+gi|144922604|ref|NP_080526.2|g      APQQHLPMVGNPWSVVTVDLMGPFHTSNRSHVYAIIMTDLFTKWVMILPL
+gi|268836255|ref|NP_573461.2|g      ----QLNDTHPALAIPELMR--------------IFVDIEKLPWAKAWEI
+gi|226246542|ref|NP_035405.2|r      ------SSNGRKRARAGIG----------------------VYWGPGHPL
+gi|46309585|ref|NP_908998.1|re      EHSQHVRQVLVRFRYHN-----------------IYCSLDKTQFHRQTAE
+                                                                                      
+
+gi|146262012|ref|NP_082218.1|p      KAFVDSGAQMTIMSQACAERCNIMRLVDRR----------------WGGV
+gi|63003917|ref|NP_001017966.1      KAFVDSGAQMTIMSQACAERCNIMRLVDRR----------------WAGI
+gi|130502130|ref|NP_080690.2|r      RFLVDSGAQVSVVHPALWEEVTDGDLDTLRP---------------FNNV
+gi|256220954|ref|NP_001035161.      KPYTHVAVAQVLLQHVFARWGVPIRLEAAQGPQFARHVLVSCGLALGAQV
+gi|144922604|ref|NP_080526.2|g      CDVSASEISKAII-NIFFLYGPPQKIIMDQR----------------DEF
+gi|268836255|ref|NP_573461.2|g      TKKTFAYTNHTVLPEALERWPVELVEKLLPR---------------HLEI
+gi|226246542|ref|NP_035405.2|r      NVGIRLPGRQTNQRAEIHAACKAIMQAKAQN--------------ISKLV
+gi|46309585|ref|NP_908998.1|re      ILGFNISPKGVKLNKNLMNLIVGCPVPGSRR--------------CLQSV
+                                                                                     .
+
+gi|146262012|ref|NP_082218.1|p      AKGVG--TQRIMG----------------------------RVHLAQ---
+gi|63003917|ref|NP_001017966.1      AKGVG--TQKIIG----------------------------RVHLAQ---
+gi|130502130|ref|NP_080690.2|r      VKVANGAEMKILG-----------------------------VWDTE---
+gi|256220954|ref|NP_001035161.      TTLSRALQFPCLM---SSEAYWEFKRALKEFIFLY-----GKKWAASLPL
+gi|144922604|ref|NP_080526.2|g      IEQINVELYR--------------------------------LFGAK---
+gi|268836255|ref|NP_573461.2|g      IYEINQKHLDRIV-------------------------------------
+gi|226246542|ref|NP_035405.2|r      LYTDSMFTINGITN-----------------------------WVQG---
+gi|46309585|ref|NP_908998.1|re      IDLVYPYRHFVEN---------------------------FAVIAAP---
+                                                                                      
+
+gi|146262012|ref|NP_082218.1|p      --IQIEGDFLQ-----CSFSILEEQPMDILL---------GLD-------
+gi|63003917|ref|NP_001017966.1      --VQIEGDFLA-----CSFSILEEQPMDMLL---------GLD-------
+gi|130502130|ref|NP_080690.2|r      --ISLGKTKLK-----AEFLVANASAEEAII---------GTD-------
+gi|256220954|ref|NP_001035161.      LHLAFRASTTEA----TPFQVLTGGEMKLMEPVWWEMSRANIE-GLKMDA
+gi|144922604|ref|NP_080526.2|g      -EIVISRASGS----VNPAENTPSTIKTFLSK------------------
+gi|268836255|ref|NP_573461.2|g      --ALFPKDISR----MRRMSLIEEEGGKRIN-------------------
+gi|226246542|ref|NP_035405.2|r      ----WKKNGWR-----TSTGKDVINKEDFME-------------------
+gi|46309585|ref|NP_908998.1|re      --LVRQLLSSEP----YYWGEEEQEALESLKR------------------
+                                                                 :                    
+
+gi|146262012|ref|NP_082218.1|p      -MLRRHQCSIDLK-KNVLVIG------TTG--------------------
+gi|63003917|ref|NP_001017966.1      -MLKRHQCSIDLK-KNVLVIG------TTG--------------------
+gi|130502130|ref|NP_080690.2|r      -VLQDHNAVLDFEHRTCTLKGKKFRLLPVGS-SLEDEFDL-----ELIEE
+gi|256220954|ref|NP_001035161.      FLLQLMRELLDLHWRVAEKASEKAENRRFKRESQENEWSVGDQVLLLSLP
+gi|144922604|ref|NP_080526.2|g      -HCADHPNSWDEHLP-ALSFAFN----VTHLEPNKN------TPYFQMFN
+gi|268836255|ref|NP_573461.2|g      -MAHLCIVGCHAVNGVAKIHSD----------------------------
+gi|226246542|ref|NP_035405.2|r      --LDELTQGMDIQWMHIPGH-----SGFVGNEEADR------------LA
+gi|46309585|ref|NP_908998.1|re      -AFRKSPVLYHPKPQNPFYLETDITGSFLSASLVQTDDETGKKSTCAFYS
+                                              .                                       
+
+gi|146262012|ref|NP_082218.1|p      --------------
+gi|63003917|ref|NP_001017966.1      --------------
+gi|130502130|ref|NP_080690.2|r      EEGSSAPEGS----
+gi|256220954|ref|NP_001035161.      RNGSSAKWMGPFYI
+gi|144922604|ref|NP_080526.2|g      RNPCVLECP-----
+gi|268836255|ref|NP_573461.2|g      --------------
+gi|226246542|ref|NP_035405.2|r      REGA----------
+gi|46309585|ref|NP_908998.1|re      RPLSTMEVEYP---
+                                                  

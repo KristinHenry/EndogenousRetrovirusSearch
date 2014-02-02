@@ -1,0 +1,142 @@
+BLASTP 2.2.26+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: DP0DTZNT01N
+
+
+Database: Mus musculus RefSeq protein
+           27,139 sequences; 14,613,172 total letters
+Results of PSI-Blast iteration 1
+Query= 
+Length=66
+
+
+E-value BETTER than threshold                                                                   Score     E
+Sequences producing significant alignments:                       (Bits)  Value
+
+Sequences with E-value WORSE than threshold
+ref|NP_958753.2|  protein FAM178B isoform C [Mus musculus]         25.8    2.2  
+ref|NP_667337.1|  membrane frizzled-related protein isoform 1 ...  25.8    2.2  
+ref|NP_001119518.1|  protein FAM178B isoform A [Mus musculus]      25.4    3.4  
+ref|NP_796213.2|  histone H2A deubiquitinase MYSM1 [Mus musculus]  24.6    5.6  
+ref|NP_001177243.1|  membrane frizzled-related protein isoform...  24.6    6.5  
+ref|NP_034386.2|  trifunctional purine biosynthetic protein ad...  24.3    7.6  
+
+ALIGNMENTS
+>ref|NP_958753.2| protein FAM178B isoform C [Mus musculus]
+Length=379
+
+ Score = 25.8 bits (55),  Expect = 2.2, Method: Composition-based stats.
+ Identities = 10/21 (48%), Positives = 14/21 (67%), Gaps = 0/21 (0%)
+
+Query  12   LATGKVTHSFLHVPDCPYPLL  32
+            L  G +++ +LH  DCP PLL
+Sbjct  153  LHNGLLSNLYLHAADCPQPLL  173
+
+
+>ref|NP_667337.1| membrane frizzled-related protein isoform 1 [Mus musculus]
+Length=584
+
+ Score = 25.8 bits (55),  Expect = 2.2, Method: Composition-based stats.
+ Identities = 10/21 (48%), Positives = 14/21 (67%), Gaps = 0/21 (0%)
+
+Query  25  PDCPYPLLGRDLLTKLKAQIH  45
+           P CP P L RD+ ++L+A  H
+Sbjct  32  PSCPPPALQRDVGSRLQAPWH  52
+
+
+>ref|NP_001119518.1| protein FAM178B isoform A [Mus musculus]
+Length=523
+
+ Score = 25.4 bits (54),  Expect = 3.4, Method: Compositional matrix adjust.
+ Identities = 10/21 (48%), Positives = 14/21 (67%), Gaps = 0/21 (0%)
+
+Query  12   LATGKVTHSFLHVPDCPYPLL  32
+            L  G +++ +LH  DCP PLL
+Sbjct  153  LHNGLLSNLYLHAADCPQPLL  173
+
+
+>ref|NP_796213.2| histone H2A deubiquitinase MYSM1 [Mus musculus]
+Length=819
+
+ Score = 24.6 bits (52),  Expect = 5.6, Method: Composition-based stats.
+ Identities = 13/33 (39%), Positives = 19/33 (58%), Gaps = 1/33 (3%)
+
+Query  28   PYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQP  60
+            P P L RD+ T+ K Q +F   GA+ +G +  P
+Sbjct  654  PNPSL-RDIDTQAKYQSYFSRGGAKFIGMIVSP  685
+
+
+>ref|NP_001177243.1| membrane frizzled-related protein isoform 2 [Mus musculus]
+Length=578
+
+ Score = 24.6 bits (52),  Expect = 6.5, Method: Compositional matrix adjust.
+ Identities = 10/21 (48%), Positives = 14/21 (67%), Gaps = 0/21 (0%)
+
+Query  25  PDCPYPLLGRDLLTKLKAQIH  45
+           P CP P L RD+ ++L+A  H
+Sbjct  32  PSCPPPALQRDVGSRLQAPWH  52
+
+
+>ref|NP_034386.2| trifunctional purine biosynthetic protein adenosine-3 [Mus musculus]
+Length=1010
+
+ Score = 24.3 bits (51),  Expect = 7.6, Method: Composition-based stats.
+ Identities = 9/18 (50%), Positives = 12/18 (67%), Gaps = 0/18 (0%)
+
+Query  27   CPYPLLGRDLLTKLKAQI  44
+            CP P + +DLL K+K  I
+Sbjct  237  CPAPQVSKDLLVKIKNTI  254
+
+
+  Database: Mus musculus RefSeq protein
+    Posted date:  Nov 30, 2011  4:12 AM
+  Number of letters in database: 14,613,172
+  Number of sequences in database:  27,139
+
+Lambda     K      H
+   0.324    0.141    0.448 
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 27139
+Number of Hits to DB: 2121963
+Number of extensions: 74973
+Number of successful extensions: 122
+Number of sequences better than 100: 39
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 122
+Number of HSP's successfully gapped: 39
+Length of query: 66
+Length of database: 14613172
+Length adjustment: 39
+Effective length of query: 27
+Effective length of database: 13554751
+Effective search space: 365978277
+Effective search space used: 365978277
+T: 11
+A: 40
+X1: 15 (7.0 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (20.4 bits)
+S2: 45 (21.9 bits)
+
+
+
+

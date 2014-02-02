@@ -1,0 +1,477 @@
+BLASTP 2.2.26+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: DXN1H0HK01S
+
+
+Database: Mus musculus RefSeq protein
+           27,175 sequences; 14,647,127 total letters
+Results of PSI-Blast iteration 1
+Query= 
+Length=496
+
+
+E-value BETTER than threshold                                                                   Score     E
+Sequences producing significant alignments:                       (Bits)  Value
+
+ref|NP_001239371.1|  pleckstrin homology-like domain family B ...  40.8    0.003
+ref|NP_700461.2|  pleckstrin homology-like domain family B mem...  39.7    0.005
+Sequences with E-value WORSE than threshold
+ref|NP_080301.1|  zinc finger CCHC-type and RNA-binding motif-...  35.4    0.058
+ref|NP_955762.1|  zinc finger CCHC domain-containing protein 5...  34.7    0.15 
+ref|NP_075965.2|  tubulointerstitial nephritis antigen-like pr...  33.5    0.36 
+ref|NP_034936.1|  afadin [Mus musculus]                            33.5    0.39 
+ref|NP_666195.1|  serine/arginine-rich splicing factor 7 isofo...  32.3    0.60 
+ref|NP_001182415.1|  serine/arginine-rich splicing factor 7 is...  32.3    0.64 
+ref|NP_001182414.1|  serine/arginine-rich splicing factor 7 is...  32.3    0.66 
+ref|NP_001182416.1|  serine/arginine-rich splicing factor 7 is...  32.0    0.71 
+ref|NP_001074791.1|  myosin-Vc [Mus musculus]                      32.3    0.86 
+ref|NP_032043.3|  structural maintenance of chromosomes protei...  32.0    1.2  
+ref|NP_808523.2|  mediator of RNA polymerase II transcription ...  32.0    1.4  
+ref|NP_808341.1|  centrosomal protein of 104 kDa [Mus musculus]    31.6    1.5  
+ref|NP_065254.3|  bromodomain-containing protein 4 isoform 1 [...  31.6    1.5  
+ref|NP_570947.2|  retrotransposon-derived protein PEG10 isofor...  31.6    1.8  
+ref|NP_001074719.1|  myosin-13 [Mus musculus]                      30.8    3.4  
+ref|NP_083744.2|  zinc finger protein 821 [Mus musculus] >ref|...  30.0    4.1  
+ref|NP_848671.1|  cleavage and polyadenylation specificity fac...  28.9    7.6  
+ref|NP_001074549.1|  PHD finger protein 3 [Mus musculus]           29.3    7.7  
+ref|NP_599018.3|  regulator of G-protein signaling 3 isoform 2...  29.3    7.9  
+ref|NP_067496.2|  mediator of RNA polymerase II transcription ...  29.3    8.2  
+ref|NP_034253.3|  eukaryotic translation initiation factor 3 s...  29.3    8.4  
+ref|NP_001192320.1|  autophagy-related protein 16-1 isoform 1 ...  28.9    9.3  
+ref|NP_084122.2|  autophagy-related protein 16-1 isoform 2 [Mu...  28.9    9.9  
+
+ALIGNMENTS
+>ref|NP_001239371.1| pleckstrin homology-like domain family B member 2 isoform 1 [Mus 
+musculus]
+Length=1302
+
+ Score = 40.8 bits (94),  Expect = 0.003, Method: Compositional matrix adjust.
+ Identities = 56/230 (24%), Positives = 99/230 (43%), Gaps = 29/230 (13%)
+
+Query  264  QLPNEIEAF--PLERPDWDYTTRGRNHLVYRQLLLAGLQNAGRSPTNLA--------KVK  313
+            QL +E   F   L  PD  Y    +  L  + + +AG  N G S + LA         + 
+Sbjct  484  QLSDEESVFEDALVCPDARYRCHRKGSL--QDVDVAGFGNLGHSASFLAPRGSRSDELLG  541
+
+Query  314  GITQGPNESPSAFLERLKEA-YRRYTPYDPEDPGQETNVSMSFIWQSAPDIGRKLERLED  372
+             +T+ P  S +AFL+   E+ Y    P  PED G+E                ++L  +ED
+Sbjct  542  DLTRTPPSSSAAFLKATNESSYLSILPKTPEDIGEEQRT-------------QELAAMED  588
+
+Query  373  LKSKTLGDLVREAEKI--FNKRETPEEREERIKRETEEKEERRRAEDEQKEKERDRRRQR  430
+             +   L +L    +KI   N +     RE  ++    + E++    +  KEKE      R
+Sbjct  589  ARMVILNNLEELEQKIKDINDQMDESSRELDMECALLDGEQKSETAELMKEKEILDHLNR  648
+
+Query  431  EMSKLLATVVSGQRQDRQGGERRRPQLDKDQCAYCKEKGHWAKDCPKKPR  480
+            ++++L   +V  + +++   +  R +L++ Q  Y ++K     +CP+  R
+Sbjct  649  KITELEKNIVGEKTKEKVKLDAEREKLERLQELYSEQKTQL-DNCPESMR  697
+
+
+>ref|NP_700461.2| pleckstrin homology-like domain family B member 2 isoform 2 [Mus 
+musculus]
+Length=1249
+
+ Score = 39.7 bits (91),  Expect = 0.005, Method: Compositional matrix adjust.
+ Identities = 56/230 (24%), Positives = 99/230 (43%), Gaps = 29/230 (13%)
+
+Query  264  QLPNEIEAF--PLERPDWDYTTRGRNHLVYRQLLLAGLQNAGRSPTNLA--------KVK  313
+            QL +E   F   L  PD  Y    +  L  + + +AG  N G S + LA         + 
+Sbjct  484  QLSDEESVFEDALVCPDARYRCHRKGSL--QDVDVAGFGNLGHSASFLAPRGSRSDELLG  541
+
+Query  314  GITQGPNESPSAFLERLKEA-YRRYTPYDPEDPGQETNVSMSFIWQSAPDIGRKLERLED  372
+             +T+ P  S +AFL+   E+ Y    P  PED G+E                ++L  +ED
+Sbjct  542  DLTRTPPSSSAAFLKATNESSYLSILPKTPEDIGEEQRT-------------QELAAMED  588
+
+Query  373  LKSKTLGDLVREAEKI--FNKRETPEEREERIKRETEEKEERRRAEDEQKEKERDRRRQR  430
+             +   L +L    +KI   N +     RE  ++    + E++    +  KEKE      R
+Sbjct  589  ARMVILNNLEELEQKIKDINDQMDESSRELDMECALLDGEQKSETAELMKEKEILDHLNR  648
+
+Query  431  EMSKLLATVVSGQRQDRQGGERRRPQLDKDQCAYCKEKGHWAKDCPKKPR  480
+            ++++L   +V  + +++   +  R +L++ Q  Y ++K     +CP+  R
+Sbjct  649  KITELEKNIVGEKTKEKVKLDAEREKLERLQELYSEQKTQL-DNCPESMR  697
+
+
+>ref|NP_080301.1| zinc finger CCHC-type and RNA-binding motif-containing protein 
+1 [Mus musculus]
+Length=217
+
+ Score = 35.4 bits (80),  Expect = 0.058, Method: Compositional matrix adjust.
+ Identities = 14/30 (47%), Positives = 16/30 (53%), Gaps = 0/30 (0%)
+
+Query  452  RRRPQLDKDQCAYCKEKGHWAKDCPKKPRG  481
+            RRR   DK +C  C E GH +  CPK   G
+Sbjct  97   RRRNYFDKSKCYECGESGHLSYACPKNMLG  126
+
+
+>ref|NP_955762.1| zinc finger CCHC domain-containing protein 5 [Mus musculus]
+Length=553
+
+ Score = 34.7 bits (78),  Expect = 0.15, Method: Compositional matrix adjust.
+ Identities = 11/19 (58%), Positives = 13/19 (68%), Gaps = 0/19 (0%)
+
+Query  462  CAYCKEKGHWAKDCPKKPR  480
+            C YC   GH+A+DCP KP 
+Sbjct  523  CLYCGHPGHFARDCPVKPH  541
+
+
+>ref|NP_075965.2| tubulointerstitial nephritis antigen-like precursor [Mus musculus]
+ ref|NP_001161805.1| tubulointerstitial nephritis antigen-like precursor [Mus musculus]
+Length=466
+
+ Score = 33.5 bits (75),  Expect = 0.36, Method: Compositional matrix adjust.
+ Identities = 18/45 (40%), Positives = 26/45 (58%), Gaps = 0/45 (0%)
+
+Query  154  PSSDGDGDEAAPTPPSPMVSRLRGKREPPASQAFPLGQFSSSDLY  198
+            P S  + +EA+PTP   M SR  G+ +  A+   P GQ  S+D+Y
+Sbjct  293  PFSGREQNEASPTPRCMMHSRAMGRGKRQATSRCPNGQVDSNDIY  337
+
+
+>ref|NP_034936.1| afadin [Mus musculus]
+Length=1820
+
+ Score = 33.5 bits (75),  Expect = 0.39, Method: Compositional matrix adjust.
+ Identities = 24/67 (36%), Positives = 38/67 (57%), Gaps = 8/67 (12%)
+
+Query  365   RKLERLEDLKSKTLGDLVREAEKIFNKRETPEEREERIKRETEEKEERRRAEDEQKEKER  424
+             R+ ++LE+++ +   D VR+ E      +   + EER+KR+ EEK  RR+ E      E 
+Sbjct  1609  RRQQQLEEMRKREAEDRVRQEE------DGRHQEEERVKRDAEEK--RRQEEGYYSRLEA  1660
+
+Query  425   DRRRQRE  431
+             +RRRQ E
+Sbjct  1661  ERRRQHE  1667
+
+
+>ref|NP_666195.1| serine/arginine-rich splicing factor 7 isoform 1 [Mus musculus]
+Length=238
+
+ Score = 32.3 bits (72),  Expect = 0.60, Method: Compositional matrix adjust.
+ Identities = 13/23 (57%), Positives = 15/23 (65%), Gaps = 0/23 (0%)
+
+Query  453  RRPQLDKDQCAYCKEKGHWAKDC  475
+            RRP    D+C  C EKGH+A DC
+Sbjct  97   RRPFDPNDRCYECGEKGHYAYDC  119
+
+
+>ref|NP_001182415.1| serine/arginine-rich splicing factor 7 isoform 3 [Mus musculus]
+Length=227
+
+ Score = 32.3 bits (72),  Expect = 0.64, Method: Compositional matrix adjust.
+ Identities = 13/23 (57%), Positives = 15/23 (65%), Gaps = 0/23 (0%)
+
+Query  453  RRPQLDKDQCAYCKEKGHWAKDC  475
+            RRP    D+C  C EKGH+A DC
+Sbjct  97   RRPFDPNDRCYECGEKGHYAYDC  119
+
+
+>ref|NP_001182414.1| serine/arginine-rich splicing factor 7 isoform 2 [Mus musculus]
+Length=235
+
+ Score = 32.3 bits (72),  Expect = 0.66, Method: Compositional matrix adjust.
+ Identities = 13/23 (57%), Positives = 15/23 (65%), Gaps = 0/23 (0%)
+
+Query  453  RRPQLDKDQCAYCKEKGHWAKDC  475
+            RRP    D+C  C EKGH+A DC
+Sbjct  97   RRPFDPNDRCYECGEKGHYAYDC  119
+
+
+>ref|NP_001182416.1| serine/arginine-rich splicing factor 7 isoform 4 [Mus musculus]
+Length=223
+
+ Score = 32.0 bits (71),  Expect = 0.71, Method: Compositional matrix adjust.
+ Identities = 13/23 (57%), Positives = 15/23 (65%), Gaps = 0/23 (0%)
+
+Query  453  RRPQLDKDQCAYCKEKGHWAKDC  475
+            RRP    D+C  C EKGH+A DC
+Sbjct  97   RRPFDPNDRCYECGEKGHYAYDC  119
+
+
+>ref|NP_001074791.1| myosin-Vc [Mus musculus]
+Length=1742
+
+ Score = 32.3 bits (72),  Expect = 0.86, Method: Composition-based stats.
+ Identities = 26/105 (25%), Positives = 48/105 (46%), Gaps = 12/105 (11%)
+
+Query  367   LERLEDLKSKTLGDLVR------EAEKIFNKRETPEEREERIKRETEEKEERRRAEDEQK  420
+             +E+L  L +  +GDL +      E EK    R + EE+  R +   EE+  + +  + + 
+Sbjct  909   VEKLTSLAALRVGDLEKVQKLEAELEKAATHRHSYEEKGRRYRDTVEERLSKLQKHNAEL  968
+
+Query  421   EKERDRRRQ------REMSKLLATVVSGQRQDRQGGERRRPQLDK  459
+             E +R+R  Q       E+ + +  +      D Q  E++R  L+K
+Sbjct  969   ELQRERAEQMLQEKSEELKEKMDKLTRQLFDDVQKEEQQRLVLEK  1013
+
+
+ Score = 31.2 bits (69),  Expect = 1.9, Method: Composition-based stats.
+ Identities = 19/66 (29%), Positives = 29/66 (44%), Gaps = 0/66 (0%)
+
+Query  361   PDIGRKLERLEDLKSKTLGDLVREAEKIFNKRETPEEREERIKRETEEKEERRRAEDEQK  420
+             PD  +++  LE  K      L  +AEKI  K E P     RI+ E   +     A+ E  
+Sbjct  1212  PDFKQQISELERQKQDLESRLKEQAEKIEGKLEEPFSHLNRIREEERMQGRAVEAQSEMH  1271
+
+Query  421   EKERDR  426
+              + ++R
+Sbjct  1272  PEGKER  1277
+
+
+ Score = 29.6 bits (65),  Expect = 7.0, Method: Composition-based stats.
+ Identities = 23/84 (27%), Positives = 41/84 (49%), Gaps = 2/84 (2%)
+
+Query  366   KLERLEDLKSKTLGDLVREAEKIFNKRETPEEREERIKRETEEKE-ERRRAEDEQKEKER  424
+             K+++LE    K         EK    R+T EER  ++++   E E +R RAE   +EK  
+Sbjct  925   KVQKLEAELEKAATHRHSYEEKGRRYRDTVEERLSKLQKHNAELELQRERAEQMLQEKSE  984
+
+Query  425   D-RRRQREMSKLLATVVSGQRQDR  447
+             + + +  ++++ L   V  + Q R
+Sbjct  985   ELKEKMDKLTRQLFDDVQKEEQQR  1008
+
+
+>ref|NP_032043.3| structural maintenance of chromosomes protein 2 [Mus musculus]
+Length=1191
+
+ Score = 32.0 bits (71),  Expect = 1.2, Method: Compositional matrix adjust.
+ Identities = 32/110 (29%), Positives = 48/110 (44%), Gaps = 8/110 (7%)
+
+Query  310  AKVKGITQGPNESPSAFLERLKEAYRRYTPYDPEDPGQETNVSMSFIWQSAPDIGRKLER  369
+            AK+K I     E  +  +++LKE    Y  Y          V       S   I  +  R
+Sbjct  190  AKLKEIKTILEEEITPTIQKLKEERSSYLEYQK--------VMREIEHLSRLYIAYQFLR  241
+
+Query  370  LEDLKSKTLGDLVREAEKIFNKRETPEEREERIKRETEEKEERRRAEDEQ  419
+             ED K ++ G+L    +KI N +E   E E++IK    E EE  R +D++
+Sbjct  242  AEDTKERSAGELKEMQDKIVNLQEVLSENEKKIKALNCEIEELERRKDKE  291
+
+
+>ref|NP_808523.2| mediator of RNA polymerase II transcription subunit 12-like protein 
+[Mus musculus]
+Length=2185
+
+ Score = 32.0 bits (71),  Expect = 1.4, Method: Compositional matrix adjust.
+ Identities = 18/63 (29%), Positives = 32/63 (51%), Gaps = 8/63 (13%)
+
+Query  395   PEEREERIKRETEEKEERRRAEDEQKEKERDRRRQREMS--------KLLATVVSGQRQD  446
+             P   + R+ +   E+ E+ +      +KERDR++Q+ MS         L+ T + GQ + 
+Sbjct  1458  PTSVQGRVLKAAGEELEKGQHLGSSSKKERDRQKQKSMSLLSQQPFLSLVLTCLKGQDEQ  1517
+
+Query  447   RQG  449
+             R+G
+Sbjct  1518  REG  1520
+
+
+>ref|NP_808341.1| centrosomal protein of 104 kDa [Mus musculus]
+Length=926
+
+ Score = 31.6 bits (70),  Expect = 1.5, Method: Compositional matrix adjust.
+ Identities = 34/153 (22%), Positives = 64/153 (42%), Gaps = 22/153 (14%)
+
+Query  290  VYRQLLLAGLQNAGRSPTNLAKVKGITQGPNESPSAFLERLKEAYRRYTPYDPEDPGQET  349
+            +Y Q+ L  +   G  P +L     IT           E+L + Y  ++P++PEDP  + 
+Sbjct  139  IYNQVALVAINIIG-DPADLGDESNITSR---------EKLIDHYLGHSPHNPEDPALDG  188
+
+Query  350  NVS-----------MSFIWQSAPDIGRKLERLEDLKSKTL-GDLVREAEKIFNKRETPEE  397
+              S           ++F     P++ + + RL++ K + +  +    A+K+       ++
+Sbjct  189  TFSGRSDYISPLDDLAFDMYQDPEVAQIIRRLDERKREAVKKERYDHAKKLKQAIADLQK  248
+
+Query  398  REERIKRETEEKEERRRAEDEQKEKERDRRRQR  430
+              ER+ R   EK      ED    KE+ ++  R
+Sbjct  249  VGERLGRYEVEKRCAVEKEDYDLAKEKKQQMAR  281
+
+
+>ref|NP_065254.3| bromodomain-containing protein 4 isoform 1 [Mus musculus]
+Length=1400
+
+ Score = 31.6 bits (70),  Expect = 1.5, Method: Compositional matrix adjust.
+ Identities = 16/36 (44%), Positives = 22/36 (61%), Gaps = 0/36 (0%)
+
+Query  397   EREERIKRETEEKEERRRAEDEQKEKERDRRRQREM  432
+             E   R  RE EE+E+  +A+ E  EKE++R RQ  M
+Sbjct  1261  EHFRRAAREKEEREKALKAQAEHAEKEKERLRQERM  1296
+
+
+>ref|NP_570947.2| retrotransposon-derived protein PEG10 isoform 1 [Mus musculus]
+Length=1006
+
+ Score = 31.6 bits (70),  Expect = 1.8, Method: Compositional matrix adjust.
+ Identities = 14/35 (40%), Positives = 18/35 (51%), Gaps = 3/35 (9%)
+
+Query  444  RQDRQGGERRRPQLDKDQCAYCKEKGHWAKDCPKK  478
+            R  ++  ERRR     + C YC   GH+A  CP K
+Sbjct  331  RLSKEEKERRRKM---NLCLYCGNGGHFADTCPAK  362
+
+
+>ref|NP_001074719.1| myosin-13 [Mus musculus]
+Length=1938
+
+ Score = 30.8 bits (68),  Expect = 3.4, Method: Composition-based stats.
+ Identities = 21/67 (31%), Positives = 32/67 (48%), Gaps = 3/67 (4%)
+
+Query  365   RKLERLEDLKSK---TLGDLVREAEKIFNKRETPEEREERIKRETEEKEERRRAEDEQKE  421
+             + + RL+DL  K    +    R+AE+   +  T   R  R++ E EE EER    + Q  
+Sbjct  1863  KNILRLQDLVDKLQAKVKSYKRQAEEAEEQANTQLSRCRRVQHELEEAEERADIAESQVN  1922
+
+Query  422   KERDRRR  428
+             K R + R
+Sbjct  1923  KLRAKSR  1929
+
+
+>ref|NP_083744.2| zinc finger protein 821 [Mus musculus]
+ ref|NP_001161418.1| zinc finger protein 821 [Mus musculus]
+Length=413
+
+ Score = 30.0 bits (66),  Expect = 4.1, Method: Compositional matrix adjust.
+ Identities = 20/55 (36%), Positives = 33/55 (60%), Gaps = 2/55 (4%)
+
+Query  364  GRKLERLEDLKSKTLGDLVREAEKIFNKR--ETPEEREERIKRETEEKEERRRAE  416
+             ++L+R+++   +    L R+ E +  KR  ETPE+R+ R+ RE E K  +RR E
+Sbjct  304  AKRLQRMQETDEQRARRLQRDREAMRLKRANETPEKRQARLIREREAKRLKRRLE  358
+
+
+>ref|NP_848671.1| cleavage and polyadenylation specificity factor subunit 4 [Mus 
+musculus]
+Length=211
+
+ Score = 28.9 bits (63),  Expect = 7.6, Method: Compositional matrix adjust.
+ Identities = 14/35 (40%), Positives = 18/35 (51%), Gaps = 0/35 (0%)
+
+Query  443  QRQDRQGGERRRPQLDKDQCAYCKEKGHWAKDCPK  477
+            Q Q+   G R    L++  C  C EKGH+A  C K
+Sbjct  168  QSQNSSAGNRGPRPLEQVTCYKCGEKGHYANRCTK  202
+
+
+>ref|NP_001074549.1| PHD finger protein 3 [Mus musculus]
+Length=2025
+
+ Score = 29.3 bits (64),  Expect = 7.7, Method: Compositional matrix adjust.
+ Identities = 22/72 (31%), Positives = 38/72 (53%), Gaps = 2/72 (3%)
+
+Query  365   RKLERLEDLKSKTLGDLVREAEK--IFNKRETPEEREERIKRETEEKEERRRAEDEQKEK  422
+             R  ER  D KSK      ++ E+  + +    P+ +  R  +  ++K +R + ED +KEK
+Sbjct  1935  RSQERDRDRKSKEEAAAHKDKERPRLSHGDRAPDGKASRDGKSADKKPDRPKGEDHEKEK  1994
+
+Query  423   ERDRRRQREMSK  434
+             ERD+ + +E  K
+Sbjct  1995  ERDKSKHKEGEK  2006
+
+
+>ref|NP_599018.3| regulator of G-protein signaling 3 isoform 2 [Mus musculus]
+Length=966
+
+ Score = 29.3 bits (64),  Expect = 7.9, Method: Compositional matrix adjust.
+ Identities = 39/109 (36%), Positives = 45/109 (41%), Gaps = 11/109 (10%)
+
+Query  84   EPPPWVKPFVPKLLPPSAPLPPPPQPPPQSALYPA---LTPPIKPKPKPQV-----LPDS  135
+            EP P   P   + LPP   LPP   P P   L PA   L P   P P  ++     LP S
+Sbjct  421  EPAPSKNPSPGQELPPGQDLPPSKDPSPSQEL-PAGQDLPPSKDPSPSQELPAGQDLPPS  479
+
+Query  136  GGPLIDLLTEDPPPYEGPPSSDGDGDEAAPTPPSPMVSRLRGKREPPAS  184
+              P      E P   + PP  D  G EAAP P SP    +    +PP S
+Sbjct  480  KDPSPS--QELPVGQDLPPRKDSSGQEAAPGPESPSSEDIATCPKPPQS  526
+
+
+>ref|NP_067496.2| mediator of RNA polymerase II transcription subunit 12 [Mus musculus]
+Length=2190
+
+ Score = 29.3 bits (64),  Expect = 8.2, Method: Compositional matrix adjust.
+ Identities = 17/63 (27%), Positives = 30/63 (48%), Gaps = 8/63 (13%)
+
+Query  395   PEEREERIKRETEEKEERRRAEDEQKEKERDRRRQREMS--------KLLATVVSGQRQD  446
+             P   +  + +   E+ E+ +       KERDR++Q+ MS         L+ T + GQ + 
+Sbjct  1437  PTSVQGHVLKAAGEELEKGQHLGSSSRKERDRQKQKSMSLLSQQPFLSLVLTCLKGQDEQ  1496
+
+Query  447   RQG  449
+             R+G
+Sbjct  1497  REG  1499
+
+
+>ref|NP_034253.3| eukaryotic translation initiation factor 3 subunit A [Mus musculus]
+Length=1344
+
+ Score = 29.3 bits (64),  Expect = 8.4, Method: Compositional matrix adjust.
+ Identities = 25/61 (41%), Positives = 38/61 (62%), Gaps = 15/61 (25%)
+
+Query  383  REAEKIFNKRETPEEREER-----IKRETEEKEER-------RRAEDE---QKEKERDRR  427
+            +E ++I  +R+T EER+ER     I+RE EE E+R       R+AE+E   Q+ KER++ 
+Sbjct  563  KEHQRILARRQTIEERKERLESLNIQREKEELEQREAELQKVRKAEEERLRQEAKEREKE  622
+
+Query  428  R  428
+            R
+Sbjct  623  R  623
+
+
+>ref|NP_001192320.1| autophagy-related protein 16-1 isoform 1 [Mus musculus]
+Length=623
+
+ Score = 28.9 bits (63),  Expect = 9.3, Method: Compositional matrix adjust.
+ Identities = 26/91 (29%), Positives = 47/91 (52%), Gaps = 9/91 (10%)
+
+Query  352  SMSFIWQSAPDIGRKLERLEDLKSKTLGDLVREAEKIFNK-----RETPEEREERIKRET  406
+            ++S +  +  D+  KL+ LE + ++TL D     +  F       R+T EE +E + R  
+Sbjct  137  TISDLETNCLDLRTKLQDLE-VANQTLKDEYDALQITFTALEEKLRKTTEENQELVTRWM  195
+
+Query  407  EEKEE---RRRAEDEQKEKERDRRRQREMSK  434
+             EK +   R  AE+E+  + R  R Q+E+++
+Sbjct  196  AEKAQEANRLNAENEKDSRRRQARLQKELAE  226
+
+
+>ref|NP_084122.2| autophagy-related protein 16-1 isoform 2 [Mus musculus]
+Length=607
+
+ Score = 28.9 bits (63),  Expect = 9.9, Method: Compositional matrix adjust.
+ Identities = 26/91 (29%), Positives = 47/91 (52%), Gaps = 9/91 (10%)
+
+Query  352  SMSFIWQSAPDIGRKLERLEDLKSKTLGDLVREAEKIFNK-----RETPEEREERIKRET  406
+            ++S +  +  D+  KL+ LE + ++TL D     +  F       R+T EE +E + R  
+Sbjct  137  TISDLETNCLDLRTKLQDLE-VANQTLKDEYDALQITFTALEEKLRKTTEENQELVTRWM  195
+
+Query  407  EEKEE---RRRAEDEQKEKERDRRRQREMSK  434
+             EK +   R  AE+E+  + R  R Q+E+++
+Sbjct  196  AEKAQEANRLNAENEKDSRRRQARLQKELAE  226
+
+
+  Database: Mus musculus RefSeq protein
+    Posted date:  Dec 5, 2011  4:42 PM
+  Number of letters in database: 14,647,127
+  Number of sequences in database:  27,175
+
+Lambda     K      H
+   0.313    0.134    0.416 
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 27175
+Number of Hits to DB: 20557892
+Number of extensions: 1342472
+Number of successful extensions: 31351
+Number of sequences better than 100: 2773
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 17615
+Number of HSP's successfully gapped: 6349
+Length of query: 496
+Length of database: 14647127
+Length adjustment: 105
+Effective length of query: 391
+Effective length of database: 11793752
+Effective search space: 4611357032
+Effective search space used: 4611357032
+T: 11
+A: 40
+X1: 16 (7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (20.8 bits)
+S2: 55 (25.8 bits)
+
+
+
+

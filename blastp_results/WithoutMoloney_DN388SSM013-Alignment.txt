@@ -1,0 +1,329 @@
+BLASTP 2.2.26+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: DN388SSM013
+
+
+Database: Mus musculus RefSeq protein
+           27,139 sequences; 14,613,172 total letters
+Query= 
+Length=1204
+
+
+                                                                   Score     E
+Sequences producing significant alignments:                       (Bits)  Value
+
+ref|XP_003086916.1|  PREDICTED: putative Pol polyprotein-like ...  75.5    1e-13
+ref|XP_001478228.1|  PREDICTED: probable Pol polyprotein-like ...  73.9    3e-13
+ref|NP_908998.1|  retrotransposon-like protein 1 [Mus musculus]    54.7    4e-07
+ref|NP_001035161.1|  protein NYNRIN [Mus musculus]                 54.7    4e-07
+ref|NP_035405.2|  ribonuclease H1 [Mus musculus]                   49.3    8e-06
+ref|NP_080526.2|  gypsy retrotransposon integrase-like protein...  44.3    5e-04
+ref|NP_082218.1|  protein DDI1 homolog 1 [Mus musculus]            39.7    0.011
+ref|NP_080690.2|  retroviral-like aspartic protease 1 precurso...  36.2    0.12 
+ref|NP_573461.2|  glycogen phosphorylase, liver form [Mus musc...  34.7    0.52 
+ref|NP_001017966.1|  protein DDI1 homolog 2 [Mus musculus]         30.8    5.8  
+ref|XP_003086493.1|  PREDICTED: hypothetical protein LOC330108...  28.9    7.0  
+ref|NP_081513.1|  uncharacterized protein C11orf86 homolog [Mu...  28.9    10.0 
+
+ALIGNMENTS
+>ref|XP_003086916.1| PREDICTED: putative Pol polyprotein-like [Mus musculus]
+Length=715
+
+ Score = 75.5 bits (184),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 52/146 (36%), Positives = 71/146 (49%), Gaps = 7/146 (5%)
+
+Query  884   KDITETCKACAQVNASKSAVKQGTRVRGHRPGTHWEIDFTEVKPGLYG-YKYLLVFVDTF  942
+             +D+  TC  C +     S    G   RG  P   W++D +      +G  KY+ V +DT 
+Sbjct  493   RDVVTTCGRCLEFQHPPSY---GVNPRGLLPLQVWQMDVSHFSE--FGKLKYVHVSIDTC  547
+
+Query  943   SGWVEAFPTKKETAKVVTKKLLEEIFPRFGMPQVLGTDNGPAFVSKVSQTVADLLGVDWK  1002
+             SG V A P   E A  V +  LE  +  +G PQ L TDNGPA+ +K   +    + V  K
+Sbjct  548   SGIVYASPMAGEKASHVIQHCLEA-WAAWGKPQQLKTDNGPAYTAKTLVSFCSQMEVQVK  606
+
+Query  1003  LHCAYRPQSSGQVERMNRTIKETLTK  1028
+                 Y PQ  G +ER +RT+KE L K
+Sbjct  607   HGLPYNPQGQGIIERAHRTLKELLIK  632
+
+
+ Score = 51.6 bits (122),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 39/129 (30%), Positives = 61/129 (47%), Gaps = 7/129 (5%)
+
+Query  259  NLLSGLPPSHQW-YTVLDLKDAFFCLRLHPTSQSLFAFEWRDPEMG-ISGQLTWTRLPQG  316
+            +LLS LP   +W   V+D+KD FF + L       FAF     +   +  +  W  LPQG
+Sbjct  12   SLLSALP--EKWPLIVIDIKDGFFSIPLDLKDSVGFAFTLPSCDHEELDQRFEWVVLPQG  69
+
+Query  317  FKNSPTLFDEALHRDLADFRIQHPDLILLQYVDDLLLAATSELDCQQGTRALLQTLGDLG  376
+               SPT+    + + L   R ++P L  + Y+   LLAA  E   Q+    ++++L   G
+Sbjct  70   RAQSPTMCQLYIGKALEPIRKEYPKLRCVHYI---LLAAKDEKYLQEAYGKMVESLRQWG  126
+
+Query  377  YRASAKKAQ  385
+               + +K Q
+Sbjct  127  LHIAPEKVQ  135
+
+
+>ref|XP_001478228.1| PREDICTED: probable Pol polyprotein-like [Mus musculus]
+Length=461
+
+ Score = 73.9 bits (180),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 51/145 (35%), Positives = 70/145 (48%), Gaps = 5/145 (3%)
+
+Query  884   KDITETCKACAQVNASKSAVKQGTRVRGHRPGTHWEIDFTEVKPGLYGYKYLLVFVDTFS  943
+             +DI   C++C +          G   RG RP   W++D T V       +YL V +DT S
+Sbjct  186   RDIVTQCQSCCEFLPVPHV---GINPRGIRPLQVWQMDVTHVS-SFGKLQYLHVSIDTCS  241
+
+Query  944   GWVEAFPTKKETAKVVTKKLLEEIFPRFGMPQVLGTDNGPAFVSKVSQTVADLLGVDWKL  1003
+             G + A P   E A  V +  LE  +  +G P++L TDNGPA+ S+  Q     + V    
+Sbjct  242   GIMFASPLTGEKASHVIQHCLEA-WSAWGKPRLLKTDNGPAYTSQKFQQFCRQMDVTHLT  300
+
+Query  1004  HCAYRPQSSGQVERMNRTIKETLTK  1028
+                Y PQ  G VER +RT+K  L K
+Sbjct  301   GLPYNPQGQGIVERAHRTLKTYLIK  325
+
+
+>ref|NP_908998.1| retrotransposon-like protein 1 [Mus musculus]
+Length=1744
+
+ Score = 54.7 bits (130),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 43/193 (22%), Positives = 82/193 (42%), Gaps = 2/193 (1%)
+
+Query  342   LILLQYVDDLLLAATSELDCQQGTRALLQTLGDLGYRASAKKAQICQKQVKYLGYLLKEG  401
+             L ++ +  ++L+ + S+ +  Q  R +L          S  K Q  ++  + LG+ +   
+Sbjct  987   LFVICHGREVLVYSMSQEEHSQHVRQVLVRFRYHNIYCSLDKTQFHRQTAEILGFNISPK  1046
+
+Query  402   QRWLTEARKETVMGQPTPKTPRQLREFLGTAGFCRLWIPGFAEMAAPLYPLTKTGTLFEW  461
+                L +     ++G P P + R L+  +      R ++  FA +AAPL     +   + W
+Sbjct  1047  GVKLNKNLMNLIVGCPVPGSRRCLQSVIDLVYPYRHFVENFAVIAAPLVRQLLSSEPYYW  1106
+
+Query  462   GPDQQKAYQEIKQALLTAPALGLPDLTKPFELFVDEKQGYAKGVLTQKLGPW--RRPVAY  519
+             G ++Q+A + +K+A   +P L  P    PF L  D    +    L Q       +   A+
+Sbjct  1107  GEEEQEALESLKRAFRKSPVLYHPKPQNPFYLETDITGSFLSASLVQTDDETGKKSTCAF  1166
+
+Query  520   LSKKLDPVAAGWP  532
+              S+ L  +   +P
+Sbjct  1167  YSRPLSTMEVEYP  1179
+
+
+>ref|NP_001035161.1| protein NYNRIN [Mus musculus]
+Length=1840
+
+ Score = 54.7 bits (130),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 67/287 (23%), Positives = 112/287 (39%), Gaps = 33/287 (11%)
+
+Query  883   LKDITETCKACAQVN---ASKSAVKQGTRVRGHRPGTHWEIDFT-EVKPGLYGYKYLLVF  938
+             ++D   +C  C   N        ++    +R   P +  +I+    V     G+K++L+ 
+Sbjct  1522  VRDYCRSCLFCIPRNLIGGELKVIESPWPLRSTAPWSSLQIEVVGPVTVSEEGHKHVLIV  1581
+
+Query  939   VDTFSGWVEAFPTKKETAKVVTKKLLEEIFPRFGMPQVLGTDNGPAFVSKVSQTVADLLG  998
+              D  + WVEAFP K  T   V + LL+ +F R+G+P  L    GP F   V  +    LG
+Sbjct  1582  ADANTRWVEAFPLKPYTHVAVAQVLLQHVFARWGVPIRLEAAQGPQFARHVLVSCGLALG  1641
+
+Query  999   VD-------WKLHCAYRPQSSGQVERMNRTIKETLTKLTLATGSRDWVLLLPL--ALYRA  1049
+                       +  C     SS       R +KE +         + W   LPL    +RA
+Sbjct  1642  AQVTTLSRALQFPCLM---SSEAYWEFKRALKEFIFLY-----GKKWAASLPLLHLAFRA  1693
+
+Query  1050  RNTPGPHGLTPYEILYGAPPPLVNFPDPDMAKVTHNPSLQAHLQALYLVQHEV---WRPL  1106
+               T      TP+++L G    L+     +M++      L+     L L++  +   WR  
+Sbjct  1694  STTEA----TPFQVLTGGEMKLMEPVWWEMSRANIE-GLKMDAFLLQLMRELLDLHWRVA  1748
+
+Query  1107  AAAYQE----QLDRPVVPHPFRVGDTVWVRRHQTKNLEPRWKGPYTV  1149
+               A ++    +  R    + + VGD V +          +W GP+ +
+Sbjct  1749  EKASEKAENRRFKRESQENEWSVGDQVLLLSLPRNGSSAKWMGPFYI  1795
+
+
+ Score = 47.0 bits (110),  Expect = 9e-05, Method: Compositional matrix adjust.
+ Identities = 32/108 (30%), Positives = 50/108 (46%), Gaps = 0/108 (0%)
+
+Query  419   PKTPRQLREFLGTAGFCRLWIPGFAEMAAPLYPLTKTGTLFEWGPDQQKAYQEIKQALLT  478
+             P     L  F+G     R  I  + ++  PL+ L K    ++W  + +K++  +K+AL+ 
+Sbjct  1031  PSNFTALSFFMGFMDSHRDVISDYEDLVGPLHGLLKQKPDWQWNQEHEKSFLALKRALVC  1090
+
+Query  479   APALGLPDLTKPFELFVDEKQGYAKGVLTQKLGPWRRPVAYLSKKLDP  526
+             A  L  P+   PF L V   Q      L Q+    + P+AY SK L P
+Sbjct  1091  ALCLSTPNPNLPFYLEVTVSQVSLTASLHQEHSGRKHPIAYTSKPLLP  1138
+
+
+>ref|NP_035405.2| ribonuclease H1 [Mus musculus]
+Length=285
+
+ Score = 49.3 bits (116),  Expect = 8e-06, Method: Compositional matrix adjust.
+ Identities = 45/150 (30%), Positives = 70/150 (47%), Gaps = 22/150 (15%)
+
+Query  647  YTDGSSFLQEGQRKAGAAVTTETEVIWAKA--------LPAGTSAQRAELIALTQALKMA  698
+            YTDG      G+++A A +     V W           LP   + QRAE+ A  +A+  A
+Sbjct  142  YTDGCC-SSNGRKRARAGIG----VYWGPGHPLNVGIRLPGRQTNQRAEIHAACKAIMQA  196
+
+Query  699  EGK---KLNVYTDSRYAFATAHIHGEIYRRRGLLTSEGKEIKNKDEILALLKALFLPKRL  755
+            + +   KL +YTDS +         + +++ G  TS GK++ NK++ +  L  L     +
+Sbjct  197  KAQNISKLVLYTDSMFTINGITNWVQGWKKNGWRTSTGKDVINKEDFME-LDELTQGMDI  255
+
+Query  756  SIIHCPGHQKGNRAEARGNRMADQAAREVA  785
+              +H PGH     +   GN  AD+ ARE A
+Sbjct  256  QWMHIPGH-----SGFVGNEEADRLAREGA  280
+
+
+>ref|NP_080526.2| gypsy retrotransposon integrase-like protein 1 [Mus musculus]
+Length=518
+
+ Score = 44.3 bits (103),  Expect = 5e-04, Method: Compositional matrix adjust.
+ Identities = 52/226 (23%), Positives = 89/226 (39%), Gaps = 16/226 (7%)
+
+Query  856   THLSFSKTKALLERNYCPYYMLNRDRTLKDITETCKACAQVNASKSAVKQGTRVRGHRPG  915
+              H   S+T  L+E  Y    + N      D+ +   AC     +K+ V    +      G
+Sbjct  84    VHHGISRTLTLVESGYYWTSVTN------DVKQWVYACQHCQVAKNTVIVAPQQHLPMVG  137
+
+Query  916   THWEIDFTEVKPGLY----GYKYLLVFVDTFSGWVEAFPTKKETAKVVTKKLLEEIFPRF  971
+               W +   ++    +     + Y ++  D F+ WV   P    +A  ++K ++  IF  +
+Sbjct  138   NPWSVVTVDLMGPFHTSNRSHVYAIIMTDLFTKWVMILPLCDVSASEISKAII-NIFFLY  196
+
+Query  972   GMPQVLGTDNGPAFVSKVSQTVADLLGVDWKLHCAYRPQSSGQVERMNRTIKETLTKLTL  1031
+             G PQ +  D    F+ +++  +  L G   ++  +    S    E    TIK  L+K   
+Sbjct  197   GPPQKIIMDQRDEFIEQINVELYRLFGAK-EIVISRASGSVNPAENTPSTIKTFLSK-HC  254
+
+Query  1032  ATGSRDWVLLLPLALYRARNTPG--PHGLTPYEILYGAPPPLVNFP  1075
+             A     W   LP AL  A N     P+  TPY  ++   P ++  P
+Sbjct  255   ADHPNSWDEHLP-ALSFAFNVTHLEPNKNTPYFQMFNRNPCVLECP  299
+
+
+>ref|NP_082218.1| protein DDI1 homolog 1 [Mus musculus]
+Length=408
+
+ Score = 39.7 bits (91),  Expect = 0.011, Method: Compositional matrix adjust.
+ Identities = 33/114 (29%), Positives = 48/114 (42%), Gaps = 16/114 (14%)
+
+Query  18   ITLKVGGQPVTFLVDTGAQHSVLTQNPGPLSDKSAWVQGATGGKRYRWTTDR---RVHLA  74
+            I  KV G P+   VD+GAQ ++++Q      +    V    GG      T R   RVHLA
+Sbjct  252  INCKVNGHPLKAFVDSGAQMTIMSQACAERCNIMRLVDRRWGGVAKGVGTQRIMGRVHLA  311
+
+Query  75   TGKVTHSFLHVPDCPYP---------LLGRDLLTKLKAQIHFEGSGAQVVGPMG  119
+              ++   FL    C +          LLG D+L + +  I  +     V+G  G
+Sbjct  312  QIQIEGDFLQ---CSFSILEEQPMDILLGLDMLRRHQCSIDLK-KNVLVIGTTG  361
+
+
+>ref|NP_080690.2| retroviral-like aspartic protease 1 precursor [Mus musculus]
+Length=339
+
+ Score = 36.2 bits (82),  Expect = 0.12, Method: Compositional matrix adjust.
+ Identities = 41/143 (29%), Positives = 59/143 (41%), Gaps = 18/143 (13%)
+
+Query  21   KVGGQPVTFLVDTGAQHSVL------------TQNPGPLSDKSAWVQGATGGKRYRWTTD  68
+            KVG  PV FLVD+GAQ SV+                 P ++      GA       W T+
+Sbjct  199  KVGHVPVRFLVDSGAQVSVVHPALWEEVTDGDLDTLRPFNNVVKVANGAEMKILGVWDTE  258
+
+Query  69   RRVHLATGKVTHSFLHV-PDCPYPLLGRDLLTKLKAQIHFEGSGAQVVGPMGQPLQVLTL  127
+              + L   K+   FL         ++G D+L    A + FE     + G   + L V + 
+Sbjct  259  --ISLGKTKLKAEFLVANASAEEAIIGTDVLQDHNAVLDFEHRTCTLKGKKFRLLPVGS-  315
+
+Query  128  NIEDEYRLH--ETSKGPDVPLGS  148
+            ++EDE+ L   E  +G   P GS
+Sbjct  316  SLEDEFDLELIEEEEGSSAPEGS  338
+
+
+>ref|NP_573461.2| glycogen phosphorylase, liver form [Mus musculus]
+Length=850
+
+ Score = 34.7 bits (78),  Expect = 0.52, Method: Compositional matrix adjust.
+ Identities = 39/147 (27%), Positives = 60/147 (41%), Gaps = 36/147 (24%)
+
+Query  456  GTLFEWGPDQQKAYQEIKQALLTAPALGLPDLTKPFELFVD-EKQGYAKG----------  504
+            GT+F+  PDQ        Q   T PAL +P+L +   +FVD EK  +AK           
+Sbjct  324  GTVFDAFPDQVAI-----QLNDTHPALAIPELMR---IFVDIEKLPWAKAWEITKKTFAY  375
+
+Query  505  ---------------VLTQKLGPWRRPVAYL--SKKLDPVAAGWPPCLRMVAAIAVLTKD  547
+                            L +KL P    + Y    K LD + A +P  +  +  ++++ ++
+Sbjct  376  TNHTVLPEALERWPVELVEKLLPRHLEIIYEINQKHLDRIVALFPKDISRMRRMSLIEEE  435
+
+Query  548  AGKLTMGQPLVILAPHAVEALVKQPPD  574
+             GK      L I+  HAV  + K   D
+Sbjct  436  GGKRINMAHLCIVGCHAVNGVAKIHSD  462
+
+
+>ref|NP_001017966.1| protein DDI1 homolog 2 [Mus musculus]
+Length=399
+
+ Score = 30.8 bits (68),  Expect = 5.8, Method: Composition-based stats.
+ Identities = 34/117 (29%), Positives = 50/117 (43%), Gaps = 22/117 (19%)
+
+Query  18   ITLKVGGQPVTFLVDTGAQHSVLTQ------NPGPLSDKSAWVQGATGGKRYRWTTDRRV  71
+            I  +V G PV   VD+GAQ ++++Q      N   L D+  W   A G    +     RV
+Sbjct  238  INCRVNGHPVKAFVDSGAQMTIMSQACAERCNIMRLVDRR-WAGIAKGVGTQKIIG--RV  294
+
+Query  72   HLATGKVTHSFLHVPDCPYP---------LLGRDLLTKLKAQIHFEGSGAQVVGPMG  119
+            HLA  ++   FL    C +          LLG D+L + +  I  +     V+G  G
+Sbjct  295  HLAQVQIEGDFLA---CSFSILEEQPMDMLLGLDMLKRHQCSIDLK-KNVLVIGTTG  347
+
+
+>ref|XP_003086493.1| PREDICTED: hypothetical protein LOC330108 [Mus musculus]
+ ref|XP_003085495.1| PREDICTED: hypothetical protein LOC330108 [Mus musculus]
+Length=101
+
+ Score = 28.9 bits (63),  Expect = 7.0, Method: Composition-based stats.
+ Identities = 17/40 (43%), Positives = 22/40 (55%), Gaps = 4/40 (10%)
+
+Query  289  SQSLFAFEWRDPEMGISGQLTWTRL---PQGF-KNSPTLF  324
+            + SLF F WR P+  +S QL+   L    QG   +SP LF
+Sbjct  28   ASSLFGFFWRSPDSSLSRQLSLAILCLRQQGLPSSSPLLF  67
+
+
+>ref|NP_081513.1| uncharacterized protein C11orf86 homolog [Mus musculus]
+Length=124
+
+ Score = 28.9 bits (63),  Expect = 10.0, Method: Compositional matrix adjust.
+ Identities = 15/40 (38%), Positives = 20/40 (50%), Gaps = 0/40 (0%)
+
+Query  34  GAQHSVLTQNPGPLSDKSAWVQGATGGKRYRWTTDRRVHL  73
+           G + SV  + PG L DK   +QG  GG   RW    + H+
+Sbjct  55  GLEVSVQERLPGTLGDKEQLIQGQRGGGSRRWLRQYQQHV  94
+
+
+  Database: Mus musculus RefSeq protein
+    Posted date:  Nov 30, 2011  4:12 AM
+  Number of letters in database: 14,613,172
+  Number of sequences in database:  27,139
+
+Lambda     K      H
+   0.319    0.136    0.421 
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 27139
+Number of Hits to DB: 40202355
+Number of extensions: 1964751
+Number of successful extensions: 4147
+Number of sequences better than 100: 79
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 4142
+Number of HSP's successfully gapped: 81
+Length of query: 1204
+Length of database: 14613172
+Length adjustment: 112
+Effective length of query: 1092
+Effective length of database: 11573604
+Effective search space: 12638375568
+Effective search space used: 12638375568
+T: 11
+A: 40
+X1: 16 (7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (20.4 bits)
+S2: 58 (26.9 bits)
+
+
+
+

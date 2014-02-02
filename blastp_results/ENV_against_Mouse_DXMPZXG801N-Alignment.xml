@@ -1,0 +1,408 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.26+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>GP/10090.9559/RefSeq_protein</BlastOutput_db>
+  <BlastOutput_query-ID>88091</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>138</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>W -t 10090;F;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>88091</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>138</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|309267084|ref|XP_003086946.1|</Hit_id>
+  <Hit_def>PREDICTED: envelope glycoprotein-like [Mus musculus]</Hit_def>
+  <Hit_accession>XP_003086946</Hit_accession>
+  <Hit_len>687</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.842</Hsp_bit-score>
+      <Hsp_score>268</Hsp_score>
+      <Hsp_evalue>4.59925e-28</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>136</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>105</Hsp_gaps>
+      <Hsp_align-len>240</Hsp_align-len>
+      <Hsp_qseq>STLSKS-KDKIDP--PLILFL--------AAASSPHQVYNITWEVTNETASPLWPL---------------DLCL-------HW-------------------------------DEP-------CNTA-NR-----------HGFYVCPGP-------SCGGPS--YCASWGCETTGRAYWKPSSSWD-ITVDNNTSNAQ----CKN---CNPLAIQFTNAGKQ----VTWH-WGLRLY</Hsp_qseq>
+      <Hsp_hseq>TTLSKPFKNQVNPWGPLIVLLILGGVNPVALGNSPHQVFNLTWEVTNGDRETVWAITGNHPLWTWWPDLTPDLCMLALHGPSYWGLEYRAPFSPPPGPPCCSGSSDSTPGCSRDCEEPLTSYTPRCNTAWNRLKLSKVTHAHNEGFYVCPGPHRPRWARSCGGPESFYCASWGCETTGRASWKPSSSWDYITVSNNLTSDQATPVCKGNEWCNSLTIRFTSFGKQATSWVTGHWWGLRLY</Hsp_hseq>
+      <Hsp_midline>+TLSK  K++++P  PLI+ L        A  +SPHQV+N+TWEVTN     +W +               DLC+       +W                               +EP       CNTA NR            GFYVCPGP       SCGGP   YCASWGCETTGRA WKPSSSWD ITV NN ++ Q    CK    CN L I+FT+ GKQ    VT H WGLRLY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|309271675|ref|XP_003085378.1|</Hit_id>
+  <Hit_def>PREDICTED: envelope glycoprotein-like [Mus musculus]</Hit_def>
+  <Hit_accession>XP_003085378</Hit_accession>
+  <Hit_len>675</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.3142</Hsp_bit-score>
+      <Hsp_score>155</Hsp_score>
+      <Hsp_evalue>7.20038e-13</Hsp_evalue>
+      <Hsp_query-from>64</Hsp_query-from>
+      <Hsp_query-to>136</Hsp_query-to>
+      <Hsp_hit-from>125</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>44</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>FYVCPGP--------SCGGPS--YCASWGCETTGRAYWKPSSSWD-ITVDN----NTSNAQCKN-----------------------CNPLAIQFTNAGKQ--VTW----HWGLRLY</Hsp_qseq>
+      <Hsp_hseq>FYVCPGQGQSKRLQRECGGASDYFCGKWKCETTGEAYWKPSSDWDLITVKRGSGYDKSNEGERNSYKYPENGCAFKNSPPGPCKGKYCNPLLIKFTEKGKQHHLSWLKGNRWGWRVY</Hsp_hseq>
+      <Hsp_midline>FYVCPG          CGG S  +C  W CETTG AYWKPSS WD ITV      + SN   +N                       CNPL I+FT  GKQ  ++W     WG R+Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|67763824|ref|NP_033236.2|</Hit_id>
+  <Hit_def>helicase-like transcription factor isoform 1 [Mus musculus]</Hit_def>
+  <Hit_accession>NP_033236</Hit_accession>
+  <Hit_len>1003</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>0.78682</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>94</Hsp_query-to>
+      <Hsp_hit-from>166</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>34</Hsp_align-len>
+      <Hsp_qseq>RHGFYVCPGPSCGGPSYCASWGCETTGRAYWKPS</Hsp_qseq>
+      <Hsp_hseq>KHGFKLGPTPKTLGSSLENAWGSGRAGPSYSRPA</Hsp_hseq>
+      <Hsp_midline>+HGF + P P   G S   +WG    G +Y +P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|147904569|ref|NP_082180.2|</Hit_id>
+  <Hit_def>carboxypeptidase N subunit 2 precursor [Mus musculus]</Hit_def>
+  <Hit_accession>NP_082180</Hit_accession>
+  <Hit_len>547</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>0.897383</Hsp_evalue>
+      <Hsp_query-from>87</Hsp_query-from>
+      <Hsp_query-to>115</Hsp_query-to>
+      <Hsp_hit-from>458</Hsp_hit-from>
+      <Hsp_hit-to>486</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>11</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>29</Hsp_align-len>
+      <Hsp_qseq>GRAYWKPSSSWDITVDNNTSNAQCKNCNP</Hsp_qseq>
+      <Hsp_hseq>GLDEGEPAGSWDLTVEGRAAHSQCAYSNP</Hsp_hseq>
+      <Hsp_midline>G    +P+ SWD+TV+   +++QC   NP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|67763822|ref|NP_659208.2|</Hit_id>
+  <Hit_def>helicase-like transcription factor isoform 2 [Mus musculus]</Hit_def>
+  <Hit_accession>NP_659208</Hit_accession>
+  <Hit_len>841</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>0.902515</Hsp_evalue>
+      <Hsp_query-from>60</Hsp_query-from>
+      <Hsp_query-to>94</Hsp_query-to>
+      <Hsp_hit-from>165</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>NRHGFYVCPGPSCGGPSYCASWGCETTGRAYWKPS</Hsp_qseq>
+      <Hsp_hseq>KKHGFKLGPTPKTLGSSLENAWGSGRAGPSYSRPA</Hsp_hseq>
+      <Hsp_midline> +HGF + P P   G S   +WG    G +Y +P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|345199290|ref|NP_001230832.1|</Hit_id>
+  <Hit_def>uncharacterized protein LOC626802 [Mus musculus]</Hit_def>
+  <Hit_accession>NP_001230832</Hit_accession>
+  <Hit_len>358</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.5646</Hsp_bit-score>
+      <Hsp_score>57</Hsp_score>
+      <Hsp_evalue>6.82961</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>299</Hsp_hit-from>
+      <Hsp_hit-to>356</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>WGCETTGRAYWKPSSSWDITVDNNTSNAQ----CKNCNPLAIQFTNAGKQVTWHWGLRLYS</Hsp_qseq>
+      <Hsp_hseq>YECKQCGKAF---AVSYTLQIHNRTHTGEKPYECKQCGKAFAQSSNLRIHKQTHTGERLYE</Hsp_hseq>
+      <Hsp_midline>+ C+  G+A+   + S+ + + N T   +    CK C     Q +N       H G RLY </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|33239256|ref|NP_666833.1|</Hit_id>
+  <Hit_def>olfactory receptor 360 [Mus musculus]</Hit_def>
+  <Hit_accession>NP_666833</Hit_accession>
+  <Hit_len>317</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.5646</Hsp_bit-score>
+      <Hsp_score>57</Hsp_score>
+      <Hsp_evalue>7.1803</Hsp_evalue>
+      <Hsp_query-from>85</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>253</Hsp_hit-from>
+      <Hsp_hit-to>274</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>10</Hsp_identity>
+      <Hsp_positive>13</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>22</Hsp_align-len>
+      <Hsp_qseq>TTGRAYWKPSSSWDITVDNNTS</Hsp_qseq>
+      <Hsp_hseq>TLARMYLKPSSSYDLGQDRQVA</Hsp_hseq>
+      <Hsp_midline>T  R Y KPSSS+D+  D   +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|254281307|ref|NP_766624.3|</Hit_id>
+  <Hit_def>probable G-protein coupled receptor 97 precursor [Mus musculus]</Hit_def>
+  <Hit_accession>NP_766624</Hit_accession>
+  <Hit_len>542</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.5646</Hsp_bit-score>
+      <Hsp_score>57</Hsp_score>
+      <Hsp_evalue>7.97499</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>385</Hsp_hit-from>
+      <Hsp_hit-to>433</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>PPLILFLAAASSPHQVYNITWEVTNETASPLWPLDLCLHWDEPCNTANRHGFYVC</Hsp_qseq>
+      <Hsp_hseq>PVLVVIGAGSSNSYGVYTIR-DQENRTS-----LELCWFQKEPALYATVHGYFLV</Hsp_hseq>
+      <Hsp_midline>P L++  A +S+ + VY I  +  N T+     L+LC    EP   A  HG+++ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|254939520|ref|NP_666096.3|</Hit_id>
+  <Hit_def>prolyl endopeptidase-like isoform b [Mus musculus] &gt;gi|254939522|ref|NP_001157095.1| prolyl endopeptidase-like isoform b [Mus musculus] &gt;gi|254939524|ref|NP_001157096.1| prolyl endopeptidase-like isoform b [Mus musculus]</Hit_def>
+  <Hit_accession>NP_666096</Hit_accession>
+  <Hit_len>638</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.5646</Hsp_bit-score>
+      <Hsp_score>57</Hsp_score>
+      <Hsp_evalue>8.90486</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>66</Hsp_query-to>
+      <Hsp_hit-from>160</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>DPPLILFLAAASSPHQVYNITWEVTNETASPLWPLDLCLHWDEPCNTANR-HG--FYV</Hsp_qseq>
+      <Hsp_hseq>DPSYFVFLYLTKDSR---FLTLNIMNKTTSEVWLIDGLSPWDPPVLIQKRIHGMLYYV</Hsp_hseq>
+      <Hsp_midline>DP   +FL           +T  + N+T S +W +D    WD P     R HG  +YV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|148839318|ref|NP_083163.3|</Hit_id>
+  <Hit_def>structural maintenance of chromosomes flexible hinge domain-containing protein 1 [Mus musculus]</Hit_def>
+  <Hit_accession>NP_083163</Hit_accession>
+  <Hit_len>2007</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.5646</Hsp_bit-score>
+      <Hsp_score>57</Hsp_score>
+      <Hsp_evalue>9.40533</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1192</Hsp_hit-from>
+      <Hsp_hit-to>1241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>MSTLSKSKDKIDPP-LILFLAAASSPHQVYNITWEVTNETASPLWPLDLCLHWDE</Hsp_qseq>
+      <Hsp_hseq>LSTLSITGDGLDSSNLKITLEANSQSVSVQGIRF-----TPGPPGPKDLCFTWRE</Hsp_hseq>
+      <Hsp_midline>+STLS + D +D   L + L A S    V  I +     T  P  P DLC  W E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|62000680|ref|NP_001013845.1|</Hit_id>
+  <Hit_def>keratin-associated protein 4-3 [Mus musculus]</Hit_def>
+  <Hit_accession>NP_001013845</Hit_accession>
+  <Hit_len>202</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.1794</Hsp_bit-score>
+      <Hsp_score>56</Hsp_score>
+      <Hsp_evalue>9.60711</Hsp_evalue>
+      <Hsp_query-from>70</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>99</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>PSCGGPSYCASWGCETTGRAYWKPSSSWDITVDNNTSNAQC---KNCNPLAIQFT</Hsp_qseq>
+      <Hsp_hseq>PSCGVPSCCRPVCCQTTCRPSCGVSSCCRPVCCQTTCRPSCGVSSCCRPVCCQTT</Hsp_hseq>
+      <Hsp_midline>PSCG PS C    C+TT R     SS         T    C     C P+  Q T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|77812697|ref|NP_035782.3|</Hit_id>
+  <Hit_def>titin isoform N2-A [Mus musculus]</Hit_def>
+  <Hit_accession>NP_035782</Hit_accession>
+  <Hit_len>33467</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.5646</Hsp_bit-score>
+      <Hsp_score>57</Hsp_score>
+      <Hsp_evalue>9.66065</Hsp_evalue>
+      <Hsp_query-from>75</Hsp_query-from>
+      <Hsp_query-to>115</Hsp_query-to>
+      <Hsp_hit-from>8678</Hsp_hit-from>
+      <Hsp_hit-to>8715</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>41</Hsp_align-len>
+      <Hsp_qseq>PSYCASWGCETTGRAYWKPSSSWDITVDNNTSNAQCKNCNP</Hsp_qseq>
+      <Hsp_hseq>PEIKLSW---YKGTEKLEPSNKYEISIDGDRHTLRVKNCQP</Hsp_hseq>
+      <Hsp_midline>P    SW     G    +PS+ ++I++D +    + KNC P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|254939518|ref|NP_001157094.1|</Hit_id>
+  <Hit_def>prolyl endopeptidase-like isoform a [Mus musculus]</Hit_def>
+  <Hit_accession>NP_001157094</Hit_accession>
+  <Hit_len>725</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.1794</Hsp_bit-score>
+      <Hsp_score>56</Hsp_score>
+      <Hsp_evalue>9.70273</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>66</Hsp_query-to>
+      <Hsp_hit-from>247</Hsp_hit-from>
+      <Hsp_hit-to>301</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>DPPLILFLAAASSPHQVYNITWEVTNETASPLWPLDLCLHWDEPCNTANR-HG--FYV</Hsp_qseq>
+      <Hsp_hseq>DPSYFVFLYLTKDSR---FLTLNIMNKTTSEVWLIDGLSPWDPPVLIQKRIHGMLYYV</Hsp_hseq>
+      <Hsp_midline>DP   +FL           +T  + N+T S +W +D    WD P     R HG  +YV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>27175</Statistics_db-num>
+      <Statistics_db-len>14647127</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+
+
+

@@ -1,0 +1,249 @@
+BLASTP 2.2.26+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: DXMPZXG801N
+
+
+Database: Mus musculus RefSeq protein
+           27,175 sequences; 14,647,127 total letters
+Results of PSI-Blast iteration 1
+Query= 
+Length=138
+
+
+E-value BETTER than threshold                                                                   Score     E
+Sequences producing significant alignments:                       (Bits)  Value
+
+ref|XP_003086946.1|  PREDICTED: envelope glycoprotein-like [Mu...   107    5e-28
+ref|XP_003085378.1|  PREDICTED: envelope glycoprotein-like [Mu...  64.3    7e-13
+Sequences with E-value WORSE than threshold
+ref|NP_033236.2|  helicase-like transcription factor isoform 1...  29.6    0.79 
+ref|NP_082180.2|  carboxypeptidase N subunit 2 precursor [Mus ...  29.3    0.90 
+ref|NP_659208.2|  helicase-like transcription factor isoform 2...  29.3    0.90 
+ref|NP_001230832.1|  uncharacterized protein LOC626802 [Mus mu...  26.6    6.8  
+ref|NP_666833.1|  olfactory receptor 360 [Mus musculus]            26.6    7.2  
+ref|NP_766624.3|  probable G-protein coupled receptor 97 precu...  26.6    8.0  
+ref|NP_666096.3|  prolyl endopeptidase-like isoform b [Mus mus...  26.6    8.9  
+ref|NP_083163.3|  structural maintenance of chromosomes flexib...  26.6    9.4  
+ref|NP_001013845.1|  keratin-associated protein 4-3 [Mus muscu...  26.2    9.6  
+ref|NP_035782.3|  titin isoform N2-A [Mus musculus]                26.6    9.7  
+ref|NP_001157094.1|  prolyl endopeptidase-like isoform a [Mus ...  26.2    9.7  
+
+ALIGNMENTS
+>ref|XP_003086946.1| PREDICTED: envelope glycoprotein-like [Mus musculus]
+Length=687
+
+ Score =  107 bits (268),  Expect = 5e-28, Method: Compositional matrix adjust.
+ Identities = 96/240 (40%), Positives = 114/240 (48%), Gaps = 105/240 (44%)
+
+Query  2    STLSKS-KDKIDP--PLILFL--------AAASSPHQVYNITWEVTNETASPLWPL----  46
+            +TLSK  K++++P  PLI+ L        A  +SPHQV+N+TWEVTN     +W +    
+Sbjct  22   TTLSKPFKNQVNPWGPLIVLLILGGVNPVALGNSPHQVFNLTWEVTNGDRETVWAITGNH  81
+
+Query  47   -----------DLCL-------HW-------------------------------DEP--  55
+                       DLC+       +W                               +EP  
+Sbjct  82   PLWTWWPDLTPDLCMLALHGPSYWGLEYRAPFSPPPGPPCCSGSSDSTPGCSRDCEEPLT  141
+
+Query  56   -----CNTA-NR-----------HGFYVCPGP-------SCGGPS--YCASWGCETTGRA  89
+                 CNTA NR            GFYVCPGP       SCGGP   YCASWGCETTGRA
+Sbjct  142  SYTPRCNTAWNRLKLSKVTHAHNEGFYVCPGPHRPRWARSCGGPESFYCASWGCETTGRA  201
+
+Query  90   YWKPSSSWD-ITVDNNTSNAQ----CKN---CNPLAIQFTNAGKQ----VTWH-WGLRLY  136
+             WKPSSSWD ITV NN ++ Q    CK    CN L I+FT+ GKQ    VT H WGLRLY
+Sbjct  202  SWKPSSSWDYITVSNNLTSDQATPVCKGNEWCNSLTIRFTSFGKQATSWVTGHWWGLRLY  261
+
+
+>ref|XP_003085378.1| PREDICTED: envelope glycoprotein-like [Mus musculus]
+Length=675
+
+ Score = 64.3 bits (155),  Expect = 7e-13, Method: Compositional matrix adjust.
+ Identities = 47/117 (40%), Positives = 54/117 (46%), Gaps = 44/117 (38%)
+
+Query  64   FYVCPGP--------SCGGPS--YCASWGCETTGRAYWKPSSSWD-ITVDN----NTSNA  108
+            FYVCPG          CGG S  +C  W CETTG AYWKPSS WD ITV      + SN 
+Sbjct  125  FYVCPGQGQSKRLQRECGGASDYFCGKWKCETTGEAYWKPSSDWDLITVKRGSGYDKSNE  184
+
+Query  109  QCKN-----------------------CNPLAIQFTNAGKQ--VTW----HWGLRLY  136
+              +N                       CNPL I+FT  GKQ  ++W     WG R+Y
+Sbjct  185  GERNSYKYPENGCAFKNSPPGPCKGKYCNPLLIKFTEKGKQHHLSWLKGNRWGWRVY  241
+
+
+>ref|NP_033236.2| helicase-like transcription factor isoform 1 [Mus musculus]
+Length=1003
+
+ Score = 29.6 bits (65),  Expect = 0.79, Method: Composition-based stats.
+ Identities = 12/34 (35%), Positives = 18/34 (53%), Gaps = 0/34 (0%)
+
+Query  61   RHGFYVCPGPSCGGPSYCASWGCETTGRAYWKPS  94
+            +HGF + P P   G S   +WG    G +Y +P+
+Sbjct  166  KHGFKLGPTPKTLGSSLENAWGSGRAGPSYSRPA  199
+
+
+>ref|NP_082180.2| carboxypeptidase N subunit 2 precursor [Mus musculus]
+Length=547
+
+ Score = 29.3 bits (64),  Expect = 0.90, Method: Compositional matrix adjust.
+ Identities = 11/29 (38%), Positives = 18/29 (62%), Gaps = 0/29 (0%)
+
+Query  87   GRAYWKPSSSWDITVDNNTSNAQCKNCNP  115
+            G    +P+ SWD+TV+   +++QC   NP
+Sbjct  458  GLDEGEPAGSWDLTVEGRAAHSQCAYSNP  486
+
+
+>ref|NP_659208.2| helicase-like transcription factor isoform 2 [Mus musculus]
+Length=841
+
+ Score = 29.3 bits (64),  Expect = 0.90, Method: Compositional matrix adjust.
+ Identities = 12/35 (34%), Positives = 18/35 (51%), Gaps = 0/35 (0%)
+
+Query  60   NRHGFYVCPGPSCGGPSYCASWGCETTGRAYWKPS  94
+             +HGF + P P   G S   +WG    G +Y +P+
+Sbjct  165  KKHGFKLGPTPKTLGSSLENAWGSGRAGPSYSRPA  199
+
+
+>ref|NP_001230832.1| uncharacterized protein LOC626802 [Mus musculus]
+Length=358
+
+ Score = 26.6 bits (57),  Expect = 6.8, Method: Compositional matrix adjust.
+ Identities = 16/61 (26%), Positives = 26/61 (43%), Gaps = 7/61 (11%)
+
+Query  81   WGCETTGRAYWKPSSSWDITVDNNTSNAQ----CKNCNPLAIQFTNAGKQVTWHWGLRLY  136
+            + C+  G+A+   + S+ + + N T   +    CK C     Q +N       H G RLY
+Sbjct  299  YECKQCGKAF---AVSYTLQIHNRTHTGEKPYECKQCGKAFAQSSNLRIHKQTHTGERLY  355
+
+Query  137  S  137
+             
+Sbjct  356  E  356
+
+
+>ref|NP_666833.1| olfactory receptor 360 [Mus musculus]
+Length=317
+
+ Score = 26.6 bits (57),  Expect = 7.2, Method: Compositional matrix adjust.
+ Identities = 10/22 (45%), Positives = 13/22 (59%), Gaps = 0/22 (0%)
+
+Query  85   TTGRAYWKPSSSWDITVDNNTS  106
+            T  R Y KPSSS+D+  D   +
+Sbjct  253  TLARMYLKPSSSYDLGQDRQVA  274
+
+
+>ref|NP_766624.3| probable G-protein coupled receptor 97 precursor [Mus musculus]
+Length=542
+
+ Score = 26.6 bits (57),  Expect = 8.0, Method: Compositional matrix adjust.
+ Identities = 17/55 (31%), Positives = 28/55 (51%), Gaps = 6/55 (11%)
+
+Query  13   PPLILFLAAASSPHQVYNITWEVTNETASPLWPLDLCLHWDEPCNTANRHGFYVC  67
+            P L++  A +S+ + VY I  +  N T+     L+LC    EP   A  HG+++ 
+Sbjct  385  PVLVVIGAGSSNSYGVYTIR-DQENRTS-----LELCWFQKEPALYATVHGYFLV  433
+
+
+>ref|NP_666096.3| prolyl endopeptidase-like isoform b [Mus musculus]
+ ref|NP_001157095.1| prolyl endopeptidase-like isoform b [Mus musculus]
+ ref|NP_001157096.1| prolyl endopeptidase-like isoform b [Mus musculus]
+Length=638
+
+ Score = 26.6 bits (57),  Expect = 8.9, Method: Composition-based stats.
+ Identities = 18/58 (31%), Positives = 25/58 (43%), Gaps = 6/58 (10%)
+
+Query  12   DPPLILFLAAASSPHQVYNITWEVTNETASPLWPLDLCLHWDEPCNTANR-HG--FYV  66
+            DP   +FL           +T  + N+T S +W +D    WD P     R HG  +YV
+Sbjct  160  DPSYFVFLYLTKDSR---FLTLNIMNKTTSEVWLIDGLSPWDPPVLIQKRIHGMLYYV  214
+
+
+>ref|NP_083163.3| structural maintenance of chromosomes flexible hinge domain-containing 
+protein 1 [Mus musculus]
+Length=2007
+
+ Score = 26.6 bits (57),  Expect = 9.4, Method: Composition-based stats.
+ Identities = 20/55 (36%), Positives = 25/55 (45%), Gaps = 6/55 (11%)
+
+Query  1     MSTLSKSKDKIDPP-LILFLAAASSPHQVYNITWEVTNETASPLWPLDLCLHWDE  54
+             +STLS + D +D   L + L A S    V  I +     T  P  P DLC  W E
+Sbjct  1192  LSTLSITGDGLDSSNLKITLEANSQSVSVQGIRF-----TPGPPGPKDLCFTWRE  1241
+
+
+>ref|NP_001013845.1| keratin-associated protein 4-3 [Mus musculus]
+Length=202
+
+ Score = 26.2 bits (56),  Expect = 9.6, Method: Compositional matrix adjust.
+ Identities = 19/55 (35%), Positives = 21/55 (38%), Gaps = 3/55 (5%)
+
+Query  70   PSCGGPSYCASWGCETTGRAYWKPSSSWDITVDNNTSNAQC---KNCNPLAIQFT  121
+            PSCG PS C    C+TT R     SS         T    C     C P+  Q T
+Sbjct  99   PSCGVPSCCRPVCCQTTCRPSCGVSSCCRPVCCQTTCRPSCGVSSCCRPVCCQTT  153
+
+
+>ref|NP_035782.3| titin isoform N2-A [Mus musculus]
+Length=33467
+
+ Score = 26.6 bits (57),  Expect = 9.7, Method: Composition-based stats.
+ Identities = 12/41 (29%), Positives = 20/41 (49%), Gaps = 3/41 (7%)
+
+Query  75    PSYCASWGCETTGRAYWKPSSSWDITVDNNTSNAQCKNCNP  115
+             P    SW     G    +PS+ ++I++D +    + KNC P
+Sbjct  8678  PEIKLSW---YKGTEKLEPSNKYEISIDGDRHTLRVKNCQP  8715
+
+
+>ref|NP_001157094.1| prolyl endopeptidase-like isoform a [Mus musculus]
+Length=725
+
+ Score = 26.2 bits (56),  Expect = 9.7, Method: Composition-based stats.
+ Identities = 18/58 (31%), Positives = 25/58 (43%), Gaps = 6/58 (10%)
+
+Query  12   DPPLILFLAAASSPHQVYNITWEVTNETASPLWPLDLCLHWDEPCNTANR-HG--FYV  66
+            DP   +FL           +T  + N+T S +W +D    WD P     R HG  +YV
+Sbjct  247  DPSYFVFLYLTKDSR---FLTLNIMNKTTSEVWLIDGLSPWDPPVLIQKRIHGMLYYV  301
+
+
+  Database: Mus musculus RefSeq protein
+    Posted date:  Dec 5, 2011  4:42 PM
+  Number of letters in database: 14,647,127
+  Number of sequences in database:  27,175
+
+Lambda     K      H
+   0.317    0.132    0.471 
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 27175
+Number of Hits to DB: 5176996
+Number of extensions: 247408
+Number of successful extensions: 672
+Number of sequences better than 100: 95
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 659
+Number of HSP's successfully gapped: 107
+Length of query: 138
+Length of database: 14647127
+Length adjustment: 90
+Effective length of query: 48
+Effective length of database: 12201377
+Effective search space: 585666096
+Effective search space used: 585666096
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (20.4 bits)
+S2: 47 (22.7 bits)
+
+
+
+
